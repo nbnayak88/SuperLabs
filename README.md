@@ -1,52 +1,34 @@
-# SuperLabs — 20 Applied Learning Labs
+# SuperLabs 20 — Official Lab Directory
 
-**SuccessLabs Academy** | *Architecting Experiences for a Better World*
+**SuccessLabs Academy** — *Architecting Experiences for a Better World*
 
-An extensible applied-learning and enterprise-delivery ecosystem. Every lab supports exploration, practice, experimentation, feedback and reusable evidence—not just passive content.
+**Naming convention:** Intent is the folder name; Lab Full Name is the formal lab identity. This directory follows the [20 Labs Notion deployment plan](https://app.notion.com/p/3b3ce6de60898130a248eb55ecb69eef).
 
-## Lab directory
+| # | Intent / Folder | Official Lab Full Name | Acronym | Planned subdomain |
+|---|---|---|---|---|
+| 01 | [Discover](./01-Discover/) | Product Innovation Lab | PIL | [discover](https://discover.successlabsacademy.com) |
+| 02 | [Flow](./02-Flow/) | Process Excellence Lab | PEL | [flow](https://flow.successlabsacademy.com) |
+| 03 | [Design](./03-Design/) | Strategy & Architecture Lab | SAL | [design](https://design.successlabsacademy.com) |
+| 04 | [Run](./04-Run/) | Operations Optimization Lab | OOL | [run](https://run.successlabsacademy.com) |
+| 05 | [Build](./05-Build/) | Implementation Intelligence Lab | IIL | [build](https://build.successlabsacademy.com) |
+| 06 | [Move](./06-Move/) | Migration Modernization Lab | MEL | [move](https://move.successlabsacademy.com) |
+| 07 | [Connect](./07-Connect/) | Integration Intelligence Lab | IEL | [connect](https://connect.successlabsacademy.com) |
+| 08 | [Validate](./08-Validate/) | Quality Assurance Lab | QAL | [validate](https://validate.successlabsacademy.com) |
+| 09 | [Support](./09-Support/) | Application Management Services Lab | AMS | [support](https://support.successlabsacademy.com) |
+| 10 | [Prove](./10-Prove/) | Certification Command Lab | CCL | [prove](https://prove.successlabsacademy.com) |
+| 11 | [Scale](./11-Scale/) | School of Career Acceleration Lab for Excellence | SCALE | [scale](https://scale.successlabsacademy.com) |
+| 12 | [Influence](./12-Influence/) | Presales Precision Lab | PSL | [influence](https://influence.successlabsacademy.com) |
+| 13 | [Lead](./13-Lead/) | Project Performance Lab | PML | [lead](https://lead.successlabsacademy.com) |
+| 14 | [Prototype](./14-Prototype/) | Product Prototyping Lab | PDL | [prototype](https://prototype.successlabsacademy.com) |
+| 15 | [Evolve](./15-Evolve/) | Emerging Technologies Lab | ETL | [evolve](https://evolve.successlabsacademy.com) |
+| 16 | [Share](./16-Share/) | Media & Content Lab | MCL | [share](https://share.successlabsacademy.com) |
+| 17 | [Document](./17-Document/) | Knowledge Keystone Lab | KAL | [document](https://document.successlabsacademy.com) |
+| 18 | [Engage](./18-Engage/) | Experts Engagement Lab | ECL | [engage](https://engage.successlabsacademy.com) |
+| 19 | [Scan](./19-Scan/) | Industry Intelligence Lab | GIL | [scan](https://scan.successlabsacademy.com) |
+| 20 | [Innovate](./20-Innovate/) | Research & Innovation Lab | RIL | [innovate](https://innovate.successlabsacademy.com) |
 
-| ID | Lab | Focus |
-|---|---|---|
-| 01 | [Discover](./01-Discover/) | Explore the problem, stakeholders, context, constraints and opportunities. |
-| 02 | [Flow](./02-Flow/) | Map journeys, value streams, processes, decisions and handoffs. |
-| 03 | [Design](./03-Design/) | Translate needs into architecture, experience and solution designs. |
-| 04 | [Run](./04-Run/) | Execute operational scenarios, runbooks and service workflows. |
-| 05 | [Build](./05-Build/) | Create prototypes, configurations, products and working solutions. |
-| 06 | [Move](./06-Move/) | Plan and rehearse migrations, transitions and cutovers. |
-| 07 | [Connect](./07-Connect/) | Design and test integrations, APIs, events and collaboration. |
-| 08 | [Validate](./08-Validate/) | Verify requirements, quality, acceptance criteria and outcomes. |
-| 09 | [Support](./09-Support/) | Practice incident response, service support and continual improvement. |
-| 10 | [Secure](./10-Secure/) | Assess identity, privacy, threats, controls and cyber resilience. |
-| 11 | [Govern](./11-Govern/) | Practice policies, stewardship, risk, compliance and decision rights. |
-| 12 | [Measure](./12-Measure/) | Define KPIs, baselines, evidence, outcomes and value realization. |
-| 13 | [Adopt](./13-Adopt/) | Design communication, enablement, behavior change and adoption. |
-| 14 | [Sustain](./14-Sustain/) | Embed continuous improvement, reliability, maintainability and sustainability. |
-| 15 | [Scale](./15-Scale/) | Test growth, capacity, repeatability and platform scaling. |
-| 16 | [Automate](./16-Automate/) | Identify and prototype responsible workflow and AI automation. |
-| 17 | [Assure](./17-Assure/) | Evaluate independent assurance, auditability and control effectiveness. |
-| 18 | [Transform](./18-Transform/) | Orchestrate enterprise, business and technology transformation. |
-| 19 | [Monetize](./19-Monetize/) | Explore viable business models, pricing, value capture and growth. |
-| 20 | [Lead](./20-Lead/) | Practice strategy, leadership, culture and executive decision making. |
+## Architecture
 
-## Shared architecture
+Each folder contains its official lab identity, Notion source and domain mapping, plus an extensible learning-to-delivery activity contract. Lab content should support multiple sectors, platforms, learner levels, and client engagements without hardcoding a vendor. Integrate shared components from PlayLab-108 and ColorsLab-108 by reference, not duplication.
 
-- **One lab = one top-level folder**, with a stable two-digit ID. Do not repurpose IDs.
-- **Reusable core:** domain-neutral instructions, exercises, templates and rubrics.
-- **Content packs:** context-specific industry, sector, enterprise, platform or product examples; never hardcode a single vendor into the lab itself.
-- **Dual-use outputs:** Academy learning assets and client-grade, fill-in-ready deliverables.
-- **Learning loop:** Discover → Experiment → Build/Practice → Validate → Reflect → Demonstrate → Improve.
-- **Evidence:** every activity should define an observable artifact, success criteria, and feedback path.
-- **Lifecycle:** each lab can have Pre-Foundation, Foundation, Essentials, Advanced, and Ultimate learning experiences without enforcing a rigid curriculum.
-
-## Suggested lab content layout
-
-Each lab starts with a README. Later add `activities/`, `templates/`, `simulations/`, `assessments/`, `content-packs/`, and `examples/` as needed. Create only folders that contain real assets; Git does not track empty directories.
-
-## Integration conventions
-
-Link to existing SuccessLabs projects—PlayLab-108, ColorsLab-108 and domain-specific workbooks—rather than duplicating their core assets. Keep external modules optional and respect the existing GitHub source-of-truth boundaries.
-
-## Status
-
-**Foundation scaffold created.** The 20 folders and README guides are ready; playable labs, applications and client templates are **not** claimed as built yet.
+**Status:** Repository scaffold and documentation only. The presence of a planned subdomain does not imply a verified live deployment.

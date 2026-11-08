@@ -1,43 +1,37 @@
-# 02 — Flow Lab
+# Process Excellence Lab (PEL)
 
-**SuccessLabs Academy SuperLabs** | *Architecting Experiences for a Better World*
+**Lab intent:** Flow  
+**Lab number:** 02  
+**GitHub folder:** `02-Flow`  
+**Official lab name:** Process Excellence Lab  
+**Acronym:** PEL  
+**Notion reference:** https://app.notion.com/p/f4ace6de608983938daf817ede168666  
+**Planned subdomain:** https://flow.successlabsacademy.com
+
+**SuccessLabs Academy** — *Architecting Experiences for a Better World*
 
 ## Purpose
 
-Map journeys, value streams, processes, decisions and handoffs.
+The **Process Excellence Lab** operationalizes the intent **Flow** through applied, evidence-based learning, experimentation, and reusable enterprise delivery practices.
 
-## Applicability
+## Learning and delivery loop
 
-Applicable across the 12 architecture streams, 11 GICS sectors, SAP and non-SAP platforms, and learners from pre-foundation through ultimate. Core mechanics remain vendor- and domain-agnostic; industry/platform-specific material belongs in interchangeable content packs.
+1. Frame the challenge, intended outcomes and stakeholders.
+2. Explore alternative approaches and conduct safe experiments.
+3. Create a tangible artifact, demonstration or working prototype.
+4. Validate against explicit acceptance criteria and obtain feedback.
+5. Reflect, iterate, and capture transferable evidence of mastery.
 
-## Learning-to-delivery journey
+## Reusable activity contract
 
-1. **Discover:** frame a challenge with stakeholders and evidence.
-2. **Experiment:** test competing approaches using low-risk scenarios.
-3. **Practice:** create or configure a tangible work product.
-4. **Validate:** apply agreed quality criteria and obtain feedback.
-5. **Demonstrate:** showcase results, decisions and business value.
-6. **Reflect and improve:** document lessons, next iterations and transferable skills.
-
-## Activity contract
-
-Every future activity should state: challenge, target audience and level, prerequisites, duration, inputs, steps, expected artifact, evaluation rubric, success measures, and reflection prompts.
+Every future activity should define: challenge, target audience and level, prerequisites, duration, inputs, steps, output artifact, assessment rubric, measurable outcomes, and reflection prompts.
 
 ## Extension points
 
-- `activities/` — reusable hands-on challenges and workshops
-- `templates/` — practical learner and client-ready deliverables
-- `simulations/` — role-play and stakeholder decision scenarios
-- `assessments/` — competency and outcome verification
-- `content-packs/` — interchangeable domain, platform and industry data
-- `examples/` — clearly labeled synthetic worked examples
+Add `activities/`, `templates/`, `simulations/`, `assessments/`, `content-packs/`, and `examples/` as real assets are built. Domain, sector, product and vendor context should be supplied through interchangeable content packs.
 
-## First candidate exercise
+## Scope and status
 
-**Challenge:** Apply the Flow Lab to a fictional cross-industry enterprise transformation case. Produce one reviewable artifact and demonstrate how it meets explicit acceptance criteria. Adapt the case through a content pack without changing the core lab process.
+This README is a **foundation scaffold**, not a claim that a functioning application, playable simulation, certification or deployment has been implemented. Consult the linked Notion page for authoritative lab-specific intent, rulebooks and delivery details.
 
-## Status
-
-**Scaffold only.** Activities and interactive experiences are planned, not yet implemented.
-
-[← Back to all 20 labs](../README.md)
+[← SuperLabs 20 directory](../README.md)
