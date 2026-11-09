@@ -30,6 +30,10 @@ Every future activity should define: challenge, target audience and level, prere
 
 Add `activities/`, `templates/`, `simulations/`, `assessments/`, `content-packs/`, and `examples/` as real assets are built. Domain, sector, product and vendor context should be supplied through interchangeable content packs.
 
+## Learning and implementation plans
+
+- [SAP SuccessFactors EC → S/4HANA 2025 — GCC replication Sprint Lab](examples/sap-successfactors-s4hana-2025/learning-implementation-plan.md): beginner learning path, CPI employee replication, MDI cost-center dependencies, testing and proposed November 2026–March 2027 rollout for approximately 2,000 headcount.
+
 ## Scope and status
 
 This README is a **foundation scaffold**, not a claim that a functioning application, playable simulation, certification or deployment has been implemented. Consult the linked Notion page for authoritative lab-specific intent, rulebooks and delivery details.
