@@ -35,3 +35,7 @@ Add `activities/`, `templates/`, `simulations/`, `assessments/`, `content-packs/
 This README is a **foundation scaffold**, not a claim that a functioning application, playable simulation, certification or deployment has been implemented. Consult the linked Notion page for authoritative lab-specific intent, rulebooks and delivery details.
 
 [← SuperLabs 20 directory](../README.md)
+
+## Presales content packs
+
+- [Qualtrics EXM / Voice of the Employee — 2026 competitive and RFI pack](content-packs/qualtrics-exm-2026/README.md): top-ten vendor longlist, market-positioning caveats, discovery questionnaire, weighted scorecard, demo/POC script and evaluation evidence gates.
