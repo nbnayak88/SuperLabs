@@ -273,6 +273,61 @@ PROJECTS = [
 def pcard(sec,where,title,pts):
     return ('<article class="pcard"><span class="sector">'+html.escape(sec)+'</span><h3>'+html.escape(title)+'</h3><p class="where">'+html.escape(where)+'</p><ul>'
             +''.join('<li>'+html.escape(x)+'</li>' for x in pts)+'</ul></article>')
+
+# ---- topic-themed engagement cards (dwp / ex / wfm): reframe SF-module engagements around the target topic
+_TH = {
+ 'dwp': dict(
+   title='SAP Build Work Zone digital workplace design for {ind}',
+   keep=(0,1,11),
+   bullets=['Designed a role-based SAP Build Work Zone entry point for {ind}, with {sys} tasks surfaced beside other business applications',
+     'Mapped personas, audiences and role collections so each group of {ind} sees only relevant sites, pages and tiles',
+     'Architected the site, page and workspace structure around the client\'s HR and employee journeys',
+     'Integrated {sys} and Employee Central launch points into the workplace home page with single sign-on',
+     'Configured destinations, connectivity and identity on SAP BTP for secure access to back-end applications',
+     'Designed enterprise search across HR content, policies and application data with source-level access control',
+     'Defined content governance: ownership, review cycles, taxonomy and naming for sites and pages',
+     'Scoped AI-assisted guidance and Joule use cases for HR questions, with privacy and confidence controls',
+     'Planned adoption with communications, role-based training and usage analytics for {ind}',
+     'Documented the design for the design authority and handed over support guidance']),
+ 'ex': dict(
+   title='Employee Experience (Qualtrics) listening design for {ind}',
+   keep=(0,1,11),
+   bullets=['Designed a Qualtrics Employee Experience listening programme for {ind}, aligned to {sys} and the employee lifecycle',
+     'Mapped employee, hierarchy and job data from Employee Central into Qualtrics for manager-level reporting',
+     'Defined lifecycle survey triggers from hire, transfer and exit events, including {sys} hand-offs',
+     'Designed engagement, pulse and 360 survey instruments with HR and people-analytics leaders',
+     'Set anonymity thresholds, access roles and privacy rules by country for {ind}',
+     'Built dashboard and action-planning designs so managers can close the loop on feedback',
+     'Defined survey taxonomy, demographic attributes and data-governance standards',
+     'Integrated Qualtrics with SuccessFactors through APIs and monitored sync errors and reconciliation',
+     'Planned adoption with manager enablement, communications and response-rate tracking',
+     'Documented the design for the design authority and handed over support guidance']),
+ 'wfm': dict(
+   title='Kronos (UKG) WFM and time integration design for {ind}',
+   keep=(0,1,11),
+   bullets=['Designed Kronos (UKG) WFM timekeeping and scheduling alongside SuccessFactors for {ind}',
+     'Defined pay rules, accrual policies and shift and overtime rules with HR, payroll and operations',
+     'Mapped employee, organisation and job feeds from Employee Central to the workforce-management platform',
+     'Aligned absence and Time Off exchange between SuccessFactors and the time-and-attendance system',
+     'Designed the time and pay-code hand-off to EC Payroll, including wage-type mapping, retro and off-cycle handling',
+     'Specified punch, timecard and schedule approval workflows for managers and schedulers',
+     'Set integration monitoring, error handling and reconciliation across WFM, Employee Central and payroll',
+     'Coordinated SIT and UAT cycles with {sys} and time-capture scenarios and tracked defects to closure',
+     'Trained schedulers, managers and HR on time, leave and scheduling processes for {ind}',
+     'Documented the design for the design authority and supported go-live and hypercare']),
+}
+_IND = {2:('engineers and consultants','Recruiting'),3:('field and office staff','Recruiting'),4:('public-service staff','Recruiting'),
+        5:('club staff, coaches and commercial teams','Recruiting'),6:('store, distribution and head-office staff','Onboarding'),
+        7:('plant and office employees','Recruiting and Onboarding 2.0'),8:('scientists, plant and corporate staff','Recruiter Experience'),
+        9:('field and office employees','Onboarding 2.0'),10:('advisers and corporate staff','Recruiting')}
+_t = _TH.get(os.environ.get('CV_TAGS'))
+if _t:
+    _np = []
+    for i, p in enumerate(PROJECTS):
+        if i in _t['keep'] or i not in _IND: _np.append(p); continue
+        ind, sy = _IND[i]
+        _np.append((p[0], p[1], _t['title'].format(ind=ind, sys=sy), [b.format(ind=ind, sys=sy) for b in _t['bullets']]))
+    PROJECTS = _np
 if os.environ.get('CV_TAGS') in ('rcm','sr'): PROJECTS.sort(key=lambda x: 'Recruiting' not in x[2])
 proj_html = ''.join(pcard(*x) for x in PROJECTS)
 FIRMS = [
@@ -304,6 +359,21 @@ FIRMS = [
    'Shaped hybrid-learning strategy, learning-tech transformation and learning-content strategy; enabled People Analytics use cases','Integrated HR systems with SAP S/4HANA Cloud and Workday core HR',
    'Implemented SAP Analytics Cloud, Replicon, SAP identity authentication with Azure, Integration Suite on BTP, Datasphere, Data Intelligence, GRC and engagement pricing','Served on the Architecture Review Board, Technology Design Council and Change Advisory Board']),
 ]
+
+# ---- topic-themed firm cards: keep every real bullet, lead with the ones closest to the topic
+_FT = {'dwp': (r'portal|ESS|MSS|launchpad|WebMo|self.service|TREX|search|SAP Build|low-code|integration|identity|BTP|ServiceNow|document',
+               'Self-service portal and workplace foundations'),
+       'ex':  (r'survey|engagement|feedback|learning|training|trained|analytics|People Analytics|onboarding|process improvement',
+               'Employee listening and experience foundations'),
+       'wfm': (r'time|leave|quota|absence|schedule|payroll|Replicon|attendance|work schedule|calendar',
+               'Time, attendance and payroll foundations')}
+_ft = _FT.get(os.environ.get('CV_TAGS'))
+if _ft:
+    _rx = re.compile(_ft[0], re.I); _nf = []
+    for f in FIRMS:
+        b = sorted(f[3], key=lambda x: 0 if _rx.search(x) else 1)
+        _nf.append((f[0], f[1], f[2] + ' — ' + _ft[1].lower() if f[0] != 'KPMG' else f[2], b))
+    FIRMS = _nf
 firm_html = ''.join(pcard(*x) for x in FIRMS)
 
 TITLE = sys.argv[3] if len(sys.argv) > 3 else 'Lead SAP SuccessFactors Consultant, Employee Central, Onboarding and Offboarding'
