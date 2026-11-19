@@ -26,6 +26,12 @@ The **School of Career Acceleration Lab for Excellence** operationalizes the int
 
 Every future activity should define: challenge, target audience and level, prerequisites, duration, inputs, steps, output artifact, assessment rubric, measurable outcomes, and reflection prompts.
 
+## Activities
+
+| Activity | Description |
+|---|---|
+| [SLA CV Maker](./activities/sla-cv-maker/README.md) | Architecture-led, two-page tailored CV method with a reusable Claude skill ([`SKILL.md`](./templates/sla-cv-maker/SKILL.md)) |
+
 ## Extension points
 
 Add `activities/`, `templates/`, `simulations/`, `assessments/`, `content-packs/`, and `examples/` as real assets are built. Domain, sector, product and vendor context should be supplied through interchangeable content packs.
