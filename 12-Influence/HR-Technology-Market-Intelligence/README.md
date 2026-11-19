@@ -1,0 +1,46 @@
+# SuccessLabs HR Technology Market Intelligence — Taxonomy v1.0
+
+**Adopted:** 20 November 2026  
+**Owner:** SuccessLabs Academy — SuperLabs / 12-Influence (Presales Precision Lab)  
+**Scope:** 30 unique technology categories (C01–C30), mapped to 12 HR streams (HR01–HR12).  
+**Status:** Approved internal taxonomy, not an official consolidated Gartner/IDC/Forrester market list.
+
+## Governance
+
+- Preserve stable C01–C30 identifiers and HR01–HR12 streams. Shared categories are counted once.
+- SAP-first means SAP solution or SAP ecosystem reference, **not** an assertion of native equivalent functionality.
+- **Qualtrics is independent of SAP** following SAP's 2023 divestment; C27 includes it as an integration-relevant reference product, not an SAP-owned offering.
+- Maintain exact analyst report title, publisher, date, URL, category, evaluated product and evidence status before citing any market position.
+- Never label this table a Gartner/IDC/Forrester Top 30 or imply that every category has an analyst quadrant/wave.
+- Validate current product capabilities, license, localization, edition, integration and regulatory suitability in each RFI.
+- Version any new/renamed/merged categories through a change log; do not silently renumber IDs.
+
+## HR stream coverage
+
+| Stream | Name | Primary categories (shared categories retain one global ID) |
+|---|---|---|
+| HR01 | AWF Foundations | C01, C02, C03 |
+| HR02 | Talent Acquisition | C04, C05, C06 |
+| HR03 | HPO | C07, C08 |
+| HR04 | Growth & Leadership | C09, C10, C11 |
+| HR05 | Rewards & Performance | C12, C13, C14 |
+| HR06 | Learning & Mobility | C15, C16, C17 |
+| HR07 | Payroll Enterprises | C18, C19, C20 |
+| HR08 | Time & Operations | C21, C22, C23 |
+| HR09 | Workforce Intelligence | C24, C25, C26 |
+| HR10 | Digital EX | C02, C03, C27 |
+| HR11 | AI-Powered HR | C28, C29 |
+| HR12 | Connected HR | C17, C29, C30 |
+
+## Registry
+
+[View all 30 categories and SAP-first competitor mapping](MASTER-REGISTRY.md) · [Analyst evidence register](ANALYST-EVIDENCE-REGISTER.md) · [Change log](CHANGELOG.md)
+
+## Existing presales packs
+
+- [C03 Digital Workplace Platforms — SAP SuccessFactors Work Zone](../content-packs/digital-workplace-platforms-2026/README.md)
+- [C27 Voice of Employee / EXM — Qualtrics](../content-packs/qualtrics-exm-2026/README.md)
+
+## Reusable category presales pack contract
+
+Every category should eventually contain: market definition; verified analyst research; SAP architecture/reference product; vendor longlist; discovery questions; RFI requirements; weighted scoring; demonstration script; POC cases; risk register; and evidence-backed decision record.
