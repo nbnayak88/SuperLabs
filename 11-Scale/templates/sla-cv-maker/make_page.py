@@ -46,6 +46,16 @@ TAGS = [
  ('arch', r'architect|roadmap|governance|design authority|standards|leanix|aris|signavio|integration|s/4|togaf|low-code|enterprise'),
 ]
 LABEL = {'ec':'Employee Central','onb':'Onboarding','off':'Offboarding','pay':'Payroll','tal':'Talent & Learning','arch':'Architecture & Integration'}
+if os.environ.get('CV_TAGS') == 'wfm':   # Kronos (UKG) WFM
+    TAGS = [
+     ('wfm',  r'kronos|ukg|wfm|workforce|timekeeping|scheduling|schedule|timecard|punch|shift'),
+     ('rules',r'pay rule|accrual|absence|leave|overtime|holiday|quota|negative time'),
+     ('int',  r'integration|api|web services|middleware|sync|feed|hand-off|interface'),
+     ('pay',  r'payroll|\bECP\b|pay code|wage-type|retro|off-cycle'),
+     ('ec',   r'\bEC\b|employee central'),
+     ('arch', r'architect|roadmap|governance|design authority|standards|leanix|aris|signavio|s/4|togaf|low-code|enterprise'),
+    ]
+    LABEL = {'wfm':'Kronos (UKG) WFM','rules':'Pay Rules & Absence','int':'Integration','pay':'Payroll link','ec':'Employee Central link','arch':'Architecture & Governance'}
 if os.environ.get('CV_TAGS') == 'time':   # Time Management
     TAGS = [
      ('toff', r'time off|leave|absence|accrual|holiday|quota|carry-over'),

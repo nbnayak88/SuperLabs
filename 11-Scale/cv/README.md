@@ -13,6 +13,7 @@ Interactive, privacy-safe web versions of the CVs produced by the [`sla-cv-maker
 | Lead SAP SuccessFactors Consultant | Compensation and Variable Pay | [Open](https://nbnayak88.github.io/SuperLabs/11-Scale/cv/lead-sap-sf-compensation-variable-pay/) | [index.html](./lead-sap-sf-compensation-variable-pay/index.html) |
 | Lead SAP SuccessFactors Consultant | Learning (LMS) and Learning Strategy | [Open](https://nbnayak88.github.io/SuperLabs/11-Scale/cv/lead-sap-sf-learning-lms/) | [index.html](./lead-sap-sf-learning-lms/index.html) |
 | Lead SAP SuccessFactors Consultant | Time Tracking, Time Off and Time Sheet | [Open](https://nbnayak88.github.io/SuperLabs/11-Scale/cv/lead-sap-sf-time-tracking/) | [index.html](./lead-sap-sf-time-tracking/index.html) |
+| Lead SAP SuccessFactors Consultant | Kronos (UKG) WFM and Time Integration | [Open](https://nbnayak88.github.io/SuperLabs/11-Scale/cv/lead-sap-sf-kronos-wfm/) | [index.html](./lead-sap-sf-kronos-wfm/index.html) |
 
 > GitHub Pages is enabled for this repository (Deploy from a branch → `main` / root), so each live link works shortly after a push (first build can take a minute or two).
 
