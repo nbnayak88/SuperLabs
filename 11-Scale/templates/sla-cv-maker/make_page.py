@@ -77,7 +77,7 @@ def card(c):
     m = re.match(r'\*\*(.+?):\*\*\s*(.*)', c)
     tg = tags(c)
     return (f'<article class="card item" data-tags="{" ".join(tg)}"><h3>{html.escape(m.group(1))}</h3>'
-            f'<p>{html.escape(m.group(2))}</p></article>')
+            f'<p>{html.escape(re.sub(chr(42)*2, "", m.group(2)))}</p></article>')
 
 # ---------- counts for chips
 allitems = sect['Professional Summary'] + sect['Core Competencies'] + [b for r in roles for b in r['bullets']]
