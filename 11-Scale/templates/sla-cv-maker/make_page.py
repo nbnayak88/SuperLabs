@@ -46,6 +46,16 @@ TAGS = [
  ('arch', r'architect|roadmap|governance|design authority|standards|leanix|aris|signavio|integration|s/4|togaf|low-code|enterprise'),
 ]
 LABEL = {'ec':'Employee Central','onb':'Onboarding','off':'Offboarding','pay':'Payroll','tal':'Talent & Learning','arch':'Architecture & Integration'}
+if os.environ.get('CV_TAGS') == 'time':   # Time Management
+    TAGS = [
+     ('toff', r'time off|leave|absence|accrual|holiday|quota|carry-over'),
+     ('tsh',  r'time sheet|time-sheet|attendance|overtime|shift|work schedule|time recording|time capture|replicon'),
+     ('hcm',  r'negative time|sap hcm|ptqta|ess/mss|time evaluation|wage-type'),
+     ('pay',  r'payroll|\bECP\b|retro|off-cycle'),
+     ('ec',   r'\bEC\b|employee central'),
+     ('arch', r'architect|roadmap|governance|design authority|standards|leanix|aris|signavio|integration|s/4|togaf|low-code|enterprise'),
+    ]
+    LABEL = {'toff':'Time Off & Leave','tsh':'Time Sheet & Attendance','hcm':'SAP HCM Time','pay':'Payroll link','ec':'Employee Central link','arch':'Architecture & Integration'}
 if os.environ.get('CV_TAGS') == 'lms':   # Learning (LMS)
     TAGS = [
      ('lms',  r'learning|\bLMS\b|catalogue|curricul|course|training|classroom|content|scorm|lti|certificate|compliance'),
