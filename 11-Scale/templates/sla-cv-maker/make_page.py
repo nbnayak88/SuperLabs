@@ -113,30 +113,59 @@ path_html = '\n'.join(
 
 PROJECTS = [
  ('Leading utility','Middle East · Remote / hybrid','Enterprise architecture for a national-scale utility',
-  ['Decomposed and optimised business processes for the utility value chain','Ran architecture governance and domain architecture across a large application landscape',
-   'Used LeanIX (certified L1 and L2) to model the landscape and rationalise the application portfolio','Led demand-management and value-realisation tracks; ran the RFI / RFP / RFQ process']),
+  ['Architected target-state solutions aligned to the utility\'s business and digital strategy','Decomposed and optimised end-to-end business processes across the utility value chain',
+   'Governed domain architecture and architecture standards across a large application landscape','Modelled the application portfolio in LeanIX and rationalised overlapping applications',
+   'Led the demand-management track to prioritise and route digital initiatives','Drove value realisation by tracking benefits against approved business cases',
+   'Orchestrated RFI, RFP and RFQ processes with full transparency and compliance','Evaluated vendor proposals and analysed solution suitability before selection',
+   'Chaired architecture review boards and documented design decisions','Mentored delivery teams on architecture principles, patterns and reuse']),
  ('Public sector · Digital government','Middle East · Remote','Digital transformation office',
-  ['Evaluated digital use cases in emerging technologies with business and IT leaders','Built a Change Management Academy and designed solution architectures aligned to strategy',
-   'Aligned technology solutions with the national digital government authority','Managed vendors and suitability analyses; maintained frameworks in Alfabet / ARIS']),
+  ['Evaluated digital use cases in emerging technologies with business and IT leaders','Designed solution architectures aligned to organisational objectives',
+   'Built and ran a Change Management Academy to raise architecture and change capability','Led the value-realisation and demand-management tracks for the transformation office',
+   'Integrated technology solutions with the national digital government authority to improve citizen services','Developed enterprise architecture frameworks and views in Alfabet and ARIS',
+   'Managed vendor relationships and assessed project suitability','Coordinated RFI, RFP and RFQ cycles to ensure compliant sourcing',
+   'Facilitated workshops to align stakeholders on target architecture and roadmaps','Presented architecture recommendations and trade-offs to senior leadership']),
  ('Retail · Footwear','North America · Remote','Onboarding for a global footwear and apparel retailer',
-  ['Delivered SAP SuccessFactors Onboarding as primary module','Tuned new-hire workflows with HR teams for a smooth first-day experience']),
+  ['Delivered SAP SuccessFactors Onboarding as the primary module for the retailer','Configured onboarding processes, tasks, forms and document flows for new hires',
+   'Optimised new-hire workflows with HR teams to speed up time to productivity','Mapped hiring-to-onboarding handoffs between Recruiting, Onboarding and Employee Central',
+   'Tuned role-based permissions so each user saw only what they needed','Resolved onboarding defects and support tickets within agreed SLAs',
+   'Coordinated test cycles and validated end-to-end new-hire scenarios','Documented configuration decisions and handed over runbooks to support teams',
+   'Advised HR stakeholders on SuccessFactors release changes and their impact','Trained HR users and administrators on the onboarding process']),
  ('Industrial manufacturing','North America · Remote','Recruiting and Onboarding 2.0 for equipment makers',
-  ['End-to-end support for Recruiting and Onboarding 2.0 at a leading material-handling manufacturer','Optimised workflows with HR; resolved issues within SLA to lift satisfaction and compliance',
-   'Onboarding 2.0 support for a precision fluid-systems manufacturer']),
+  ['Provided end-to-end support for SAP SuccessFactors Recruiting and Onboarding 2.0','Optimised hiring and onboarding workflows with HR teams for greater efficiency',
+   'Implemented process improvements that raised compliance and user satisfaction','Resolved issues quickly using deep product and integration expertise',
+   'Supported Onboarding 2.0 for a second precision-engineering manufacturer','Configured requisition, application and offer steps in Recruiting',
+   'Aligned onboarding tasks and activities to Employee Central data requirements','Validated changes through structured testing before each release',
+   'Collaborated with HR operations to prioritise enhancements and fixes','Monitored the new-hire experience and recommended further improvements']),
  ('Advanced materials','North America · Remote','Recruiter Experience for a specialty-materials company',
-  ['End-to-end support for SAP SuccessFactors Recruiter Experience','Partnered with HR stakeholders on process improvement and compliance']),
+  ['Provided end-to-end support for SAP SuccessFactors Recruiter Experience','Collaborated with HR teams and stakeholders to optimise recruiting workflows',
+   'Implemented process improvements that strengthened compliance','Resolved defects and incidents promptly to protect user satisfaction',
+   'Configured candidate pipelines, statuses and recruiter templates','Aligned role-based permissions with recruiter and hiring-manager responsibilities',
+   'Coordinated testing and release readiness for each change','Advised stakeholders on release features and adoption options',
+   'Documented configuration and support procedures for the HR team','Guided recruiters through the new experience with practical walkthroughs']),
  ('Energy services · Oil & gas','North America · Remote','Onboarding 2.0 for an oilfield services provider',
-  ['End-to-end Onboarding 2.0 support for a seamless new-hire experience','Fast issue resolution and workflow optimisation with HR']),
+  ['Delivered end-to-end support for SAP SuccessFactors Onboarding 2.0','Collaborated with HR teams and stakeholders to optimise onboarding workflows',
+   'Implemented process improvements for a smoother new-hire experience','Resolved issues quickly to raise user satisfaction and compliance',
+   'Configured onboarding tasks, forms and compliance documents for field and office roles','Handled hand-offs between recruiting, onboarding and Employee Central',
+   'Verified fixes and enhancements through regression testing','Tracked and cleared defects against service-level targets',
+   'Documented process changes and shared them with HR operations','Advised on best practice for onboarding across a global workforce']),
  ('Financial services · Insurance','North America · Remote','Recruiting go-live for a retirement and insurance group',
-  ['Led UAT, SIT, final cutover and go-live for Recruiter Experience (RX) and Candidate Experience (CX)','Closed defects within SLA, working across cross-functional teams']),
+  ['Led user acceptance testing (UAT) for Recruiter Experience and Candidate Experience','Led system integration testing (SIT) across the recruiting landscape',
+   'Directed the final cutover plan and go-live for RX and CX','Fixed defects on time and within SLA for a seamless implementation',
+   'Collaborated with cross-functional teams to deliver the project successfully','Coordinated test scripts, data and sign-offs with business testers',
+   'Managed go-live readiness checks and go/no-go inputs','Triaged hypercare issues and drove them to closure',
+   'Reported progress, risks and defect trends to project leadership','Handed over documentation and support guidance after go-live']),
  ('Education & community','India · Global · Remote','SuccessLabs Academy',
-  ['Community-driven learning platform from HR Tech to enterprise architecture','Public speaking and volunteering at industry conclaves; YouTube channel on HR Tech and well-being']),
+  ['Founded a community-driven learning platform from HR Tech to enterprise architecture','Designed role-based curricula for HR professionals and MBA HR students',
+   'Delivered 2,000+ hours of SAP and architecture training','Mentored learners on career growth in HR technology and architecture',
+   'Created video content on HR Tech, well-being and applied spirituality for a global audience','Simplified complex concepts into clear, practical lessons',
+   'Volunteered at architecture industry conclaves as a speaker','Earned recognition as an SAP Authorized Trainer',
+   'Built learning tools, including a mobile app for the Academy','Grew a community around humanised HR and enterprise architecture education']),
 ]
 def pcard(sec,where,title,pts):
     return ('<article class="pcard"><span class="sector">'+html.escape(sec)+'</span><h3>'+html.escape(title)+'</h3><p class="where">'+html.escape(where)+'</p><ul>'
             +''.join('<li>'+html.escape(x)+'</li>' for x in pts)+'</ul></article>')
 proj_html = ''.join(pcard(*x) for x in PROJECTS)
-TITLE = sys.argv[3] if len(sys.argv) > 3 else 'Lead SAP SuccessFactors Consultant – Employee Central, Onboarding & Offboarding'
+TITLE = sys.argv[3] if len(sys.argv) > 3 else 'Lead SAP SuccessFactors Consultant, Employee Central, Onboarding and Offboarding'
 page = f'''<!doctype html>
 <html lang="en">
 <head>
@@ -191,7 +220,7 @@ nav a:hover,nav a.on{{background:var(--chip);color:var(--ink)}}
 /* hero */
 .hero{{background:radial-gradient(1200px 400px at 85% -10%,rgba(132,204,22,.38),transparent 60%),linear-gradient(135deg,var(--navy),var(--navy-2));color:#fff;padding:56px 0 40px}}
 .hero h1{{margin:0;font-size:clamp(32px,5vw,52px);line-height:1.1;letter-spacing:-.5px}}
-.hero .hero-role{{margin:12px 0 4px;font-size:clamp(17px,2.2vw,22px);font-weight:700;max-width:30ch;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}}
+.hero .hero-role{{margin:12px 0 4px;font-size:clamp(14px,2.1vw,21px);font-weight:700;white-space:nowrap;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}}
 .tagline{{margin:2px 0 0;font-size:15px;font-style:italic;color:#d9f99d}}
 .hero .sub{{margin:0;color:#cdd3f5;font-size:15px}}
 .badges{{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}}
@@ -264,7 +293,7 @@ footer{{margin:44px 0 60px;color:var(--muted);font-size:14px}}
 footer .wrap{{border-top:1px solid var(--line);padding-top:18px;display:flex;flex-wrap:wrap;gap:8px 18px;justify-content:space-between}}
 @media (max-width:860px){{
   .stats{{grid-template-columns:repeat(2,1fr)}} .grid,.cols{{grid-template-columns:1fr}}
-  nav,.brand small{{display:none}} .proj{{grid-template-columns:1fr}} .hero{{padding:40px 0 34px}} .stat:last-child{{grid-column:span 2}}
+  nav,.brand small{{display:none}} .hero .hero-role{{white-space:normal}} .proj{{grid-template-columns:1fr}} .hero{{padding:40px 0 34px}} .stat:last-child{{grid-column:span 2}}
 }}
 @media (prefers-reduced-motion:reduce){{html{{scroll-behavior:auto}} .role summary:after{{transition:none}}}}
 @media print{{
