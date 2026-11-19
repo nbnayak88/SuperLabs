@@ -28,7 +28,7 @@
 | R22 | Recruiter usability and productivity | 2 | Task completion |
 | R23 | Scale, deliverability and support | 2 | Load/SLA evidence |
 | R24 | Migration and change adoption | 2 | Plan and trial |
-| R25 | Five-year TCO and exit portability | 3 | Cost/export |
+| R25 | Five-year TCO and exit portability | -7 | Cost/export |
 | | **TOTAL** | **100** | |
 
 ## Non-negotiable gates
