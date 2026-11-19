@@ -46,6 +46,16 @@ TAGS = [
  ('arch', r'architect|roadmap|governance|design authority|standards|leanix|aris|signavio|integration|s/4|togaf|low-code|enterprise'),
 ]
 LABEL = {'ec':'Employee Central','onb':'Onboarding','off':'Offboarding','pay':'Payroll','tal':'Talent & Learning','arch':'Architecture & Integration'}
+if os.environ.get('CV_TAGS') == 'rcm':   # Recruiting Management / Marketing focus
+    TAGS = [
+     ('rcm',  r'recruiting management|\bRCM\b|requisition|candidate|offer|recruiter|pipeline|hiring|application'),
+     ('rmk',  r'recruiting marketing|\bRMK\b|career[- ]site|talent communit|talent pool|campaign|employer-brand|nurtur|source-of-hire|landing'),
+     ('hand', r'onboarding|employee central|\bEC\b|hand-?off|hand-?over|rehire|new-hire'),
+     ('pay',  r'payroll|\bECP\b'),
+     ('tal',  r'succession|career development|learning|compensation|\bLMS\b|talent'),
+     ('arch', r'architect|roadmap|governance|design authority|standards|leanix|aris|signavio|integration|s/4|togaf|low-code|enterprise'),
+    ]
+    LABEL = {'rcm':'Recruiting Management','rmk':'Recruiting Marketing','hand':'Onboarding & EC hand-off','pay':'Payroll','tal':'Talent & Learning','arch':'Architecture & Integration'}
 def tags(t):
     tl = t
     out = [k for k,rx in TAGS if re.search(rx, tl, flags=re.I)]
@@ -189,6 +199,7 @@ PROJECTS = [
 def pcard(sec,where,title,pts):
     return ('<article class="pcard"><span class="sector">'+html.escape(sec)+'</span><h3>'+html.escape(title)+'</h3><p class="where">'+html.escape(where)+'</p><ul>'
             +''.join('<li>'+html.escape(x)+'</li>' for x in pts)+'</ul></article>')
+if os.environ.get('CV_TAGS') == 'rcm': PROJECTS.sort(key=lambda x: 'Recruiting' not in x[2])
 proj_html = ''.join(pcard(*x) for x in PROJECTS)
 FIRMS = [
  ('PwC','Industries: PSU · EPC · Telecom · Manufacturing · Chemical · Real estate · Home appliances · Automobile · Banking & financial services · Steel · Infrastructure & energy — India','SAP HCM implementations and managed services',
@@ -227,9 +238,9 @@ page = f'''<!doctype html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Dr. Niladri Bihari Nayak — Lead SAP SuccessFactors Consultant</title>
-<meta name="description" content="Interactive CV: Lead SAP SuccessFactors Consultant specialising in Employee Central, Onboarding 2.0 and Offboarding. Filter the experience by focus area.">
-<meta property="og:title" content="Dr. Niladri Bihari Nayak — Lead SAP SuccessFactors Consultant">
+<title>Dr. Niladri Bihari Nayak — {html.escape(TITLE)}</title>
+<meta name="description" content="Interactive CV: {html.escape(TITLE)}. Filter the experience by focus area.">
+<meta property="og:title" content="Dr. Niladri Bihari Nayak — {html.escape(TITLE)}">
 <meta property="og:description" content="Interactive CV — filter by focus area, search, print to PDF.">
 <meta name="color-scheme" content="light dark">
 <style>
