@@ -46,6 +46,16 @@ TAGS = [
  ('arch', r'architect|roadmap|governance|design authority|standards|leanix|aris|signavio|integration|s/4|togaf|low-code|enterprise'),
 ]
 LABEL = {'ec':'Employee Central','onb':'Onboarding','off':'Offboarding','pay':'Payroll','tal':'Talent & Learning','arch':'Architecture & Integration'}
+if os.environ.get('CV_TAGS') == 'lms':   # Learning (LMS)
+    TAGS = [
+     ('lms',  r'learning|\bLMS\b|catalogue|curricul|course|training|classroom|content|scorm|lti|certificate|compliance'),
+     ('comp', r'compliance|mandatory|assignment|audit|certificate'),
+     ('strat',r'strategy|roadmap|transformation|hybrid|rationalis|portfolio|assess'),
+     ('ec',   r'\bEC\b|employee central|organi[sz]ation|job data|user and role'),
+     ('tal',  r'performance|succession|career development|talent|analytics|development plan'),
+     ('arch', r'architect|governance|design authority|standards|leanix|aris|signavio|integration|s/4|togaf|low-code|enterprise'),
+    ]
+    LABEL = {'lms':'Learning (LMS)','comp':'Compliance & Assignment','strat':'Learning Strategy','ec':'Employee Central link','tal':'Talent & Analytics','arch':'Architecture & Integration'}
 if os.environ.get('CV_TAGS') == 'cvp':   # Compensation & Variable Pay
     TAGS = [
      ('comp', r'compensation|salary|pay range|job pricing|merit|total rewards|worksheet|rewards'),
