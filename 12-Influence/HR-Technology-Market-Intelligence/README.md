@@ -71,3 +71,5 @@ Every category should eventually contain: market definition; verified analyst re
 - **C12 — [Compensation Management](C12-Compensation-Management/README.md)** — SAP Compensation and Variable Pay reference, ten-platform landscape, 35 discovery questions, 100%-weighted RFI, 100-minute demo and 20-test POC; pay equity and payroll reconciliation controls.
 
 - **C13 — [Benefits Administration](C13-Benefits-Administration/README.md)** — SAP Employee Central country-specific benefits reference, ten-platform landscape, 35 discovery questions, 100%-weighted RFI, 100-minute demo and 20-test POC; carrier and payroll reconciliation.
+
+- **C14 — [Rewards & Recognition](C14-Rewards-Recognition/README.md)** — SAP Employee Central and specialist recognition ecosystem, ten-platform longlist, 35 discovery questions, 100%-weighted RFI, 100-minute demo and 20-test POC; global fulfillment, tax, fairness and award ledger.
