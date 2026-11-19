@@ -67,3 +67,5 @@ Every category should eventually contain: market definition; verified analyst re
 - **C10 — [Talent Intelligence & Internal Mobility](C10-Talent-Intelligence-Internal-Mobility/README.md)** — SAP Talent Intelligence Hub, Growth Portfolio and Opportunity Marketplace, ten-platform longlist, 35 discovery questions, 100%-weighted RFI, 100-minute demo and 20-test POC.
 
 - **C11 — [Leadership Development & Coaching](C11-Leadership-Development-Coaching/README.md)** — SAP Learning and Succession & Development reference, ten-platform landscape, 35 discovery questions, 100%-weighted RFI, 100-minute demo and 20-test POC; coaching confidentiality controls.
+
+- **C12 — [Compensation Management](C12-Compensation-Management/README.md)** — SAP Compensation and Variable Pay reference, ten-platform landscape, 35 discovery questions, 100%-weighted RFI, 100-minute demo and 20-test POC; pay equity and payroll reconciliation controls.
