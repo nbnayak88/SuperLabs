@@ -57,3 +57,5 @@ Every category should eventually contain: market definition; verified analyst re
 - **C05 — [Recruitment Marketing / Candidate Relationship Management](C05-Recruitment-Marketing-CRM/README.md)** — SAP SuccessFactors Recruiting Candidate Experience and SmartRecruiters portfolio; analyst mapping, 35 discovery questions, weighted RFI, 100-minute demo and 20 POC tests.
 
 - **C06 — [Talent Assessment & Interview Intelligence](C06-Talent-Assessment-Interview-Intelligence/README.md)** — SAP Recruiting/Business AI reference, specialist assessment landscape, 35 discovery questions, 100%-weighted RFI, 100-minute demo and 20-test POC; human-led AI governance.
+
+- **C07 — [Performance Management](C07-Performance-Management/README.md)** — SAP SuccessFactors Performance & Goals, ten-platform comparison, analyst evidence boundaries, 35 discovery questions, 100%-weighted RFI, 100-minute demo and 20-test POC.
