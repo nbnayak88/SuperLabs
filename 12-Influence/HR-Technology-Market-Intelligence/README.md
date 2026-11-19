@@ -55,3 +55,5 @@ Every category should eventually contain: market definition; verified analyst re
 - **C04 — [Talent Acquisition Suites](C04-Talent-Acquisition-Suites/README.md)** — seven-file deep dive: SAP SuccessFactors Recruiting and SmartRecruiters for SAP SuccessFactors, Gartner 2026/IDC 2025, 35 discovery questions, weighted RFI, 100-minute demo and 20 POC tests.
 
 - **C05 — [Recruitment Marketing / Candidate Relationship Management](C05-Recruitment-Marketing-CRM/README.md)** — SAP SuccessFactors Recruiting Candidate Experience and SmartRecruiters portfolio; analyst mapping, 35 discovery questions, weighted RFI, 100-minute demo and 20 POC tests.
+
+- **C06 — [Talent Assessment & Interview Intelligence](C06-Talent-Assessment-Interview-Intelligence/README.md)** — SAP Recruiting/Business AI reference, specialist assessment landscape, 35 discovery questions, 100%-weighted RFI, 100-minute demo and 20-test POC; human-led AI governance.
