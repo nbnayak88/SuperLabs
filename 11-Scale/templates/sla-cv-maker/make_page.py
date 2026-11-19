@@ -46,6 +46,16 @@ TAGS = [
  ('arch', r'architect|roadmap|governance|design authority|standards|leanix|aris|signavio|integration|s/4|togaf|low-code|enterprise'),
 ]
 LABEL = {'ec':'Employee Central','onb':'Onboarding','off':'Offboarding','pay':'Payroll','tal':'Talent & Learning','arch':'Architecture & Integration'}
+if os.environ.get('CV_TAGS') == 'ex':   # Qualtrics Employee Experience
+    TAGS = [
+     ('ex',   r'qualtrics|employee experience|\bEX\b|engagement|pulse|360|survey|listening|lifecycle|action plan|voice'),
+     ('life', r'onboarding|offboarding|exit|lifecycle|hire|transfer|termination'),
+     ('int',  r'integration|api|web services|middleware|sync|feed|hand-off|interface|hierarchy'),
+     ('ec',   r'\bEC\b|employee central|org(anisation|anization)'),
+     ('priv', r'privacy|anonymity|confidential|consent|access|security|governance'),
+     ('arch', r'architect|roadmap|design authority|standards|leanix|aris|signavio|s/4|togaf|low-code|enterprise'),
+    ]
+    LABEL = {'ex':'Qualtrics EX','life':'Lifecycle (Onboarding / Exit)','int':'Integration','ec':'Employee Central link','priv':'Privacy & Governance','arch':'Architecture'}
 if os.environ.get('CV_TAGS') == 'wfm':   # Kronos (UKG) WFM
     TAGS = [
      ('wfm',  r'kronos|ukg|wfm|workforce|timekeeping|scheduling|schedule|timecard|punch|shift'),
