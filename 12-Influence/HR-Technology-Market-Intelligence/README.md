@@ -51,3 +51,5 @@ Every category should eventually contain: market definition; verified analyst re
 - C02 and C04–C30 (excluding already-published C03 and C27): pending sequential development and validation.
 
 - **C02 — [Integrated HR Service Management / Employee Case Management](C02-HR-Service-Management/README.md)** — published seven-file deep dive; SAP SuccessFactors Enterprise Service Management reference, Gartner IHRSM, discovery, RFI, demo and POC.
+
+- **C04 — [Talent Acquisition Suites](C04-Talent-Acquisition-Suites/README.md)** — seven-file deep dive: SAP SuccessFactors Recruiting and SmartRecruiters for SAP SuccessFactors, Gartner 2026/IDC 2025, 35 discovery questions, weighted RFI, 100-minute demo and 20 POC tests.
