@@ -46,6 +46,16 @@ TAGS = [
  ('arch', r'architect|roadmap|governance|design authority|standards|leanix|aris|signavio|integration|s/4|togaf|low-code|enterprise'),
 ]
 LABEL = {'ec':'Employee Central','onb':'Onboarding','off':'Offboarding','pay':'Payroll','tal':'Talent & Learning','arch':'Architecture & Integration'}
+if os.environ.get('CV_TAGS') == 'tal':   # Talent: Performance & Goals, Succession
+    TAGS = [
+     ('perf', r'performance|goal|calibration|competenc|review|feedback|check-in'),
+     ('succ', r'succession|talent pool|nomination|readiness|9-box|career development|career-path|talent matrix'),
+     ('ec',   r'\bEC\b|employee central|position|job data'),
+     ('comp', r'compensation|learning|\bLMS\b|recruiting|onboarding'),
+     ('ana',  r'people analytics|analytics|reporting|talent intelligence'),
+     ('arch', r'architect|roadmap|governance|design authority|standards|leanix|aris|signavio|integration|s/4|togaf|low-code|enterprise'),
+    ]
+    LABEL = {'perf':'Performance & Goals','succ':'Succession & Development','ec':'Employee Central link','comp':'Compensation, Learning & Hiring','ana':'People Analytics','arch':'Architecture & Integration'}
 if os.environ.get('CV_TAGS') in ('rcm','sr'):   # Recruiting Management / Marketing focus
     TAGS = [
      ('rcm',  r'recruiting management|\bRCM\b|requisition|candidate|offer|recruiter|pipeline|hiring|application'),
