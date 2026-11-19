@@ -46,7 +46,7 @@ TAGS = [
  ('arch', r'architect|roadmap|governance|design authority|standards|leanix|aris|signavio|integration|s/4|togaf|low-code|enterprise'),
 ]
 LABEL = {'ec':'Employee Central','onb':'Onboarding','off':'Offboarding','pay':'Payroll','tal':'Talent & Learning','arch':'Architecture & Integration'}
-if os.environ.get('CV_TAGS') == 'rcm':   # Recruiting Management / Marketing focus
+if os.environ.get('CV_TAGS') in ('rcm','sr'):   # Recruiting Management / Marketing focus
     TAGS = [
      ('rcm',  r'recruiting management|\bRCM\b|requisition|candidate|offer|recruiter|pipeline|hiring|application'),
      ('rmk',  r'recruiting marketing|\bRMK\b|career[- ]site|talent communit|talent pool|campaign|employer-brand|nurtur|source-of-hire|landing'),
@@ -56,6 +56,10 @@ if os.environ.get('CV_TAGS') == 'rcm':   # Recruiting Management / Marketing foc
      ('arch', r'architect|roadmap|governance|design authority|standards|leanix|aris|signavio|integration|s/4|togaf|low-code|enterprise'),
     ]
     LABEL = {'rcm':'Recruiting Management','rmk':'Recruiting Marketing','hand':'Onboarding & EC hand-off','pay':'Payroll','tal':'Talent & Learning','arch':'Architecture & Integration'}
+    if os.environ.get('CV_TAGS') == 'sr':   # SmartRecruiters / ATS focus
+        TAGS[0] = ('rcm', r'smartrecruiters|\bATS\b|applicant-tracking|recruiting|requisition|candidate|offer|recruiter|pipeline|hiring')
+        TAGS[1] = ('rmk', r'career[- ]site|talent communit|talent pool|campaign|employer-brand|nurtur|source-of-hire|landing')
+        LABEL.update({'rcm':'SmartRecruiters & Recruiting','rmk':'Career sites & talent pools'})
 def tags(t):
     tl = t
     out = [k for k,rx in TAGS if re.search(rx, tl, flags=re.I)]
@@ -199,7 +203,7 @@ PROJECTS = [
 def pcard(sec,where,title,pts):
     return ('<article class="pcard"><span class="sector">'+html.escape(sec)+'</span><h3>'+html.escape(title)+'</h3><p class="where">'+html.escape(where)+'</p><ul>'
             +''.join('<li>'+html.escape(x)+'</li>' for x in pts)+'</ul></article>')
-if os.environ.get('CV_TAGS') == 'rcm': PROJECTS.sort(key=lambda x: 'Recruiting' not in x[2])
+if os.environ.get('CV_TAGS') in ('rcm','sr'): PROJECTS.sort(key=lambda x: 'Recruiting' not in x[2])
 proj_html = ''.join(pcard(*x) for x in PROJECTS)
 FIRMS = [
  ('PwC','Industries: PSU · EPC · Telecom · Manufacturing · Chemical · Real estate · Home appliances · Automobile · Banking & financial services · Steel · Infrastructure & energy — India','SAP HCM implementations and managed services',
