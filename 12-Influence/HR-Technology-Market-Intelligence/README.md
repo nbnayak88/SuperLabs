@@ -59,3 +59,5 @@ Every category should eventually contain: market definition; verified analyst re
 - **C06 — [Talent Assessment & Interview Intelligence](C06-Talent-Assessment-Interview-Intelligence/README.md)** — SAP Recruiting/Business AI reference, specialist assessment landscape, 35 discovery questions, 100%-weighted RFI, 100-minute demo and 20-test POC; human-led AI governance.
 
 - **C07 — [Performance Management](C07-Performance-Management/README.md)** — SAP SuccessFactors Performance & Goals, ten-platform comparison, analyst evidence boundaries, 35 discovery questions, 100%-weighted RFI, 100-minute demo and 20-test POC.
+
+- **C08 — [Goal & OKR Platforms](C08-Goal-OKR-Platforms/README.md)** — SAP SuccessFactors Performance & Goals and SAP Analytics Cloud reference; specialist strategy execution comparison, 35 discovery questions, 100%-weighted RFI, 100-minute demo and 20-test POC.
