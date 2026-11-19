@@ -46,6 +46,16 @@ TAGS = [
  ('arch', r'architect|roadmap|governance|design authority|standards|leanix|aris|signavio|integration|s/4|togaf|low-code|enterprise'),
 ]
 LABEL = {'ec':'Employee Central','onb':'Onboarding','off':'Offboarding','pay':'Payroll','tal':'Talent & Learning','arch':'Architecture & Integration'}
+if os.environ.get('CV_TAGS') == 'dwp':   # Digital Workplace / SAP Build Work Zone
+    TAGS = [
+     ('wz',   r'work zone|workzone|digital workplace|\bDWP\b|launchpad|portal|workplace|site|home page'),
+     ('srch', r'search|joule|\bAI\b|citation|microlearning|guidance|assistant'),
+     ('int',  r'integration|api|web services|middleware|sync|destination|single sign|\bBTP\b|connectivity|sap build'),
+     ('ec',   r'\bEC\b|employee central|onboarding|learning|successfactors'),
+     ('sec',  r'access|role|audience|security|privacy|identity|governance'),
+     ('arch', r'architect|roadmap|design authority|standards|leanix|aris|signavio|s/4|togaf|low-code|enterprise|clean-core'),
+    ]
+    LABEL = {'wz':'Work Zone & DWP','srch':'Search & AI','int':'Integration & BTP','ec':'SuccessFactors entry points','sec':'Access & Governance','arch':'Architecture'}
 if os.environ.get('CV_TAGS') == 'ex':   # Qualtrics Employee Experience
     TAGS = [
      ('ex',   r'qualtrics|employee experience|\bEX\b|engagement|pulse|360|survey|listening|lifecycle|action plan|voice'),
