@@ -49,3 +49,5 @@ Every category should eventually contain: market definition; verified analyst re
 
 - **C01 — Core HCM Suites: [In-depth SAP SuccessFactors Employee Central presales pack](C01-Core-HCM-Suites/README.md)** — published; seven files covering analyst evidence, architecture, 30 discovery questions, 20 weighted RFI requirements, 90-minute demo, 15 POC tests and decision gates.
 - C02 and C04–C30 (excluding already-published C03 and C27): pending sequential development and validation.
+
+- **C02 — [Integrated HR Service Management / Employee Case Management](C02-HR-Service-Management/README.md)** — published seven-file deep dive; SAP SuccessFactors Enterprise Service Management reference, Gartner IHRSM, discovery, RFI, demo and POC.
