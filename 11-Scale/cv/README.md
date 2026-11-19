@@ -10,6 +10,7 @@ Interactive, privacy-safe web versions of the CVs produced by the [`sla-cv-maker
 | Lead SAP SuccessFactors Consultant | Recruiting Management & Recruiting Marketing (RCM/RMK) | [Open](https://nbnayak88.github.io/SuperLabs/11-Scale/cv/lead-sap-sf-recruiting-rcm-rmk/) | [index.html](./lead-sap-sf-recruiting-rcm-rmk/index.html) |
 | Lead SAP SuccessFactors Consultant | SmartRecruiters & Recruiting Platforms | [Open](https://nbnayak88.github.io/SuperLabs/11-Scale/cv/lead-sap-sf-smartrecruiters/) | [index.html](./lead-sap-sf-smartrecruiters/index.html) |
 | Lead SAP SuccessFactors Consultant | Talent, Performance & Goals, Succession Planning | [Open](https://nbnayak88.github.io/SuperLabs/11-Scale/cv/lead-sap-sf-talent-performance-succession/) | [index.html](./lead-sap-sf-talent-performance-succession/index.html) |
+| Lead SAP SuccessFactors Consultant | Compensation and Variable Pay | [Open](https://nbnayak88.github.io/SuperLabs/11-Scale/cv/lead-sap-sf-compensation-variable-pay/) | [index.html](./lead-sap-sf-compensation-variable-pay/index.html) |
 
 > GitHub Pages is enabled for this repository (Deploy from a branch → `main` / root), so each live link works shortly after a push (first build can take a minute or two).
 

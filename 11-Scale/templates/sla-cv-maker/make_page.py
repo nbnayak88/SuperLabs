@@ -46,6 +46,16 @@ TAGS = [
  ('arch', r'architect|roadmap|governance|design authority|standards|leanix|aris|signavio|integration|s/4|togaf|low-code|enterprise'),
 ]
 LABEL = {'ec':'Employee Central','onb':'Onboarding','off':'Offboarding','pay':'Payroll','tal':'Talent & Learning','arch':'Architecture & Integration'}
+if os.environ.get('CV_TAGS') == 'cvp':   # Compensation & Variable Pay
+    TAGS = [
+     ('comp', r'compensation|salary|pay range|job pricing|merit|total rewards|worksheet|rewards'),
+     ('var',  r'variable pay|bonus|incentive|\bLTI\b|equity'),
+     ('pay',  r'payroll|\bECP\b|pay component|retro|off-cycle|salary packaging'),
+     ('ec',   r'\bEC\b|employee central|position|job data'),
+     ('perf', r'performance|goals|succession|talent|analytics'),
+     ('arch', r'architect|roadmap|governance|design authority|standards|leanix|aris|signavio|integration|s/4|togaf|low-code|enterprise'),
+    ]
+    LABEL = {'comp':'Compensation','var':'Variable Pay & LTI','pay':'Payroll link','ec':'Employee Central link','perf':'Performance, Talent & Analytics','arch':'Architecture & Integration'}
 if os.environ.get('CV_TAGS') == 'tal':   # Talent: Performance & Goals, Succession
     TAGS = [
      ('perf', r'performance|goal|calibration|competenc|review|feedback|check-in'),
