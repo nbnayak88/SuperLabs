@@ -39,3 +39,5 @@ This README is a **foundation scaffold**, not a claim that a functioning applica
 ## Presales content packs
 
 - [Qualtrics EXM / Voice of the Employee — 2026 competitive and RFI pack](content-packs/qualtrics-exm-2026/README.md): top-ten vendor longlist, market-positioning caveats, discovery questionnaire, weighted scorecard, demo/POC script and evaluation evidence gates.
+
+- [Digital Workplace Platforms (DWP) — SAP SuccessFactors Work Zone focused 2026 presales pack](content-packs/digital-workplace-platforms-2026/README.md): ten-platform landscape, analyst taxonomy, weighted RFI, discovery and POC scenarios.
