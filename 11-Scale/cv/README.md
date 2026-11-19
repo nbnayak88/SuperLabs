@@ -8,6 +8,6 @@ Interactive, privacy-safe web versions of the CVs produced by the [`sla-cv-maker
 |---|---|---|---|
 | Lead SAP SuccessFactors Consultant | Employee Central, Onboarding & Offboarding | [Open](https://nbnayak88.github.io/SuperLabs/11-Scale/cv/lead-sap-sf-ec-onboarding-offboarding/) | [index.html](./lead-sap-sf-ec-onboarding-offboarding/index.html) |
 
-> The live link works once GitHub Pages is enabled for this repository (Settings → Pages → Deploy from a branch → `main` / root).
+> GitHub Pages is enabled for this repository (Deploy from a branch → `main` / root), so each live link works shortly after a push (first build can take a minute or two).
 
 [← SCALE lab](../README.md)

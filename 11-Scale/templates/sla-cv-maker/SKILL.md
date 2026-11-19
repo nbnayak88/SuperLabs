@@ -44,7 +44,8 @@ Always produce the interactive page together with the `.docx`; do not wait to be
 3. Public-safe by default: no phone, email or named clients. Include them only if the user explicitly asks, and say so in the final message.
 4. Test it in a headless browser before publishing: filter, search, theme toggle, expand/collapse, mobile width with no horizontal overflow, no console errors. Look at screenshots.
 5. Publish into the configured repository folder (`11-Scale/cv/<slug>/index.html`), update the index at `11-Scale/cv/README.md`, commit on a branch and push it to `main`. Use `git`, not the GitHub GraphQL API. Do not commit the `.docx`.
-6. Give the user the live link (`https://<owner>.github.io/<repo>/11-Scale/cv/<slug>/`) and the source link. The live link needs GitHub Pages enabled once for the repository (Settings, Pages, deploy from `main` / root).
+6. Make sure GitHub Pages is enabled by default so the live link never 404s: after pushing, open the live URL. If it does not load, enable Pages in the repository settings (Settings, Pages, Deploy from a branch, `main` / root), wait for the build, and re-check. The REST API for this is often blocked in automated sessions, so use the browser settings page.
+7. Give the user the live link (`https://<owner>.github.io/<repo>/11-Scale/cv/<slug>/`) and the source link, only after confirming the live link loads.
 
 ## 5. Common mistakes
 - Rebuilding the CV from scratch and losing the banner and photo.
@@ -56,3 +57,4 @@ Always produce the interactive page together with the `.docx`; do not wait to be
 - Publishing a phone number, email address or client names on a public page.
 - Creating the `.docx` but not the interactive page.
 - Writing the page by hand instead of generating it from the final `.docx`.
+- Handing over a live link that returns 404 because Pages was never enabled.
