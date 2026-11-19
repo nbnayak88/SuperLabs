@@ -124,31 +124,56 @@ PROJECTS = [
    'Integrated technology solutions with the national digital government authority to improve citizen services','Developed enterprise architecture frameworks and views in Alfabet and ARIS',
    'Managed vendor relationships and assessed project suitability','Coordinated RFI, RFP and RFQ cycles to ensure compliant sourcing',
    'Facilitated workshops to align stakeholders on target architecture and roadmaps','Presented architecture recommendations and trade-offs to senior leadership']),
- ('Retail · Footwear','North America · Remote','Onboarding for a global footwear and apparel retailer',
+
+ ('Engineering & consulting · Europe','Europe · Remote','SAP SuccessFactors Recruiting for a European engineering and consulting group',
+  ['Designed the SuccessFactors Recruiting solution around the group\'s hiring model','Configured requisition templates, approval routes and candidate pipelines',
+   'Set up job-posting and career-site flows for multiple countries','Mapped recruiting data to Employee Central to remove duplicate entry',
+   'Aligned role-based permissions with recruiters, hiring managers and HR','Ran fit-gap workshops and recorded decisions for the design authority',
+   'Coordinated SIT and UAT, and triaged defects through to closure','Directed cutover and go-live readiness checks',
+   'Trained recruiters and hiring managers on the new process','Documented configuration and supported the team through hypercare']),
+ ('Energy · Pipelines','Canada · Remote','SAP SuccessFactors Recruiting for a Canadian pipeline operator',
+  ['Implemented SuccessFactors Recruiting for a major pipeline operator','Configured requisitions, application flows and offer steps for field and office roles',
+   'Designed approval workflows that matched regulated-industry hiring controls','Integrated recruiting with Employee Central for a clean hire-to-onboard handoff',
+   'Tuned candidate communications and email templates','Defined role-based permissions for recruiters and hiring managers',
+   'Led SIT and UAT cycles and tracked defects to closure','Prepared cutover plans and validated data before go-live',
+   'Trained HR users on recruiter and manager processes','Resolved post-go-live issues within agreed service levels']),
+ ('Public sector · Southern Africa','Botswana · Remote','SAP SuccessFactors Recruiting for a government organisation',
+  ['Assessed the public-sector hiring process against SuccessFactors standard capabilities','Designed a recruiting solution that met public-service hiring rules',
+   'Configured requisitions, application forms and selection stages','Set up approval workflows for panels and committees',
+   'Adapted the candidate experience for local requirements and languages','Defined role-based permissions to protect applicant data',
+   'Coordinated testing cycles with business users and fixed defects','Planned data load and cutover activities',
+   'Trained HR officers and hiring managers on the new process','Supported go-live and documented the solution for the client team']),
+ ('Sports & entertainment','Switzerland · Remote','SAP SuccessFactors Recruiting for a leading European football club',
+  ['Designed SuccessFactors Recruiting for a leading European football club','Configured requisitions and pipelines for playing, coaching and commercial roles',
+   'Set up confidential approval flows for sensitive senior hires','Tailored the candidate experience to the club\'s brand',
+   'Defined role-based permissions to protect candidate data','Integrated recruiting with the existing HR landscape',
+   'Led testing cycles and resolved defects before launch','Planned cutover and validated data readiness',
+   'Trained the HR team on recruiter and manager processes','Provided hypercare support after go-live']),
+ ('Retail · Footwear','USA · Remote','Onboarding for a global footwear and apparel retailer',
   ['Delivered SAP SuccessFactors Onboarding as the primary module for the retailer','Configured onboarding processes, tasks, forms and document flows for new hires',
    'Optimised new-hire workflows with HR teams to speed up time to productivity','Mapped hiring-to-onboarding handoffs between Recruiting, Onboarding and Employee Central',
    'Tuned role-based permissions so each user saw only what they needed','Resolved onboarding defects and support tickets within agreed SLAs',
    'Coordinated test cycles and validated end-to-end new-hire scenarios','Documented configuration decisions and handed over runbooks to support teams',
    'Advised HR stakeholders on SuccessFactors release changes and their impact','Trained HR users and administrators on the onboarding process']),
- ('Industrial manufacturing','North America · Remote','Recruiting and Onboarding 2.0 for equipment makers',
+ ('Industrial manufacturing','USA · Remote','Recruiting and Onboarding 2.0 for equipment makers',
   ['Provided end-to-end support for SAP SuccessFactors Recruiting and Onboarding 2.0','Optimised hiring and onboarding workflows with HR teams for greater efficiency',
    'Implemented process improvements that raised compliance and user satisfaction','Resolved issues quickly using deep product and integration expertise',
    'Supported Onboarding 2.0 for a second precision-engineering manufacturer','Configured requisition, application and offer steps in Recruiting',
    'Aligned onboarding tasks and activities to Employee Central data requirements','Validated changes through structured testing before each release',
    'Collaborated with HR operations to prioritise enhancements and fixes','Monitored the new-hire experience and recommended further improvements']),
- ('Advanced materials','North America · Remote','Recruiter Experience for a specialty-materials company',
+ ('Advanced materials','USA · Remote','Recruiter Experience for a specialty-materials company',
   ['Provided end-to-end support for SAP SuccessFactors Recruiter Experience','Collaborated with HR teams and stakeholders to optimise recruiting workflows',
    'Implemented process improvements that strengthened compliance','Resolved defects and incidents promptly to protect user satisfaction',
    'Configured candidate pipelines, statuses and recruiter templates','Aligned role-based permissions with recruiter and hiring-manager responsibilities',
    'Coordinated testing and release readiness for each change','Advised stakeholders on release features and adoption options',
    'Documented configuration and support procedures for the HR team','Guided recruiters through the new experience with practical walkthroughs']),
- ('Energy services · Oil & gas','North America · Remote','Onboarding 2.0 for an oilfield services provider',
+ ('Energy services · Oil & gas','USA · Remote','Onboarding 2.0 for an oilfield services provider',
   ['Delivered end-to-end support for SAP SuccessFactors Onboarding 2.0','Collaborated with HR teams and stakeholders to optimise onboarding workflows',
    'Implemented process improvements for a smoother new-hire experience','Resolved issues quickly to raise user satisfaction and compliance',
    'Configured onboarding tasks, forms and compliance documents for field and office roles','Handled hand-offs between recruiting, onboarding and Employee Central',
    'Verified fixes and enhancements through regression testing','Tracked and cleared defects against service-level targets',
    'Documented process changes and shared them with HR operations','Advised on best practice for onboarding across a global workforce']),
- ('Financial services · Insurance','North America · Remote','Recruiting go-live for a retirement and insurance group',
+ ('Financial services · Insurance','USA · Remote','Recruiting go-live for a retirement and insurance group',
   ['Led user acceptance testing (UAT) for Recruiter Experience and Candidate Experience','Led system integration testing (SIT) across the recruiting landscape',
    'Directed the final cutover plan and go-live for RX and CX','Fixed defects on time and within SLA for a seamless implementation',
    'Collaborated with cross-functional teams to deliver the project successfully','Coordinated test scripts, data and sign-offs with business testers',
@@ -165,6 +190,37 @@ def pcard(sec,where,title,pts):
     return ('<article class="pcard"><span class="sector">'+html.escape(sec)+'</span><h3>'+html.escape(title)+'</h3><p class="where">'+html.escape(where)+'</p><ul>'
             +''.join('<li>'+html.escape(x)+'</li>' for x in pts)+'</ul></article>')
 proj_html = ''.join(pcard(*x) for x in PROJECTS)
+FIRMS = [
+ ('PwC','Industries: PSU · EPC · Telecom · Manufacturing · Chemical · Real estate · Home appliances · Automobile · Banking & financial services · Steel · Infrastructure & energy — India','SAP HCM implementations and managed services',
+  ['Delivered 2 implementations and 12 application-management (AMS) projects','Gathered requirements for every issue, resolved it and briefed ABAP developers on new technical changes',
+   'Resolved payroll queries on individual reimbursement (IT0589) such as medical, LTA and advance claims, plus ESS/MSS','Tested all ESS/MSS functionality after portal configuration by the EP consultant',
+   'Handled Enterprise Compensation Management queries on job pricing and LTI','Designed the Learning Solution (LSO) training module and learning materials, and guided the EP/ESS team',
+   'Configured TREX for talent search in E-Recruiting','Resolved Travel Management issues on per diem and out-of-pocket expenses',
+   'Solved tickets on income tax, professional tax and HR-to-FI integration','Added value through process improvement with industry best practices',
+   'Created LSMW programs for master-data uploads','Implemented SAP Notes for Union Budget and statutory changes','Trained new end users']),
+ ('Wipro','Industries: Energy, Natural Resources & Utilities · Manufacturing & Hi-Tech · Retail & Consumer Goods — USA · UK · France · Mexico','SAP HCM project and internship engagements',
+  ['Configured Negative Time Management: holiday calendars, groupings, work schedules, time recording and absence-quota generation','Worked on Personnel Administration, Organisational Management, Recruitment and UK Payroll support',
+   'Configured Training and Event Management: business events, groups and types, time schedules, day types, locations and bookings','Uploaded training records and trainee details in bulk',
+   'Maintained features such as ABKRS, TARIF, LGMST, SCHKZ and TMSTA to default values','Maintained processing, cumulation and evaluation classes to client specifications',
+   'Created mock-ups and data-migration templates for custom infotypes and reports','Completed security testing to verify authorisations; loaded data in bulk using LSMW and BDC',
+   'Prepared test cases for post-upgrade and year-end HCM testing','Prepared 200+ functional specifications for WRICEF objects, 10+ configuration documents and 5+ user manuals',
+   'Maintained HCM master data and kept the system data clean']),
+ ('Deloitte','Industry: Hospitality — India','SAP HCM implementation for a leading hospitality group',
+  ['Conducted AS-IS/TO-BE workshops and gathered requirements with the RDS scoping questionnaire','Streamlined LSO, Time Management, Self Services and executive-payroll processes after fit-gap analysis',
+   'Configured Negative Time Management, leave rules at ECC and ESS level, quota generation (PTQTA_00) and client validations','Configured all ESS/MSS components: launchpad, WebMo features, employee profile, leave and leave encashment, tax declaration, advances, loans, tax projection and executive salary packaging',
+   'Coordinated the whole HCM test effort: functional, unit, UAT, integration and authorisation testing with the client audit team','Tested the portal with the EP consultant',
+   'Trained leave, payroll and portal admins, LSO power users and the security and audit team; ran 5 batches of train-the-trainer and end-user training','Worked with the core process team to deliver an integrated system solution',
+   'Prepared LSMW programs for data migration and cutover','Wrote 60+ functional specifications for custom objects (WRICEF) for the ABAP team',
+   'Documented blueprint, configuration, UAT and training-cum-user manuals for all HCM sub-modules','Set up Workforce Process Management for payroll and legal reporting, bundling country-specific master data']),
+ ('KPMG','Role: Enterprise Architect, HR Platforms','Enterprise architecture for HR technology',
+  ['Reviewed and designed the HR tech roadmap and application portfolio for 80+ HR applications using ARIS and Alfabet from Software AG','Assessed and maximised use of SuccessFactors: Compensation, Recruiting, Learning, Performance, Employee Central and People Analytics',
+   'Leveraged ServiceNow for HR service delivery, business impact analysis, business continuity planning and CMDB integration','Assessed low-code platforms such as Appian to fill gaps in the SuccessFactors suite',
+   'Contributed to proofs of concept: HR document management, RPA use cases for HR and an enterprise data platform','Supported pre-sales evaluations of HR tools and led weekly change-request meetings',
+   'Shaped hybrid-learning strategy, learning-tech transformation and learning-content strategy; enabled People Analytics use cases','Integrated HR systems with SAP S/4HANA Cloud and Workday core HR',
+   'Implemented SAP Analytics Cloud, Replicon, SAP identity authentication with Azure, Integration Suite on BTP, Datasphere, Data Intelligence, GRC and engagement pricing','Served on the Architecture Review Board, Technology Design Council and Change Advisory Board']),
+]
+firm_html = ''.join(pcard(*x) for x in FIRMS)
+
 TITLE = sys.argv[3] if len(sys.argv) > 3 else 'Lead SAP SuccessFactors Consultant, Employee Central, Onboarding and Offboarding'
 page = f'''<!doctype html>
 <html lang="en">
@@ -311,7 +367,7 @@ footer .wrap{{border-top:1px solid var(--line);padding-top:18px;display:flex;fle
 <header class="bar"><div class="wrap">
   <div class="brand"><b>Dr. Niladri Bihari Nayak</b><small>Architecting Experiences for a Better World</small></div>
   <nav aria-label="Sections">
-    <a href="#summary">Summary</a><a href="#competencies">Focus areas</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#credentials">Credentials</a>
+    <a href="#summary">Summary</a><a href="#competencies">Focus areas</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#firms">Firms</a><a href="#credentials">Credentials</a>
   </nav>
   <div class="tools">
     <button class="btn" id="theme" type="button" aria-label="Toggle dark mode">Theme</button>
@@ -355,6 +411,10 @@ footer .wrap{{border-top:1px solid var(--line);padding-top:18px;display:flex;fle
 <section id="projects"><div class="wrap"><h2>Selected engagements by sector</h2>
 <p class="hint" style="color:var(--muted);font-size:13.5px;margin:-4px 0 14px">Client names are withheld; engagements are labelled by sector and region.</p>
 <div class="proj">{proj_html}</div></div></section>
+
+<section id="firms"><div class="wrap"><h2>Consulting-firm experience by industry</h2>
+<p class="hint" style="color:var(--muted);font-size:13.5px;margin:-4px 0 14px">Client names are withheld; work is shown by firm, industry and geography.</p>
+<div class="proj">{firm_html}</div></div></section>
 
 <section id="credentials"><div class="wrap"><h2>Credentials</h2>
 <div class="cols">
@@ -423,7 +483,7 @@ footer .wrap{{border-top:1px solid var(--line);padding-top:18px;display:flex;fle
     var io=new IntersectionObserver(function(es){{es.forEach(function(e){{
       if(e.isIntersecting){{links.forEach(function(l){{l.classList.toggle('on',l.getAttribute('href')==='#'+e.target.id);}});}}
     }});}},{{rootMargin:'-40% 0px -55% 0px'}});
-    ['summary','competencies','experience','projects','credentials'].forEach(function(id){{var s=document.getElementById(id); if(s)io.observe(s);}});
+    ['summary','competencies','experience','projects','firms','credentials'].forEach(function(id){{var s=document.getElementById(id); if(s)io.observe(s);}});
   }}
   apply();
 }})();
