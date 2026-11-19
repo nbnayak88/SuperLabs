@@ -111,6 +111,31 @@ path_html = '\n'.join(
     f'<li><a href="#role-{idx}" data-role="role-{idx}"><b>{html.escape(n)}</b><span>{html.escape(d)}</span></a></li>'
     for idx,n,d in path_rev)
 
+PROJECTS = [
+ ('Leading utility','Middle East · Remote / hybrid','Enterprise architecture for a national-scale utility',
+  ['Decomposed and optimised business processes for the utility value chain','Ran architecture governance and domain architecture across a large application landscape',
+   'Used LeanIX (certified L1 and L2) to model the landscape and rationalise the application portfolio','Led demand-management and value-realisation tracks; ran the RFI / RFP / RFQ process']),
+ ('Public sector · Digital government','Middle East · Remote','Digital transformation office',
+  ['Evaluated digital use cases in emerging technologies with business and IT leaders','Built a Change Management Academy and designed solution architectures aligned to strategy',
+   'Aligned technology solutions with the national digital government authority','Managed vendors and suitability analyses; maintained frameworks in Alfabet / ARIS']),
+ ('Retail · Footwear','North America · Remote','Onboarding for a global footwear and apparel retailer',
+  ['Delivered SAP SuccessFactors Onboarding as primary module','Tuned new-hire workflows with HR teams for a smooth first-day experience']),
+ ('Industrial manufacturing','North America · Remote','Recruiting and Onboarding 2.0 for equipment makers',
+  ['End-to-end support for Recruiting and Onboarding 2.0 at a leading material-handling manufacturer','Optimised workflows with HR; resolved issues within SLA to lift satisfaction and compliance',
+   'Onboarding 2.0 support for a precision fluid-systems manufacturer']),
+ ('Advanced materials','North America · Remote','Recruiter Experience for a specialty-materials company',
+  ['End-to-end support for SAP SuccessFactors Recruiter Experience','Partnered with HR stakeholders on process improvement and compliance']),
+ ('Energy services · Oil & gas','North America · Remote','Onboarding 2.0 for an oilfield services provider',
+  ['End-to-end Onboarding 2.0 support for a seamless new-hire experience','Fast issue resolution and workflow optimisation with HR']),
+ ('Financial services · Insurance','North America · Remote','Recruiting go-live for a retirement and insurance group',
+  ['Led UAT, SIT, final cutover and go-live for Recruiter Experience (RX) and Candidate Experience (CX)','Closed defects within SLA, working across cross-functional teams']),
+ ('Education & community','India · Global · Remote','SuccessLabs Academy',
+  ['Community-driven learning platform from HR Tech to enterprise architecture','Public speaking and volunteering at industry conclaves; YouTube channel on HR Tech and well-being']),
+]
+def pcard(sec,where,title,pts):
+    return ('<article class="pcard"><span class="sector">'+html.escape(sec)+'</span><h3>'+html.escape(title)+'</h3><p class="where">'+html.escape(where)+'</p><ul>'
+            +''.join('<li>'+html.escape(x)+'</li>' for x in pts)+'</ul></article>')
+proj_html = ''.join(pcard(*x) for x in PROJECTS)
 TITLE = sys.argv[3] if len(sys.argv) > 3 else 'Lead SAP SuccessFactors Consultant – Employee Central, Onboarding & Offboarding'
 page = f'''<!doctype html>
 <html lang="en">
@@ -124,21 +149,21 @@ page = f'''<!doctype html>
 <meta name="color-scheme" content="light dark">
 <style>
 :root{{
-  --navy:#0c1238; --navy-2:#161d52; --mint:#6cc5a1; --mint-d:#1f8a64;
+  --navy:#0c1238; --navy-2:#161d52; --mint:#a3e635; --mint-d:#15803d; --grad:linear-gradient(90deg,#a3e635,#4ade80 45%,#16a34a); --grad-d:linear-gradient(90deg,#65a30d,#16a34a 55%,#047857);
   --bg:#f5f7fb; --surface:#ffffff; --ink:#131936; --muted:#4b5373; --line:#dfe3ee;
-  --chip:#eef1f8; --chip-on:#0c1238; --chip-on-ink:#ffffff; --mark:#e6f7ef;
+  --chip:#eef1f8; --chip-on:#14532d; --chip-on-ink:#ffffff; --mark:#e8f8d4;
   --shadow:0 1px 2px rgba(12,18,56,.06),0 8px 24px rgba(12,18,56,.06);
   --radius:14px; --maxw:1040px;
 }}
 :root[data-theme="dark"]{{
   --bg:#080c26; --surface:#10173f; --ink:#e8ecff; --muted:#aab2d6; --line:#252d63;
-  --chip:#1a2255; --chip-on:#6cc5a1; --chip-on-ink:#08122b; --mark:#133a35;
+  --chip:#1a2255; --chip-on:#a3e635; --chip-on-ink:#08122b; --mark:#1f3a14;
   --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.35);
 }}
 @media (prefers-color-scheme: dark){{
   :root:not([data-theme="light"]){{
     --bg:#080c26; --surface:#10173f; --ink:#e8ecff; --muted:#aab2d6; --line:#252d63;
-    --chip:#1a2255; --chip-on:#6cc5a1; --chip-on-ink:#08122b; --mark:#133a35;
+    --chip:#1a2255; --chip-on:#a3e635; --chip-on-ink:#08122b; --mark:#1f3a14;
     --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.35);
   }}
 }}
@@ -151,7 +176,11 @@ a{{color:inherit}}
 .bar{{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}}
 .bar .wrap{{display:flex;align-items:center;gap:14px;height:56px}}
 .brand{{font-weight:700;letter-spacing:.2px;white-space:nowrap}}
-.brand span{{color:var(--mint-d)}}
+.brand{{display:flex;flex-direction:column;line-height:1.15}}
+.brand b{{font-size:16px;background:var(--grad-d);-webkit-background-clip:text;background-clip:text;color:transparent}}
+.brand small{{font-size:11.5px;font-weight:500;color:var(--muted);letter-spacing:.1px}}
+:root[data-theme="dark"] .brand b{{background-image:var(--grad)}}
+@media (prefers-color-scheme: dark){{:root:not([data-theme="light"]) .brand b{{background-image:var(--grad)}}}}
 nav{{display:flex;gap:4px;margin-left:auto;overflow-x:auto;scrollbar-width:none}}
 nav a{{text-decoration:none;font-size:14px;color:var(--muted);padding:6px 10px;border-radius:8px;white-space:nowrap}}
 nav a:hover,nav a.on{{background:var(--chip);color:var(--ink)}}
@@ -160,15 +189,16 @@ nav a:hover,nav a.on{{background:var(--chip);color:var(--ink)}}
 .btn:hover{{border-color:var(--mint-d)}}
 .btn:focus-visible,.chip:focus-visible,summary:focus-visible,.path a:focus-visible,input:focus-visible{{outline:3px solid var(--mint);outline-offset:2px}}
 /* hero */
-.hero{{background:radial-gradient(1200px 400px at 85% -10%,rgba(108,197,161,.35),transparent 60%),linear-gradient(135deg,var(--navy),var(--navy-2));color:#fff;padding:56px 0 40px}}
+.hero{{background:radial-gradient(1200px 400px at 85% -10%,rgba(132,204,22,.38),transparent 60%),linear-gradient(135deg,var(--navy),var(--navy-2));color:#fff;padding:56px 0 40px}}
 .hero h1{{margin:0;font-size:clamp(32px,5vw,52px);line-height:1.1;letter-spacing:-.5px}}
-.hero .hero-role{{margin:12px 0 4px;font-size:clamp(17px,2.2vw,22px);font-weight:600;color:var(--mint);max-width:30ch}}
+.hero .hero-role{{margin:12px 0 4px;font-size:clamp(17px,2.2vw,22px);font-weight:700;max-width:30ch;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}}
+.tagline{{margin:2px 0 0;font-size:15px;font-style:italic;color:#d9f99d}}
 .hero .sub{{margin:0;color:#cdd3f5;font-size:15px}}
 .badges{{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}}
 .badges span{{border:1px solid rgba(255,255,255,.28);padding:3px 12px;border-radius:99px;font-size:13px;color:#e9ecff}}
 .stats{{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-top:30px}}
 .stat{{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);border-radius:12px;padding:14px 14px 12px}}
-.stat b{{display:block;font-size:26px;line-height:1.1;color:#fff}}
+.stat b{{display:block;font-size:26px;line-height:1.1;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}}
 .stat span{{display:block;margin-top:4px;font-size:12.5px;color:#cdd3f5;line-height:1.35}}
 /* controls */
 .controls{{margin:-22px auto 0;position:relative;z-index:5}}
@@ -186,7 +216,7 @@ nav a:hover,nav a.on{{background:var(--chip);color:var(--ink)}}
 /* sections */
 section{{padding:34px 0 6px}}
 section>.wrap>h2{{font-size:22px;margin:0 0 14px;letter-spacing:-.2px;display:flex;align-items:center;gap:10px}}
-section>.wrap>h2:before{{content:"";width:8px;height:22px;border-radius:3px;background:var(--mint)}}
+section>.wrap>h2:before{{content:"";width:8px;height:22px;border-radius:3px;background:linear-gradient(180deg,#a3e635,#15803d)}}
 .list{{margin:0;padding:0;list-style:none;display:grid;gap:8px}}
 .list li{{position:relative;padding:10px 14px 10px 34px;background:var(--surface);border:1px solid var(--line);border-radius:10px}}
 .list li:before{{content:"";position:absolute;left:14px;top:18px;width:7px;height:7px;border-radius:50%;background:var(--mint-d)}}
@@ -216,6 +246,14 @@ section>.wrap>h2:before{{content:"";width:8px;height:22px;border-radius:3px;back
 .role .list{{padding:0 14px 14px}}
 .empty{{margin:0;padding:0 16px 14px;color:var(--muted);font-size:14px}}
 .is-hidden{{display:none!important}}
+/* projects */
+.proj{{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}}
+.pcard{{background:var(--surface);border:1px solid var(--line);border-top:4px solid transparent;border-image:var(--grad) 1;border-radius:var(--radius);padding:16px;box-shadow:var(--shadow)}}
+.pcard h3{{margin:8px 0 6px;font-size:16.5px}}
+.sector{{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.3px;text-transform:uppercase;padding:3px 10px;border-radius:99px;background:var(--grad);color:#08210f}}
+.pcard .where{{font-size:13px;color:var(--muted);margin:0 0 6px}}
+.pcard ul{{margin:0;padding-left:18px;color:var(--muted);font-size:14.5px}}
+.pcard li{{margin:3px 0}}
 /* credentials */
 .cols{{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}}
 .cols .card h3{{color:var(--ink)}}
@@ -226,10 +264,11 @@ footer{{margin:44px 0 60px;color:var(--muted);font-size:14px}}
 footer .wrap{{border-top:1px solid var(--line);padding-top:18px;display:flex;flex-wrap:wrap;gap:8px 18px;justify-content:space-between}}
 @media (max-width:860px){{
   .stats{{grid-template-columns:repeat(2,1fr)}} .grid,.cols{{grid-template-columns:1fr}}
-  nav{{display:none}} .hero{{padding:40px 0 34px}} .stat:last-child{{grid-column:span 2}}
+  nav,.brand small{{display:none}} .proj{{grid-template-columns:1fr}} .hero{{padding:40px 0 34px}} .stat:last-child{{grid-column:span 2}}
 }}
 @media (prefers-reduced-motion:reduce){{html{{scroll-behavior:auto}} .role summary:after{{transition:none}}}}
 @media print{{
+  .proj{{grid-template-columns:1fr 1fr}} .pcard{{break-inside:avoid}}
   .bar,.controls,.path,.tools{{display:none!important}}
   body{{background:#fff;color:#000;font-size:11px}}
   .hero{{background:#0c1238!important;-webkit-print-color-adjust:exact;print-color-adjust:exact;padding:20px 0}}
@@ -241,9 +280,9 @@ footer .wrap{{border-top:1px solid var(--line);padding-top:18px;display:flex;fle
 </head>
 <body>
 <header class="bar"><div class="wrap">
-  <div class="brand">N. B. <span>Nayak</span></div>
+  <div class="brand"><b>Dr. Niladri Bihari Nayak</b><small>Architecting Experiences for a Better World</small></div>
   <nav aria-label="Sections">
-    <a href="#summary">Summary</a><a href="#competencies">Focus areas</a><a href="#experience">Experience</a><a href="#credentials">Credentials</a>
+    <a href="#summary">Summary</a><a href="#competencies">Focus areas</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#credentials">Credentials</a>
   </nav>
   <div class="tools">
     <button class="btn" id="theme" type="button" aria-label="Toggle dark mode">Theme</button>
@@ -254,7 +293,8 @@ footer .wrap{{border-top:1px solid var(--line);padding-top:18px;display:flex;fle
 <div class="hero"><div class="wrap">
   <h1>Dr. Niladri Bihari Nayak</h1>
   <p class="hero-role">{html.escape(TITLE)}</p>
-  <p class="sub">South Gurugram, India · SuccessLabs Academy — <em>Architecting Experiences for a Better World</em></p>
+  <p class="tagline">Architecting Experiences for a Better World</p>
+  <p class="sub">South Gurugram, India · SuccessLabs Academy</p>
   <div class="badges"><span>8× SAP SuccessFactors certified</span><span>TOGAF certified</span><span>Doctorate in Strategic Management</span></div>
   <div class="stats">{stat_html}</div>
 </div></div>
@@ -282,6 +322,10 @@ footer .wrap{{border-top:1px solid var(--line);padding-top:18px;display:flex;fle
 <ol class="path" aria-label="Career path, oldest to newest">{path_html}</ol>
 {"".join(role_blocks)}
 <p class="hint" style="color:var(--muted);font-size:13.5px">Client names are omitted on this public page.</p></div></section>
+
+<section id="projects"><div class="wrap"><h2>Selected engagements by sector</h2>
+<p class="hint" style="color:var(--muted);font-size:13.5px;margin:-4px 0 14px">Client names are withheld; engagements are labelled by sector and region.</p>
+<div class="proj">{proj_html}</div></div></section>
 
 <section id="credentials"><div class="wrap"><h2>Credentials</h2>
 <div class="cols">
@@ -350,7 +394,7 @@ footer .wrap{{border-top:1px solid var(--line);padding-top:18px;display:flex;fle
     var io=new IntersectionObserver(function(es){{es.forEach(function(e){{
       if(e.isIntersecting){{links.forEach(function(l){{l.classList.toggle('on',l.getAttribute('href')==='#'+e.target.id);}});}}
     }});}},{{rootMargin:'-40% 0px -55% 0px'}});
-    ['summary','competencies','experience','credentials'].forEach(function(id){{var s=document.getElementById(id); if(s)io.observe(s);}});
+    ['summary','competencies','experience','projects','credentials'].forEach(function(id){{var s=document.getElementById(id); if(s)io.observe(s);}});
   }}
   apply();
 }})();
