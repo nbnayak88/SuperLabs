@@ -75,3 +75,5 @@ Every category should eventually contain: market definition; verified analyst re
 - **C14 — [Rewards & Recognition](C14-Rewards-Recognition/README.md)** — SAP Employee Central and specialist recognition ecosystem, ten-platform longlist, 35 discovery questions, 100%-weighted RFI, 100-minute demo and 20-test POC; global fulfillment, tax, fairness and award ledger.
 
 - **C15 — [Learning Management Systems](C15-Learning-Management-Systems/README.md)** — SAP SuccessFactors Learning reference, ten-platform landscape, 35 discovery questions, 100%-weighted RFI, 100-minute demo and 20-test POC; compliance, certifications, SCORM and learning records.
+
+- **C16 — [Learning Experience Platforms](C16-Learning-Experience-Platforms/README.md)** — SAP SuccessFactors Learning baseline, ten-platform landscape, 35 discovery questions, 100%-weighted RFI, 100-minute demo and 20-test POC; skills-based discovery, curation, learning evidence and AI governance.
