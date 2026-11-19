@@ -5,7 +5,7 @@ description: Build a tailored 2-page Word CV for any role or topic from the user
 
 # sla-cv-maker
 
-Use when the user supplies a job description, role title or topic and asks for a CV, or says "curate/tailor my CV for ...". Output is one tailored `.docx`, always two pages, built by editing the user's own master CV in place.
+Use when the user supplies a job description, role title or topic and asks for a CV, or says "curate/tailor my CV for ...". Output, in one run, is (1) one tailored two-page `.docx` built by editing the user's own master CV in place, and (2) an online version of the same CV published as a GitHub page.
 
 ## 1. Inputs
 - Target role, topic or JD text (required). If only a title is given, infer the focus areas and proceed.
@@ -37,6 +37,14 @@ Keep every employer, date, client list, education entry, certification and membe
 - Send the `.docx` only. Converting to `.doc` drops the banner, photo and contact text; if a portal needs `.doc`, use Save As "Word 97-2003" in Word.
 - Final message in two or three lines: what changed, and the list of bullets and claims to verify. No recap of steps.
 
+## 4a. Online version (GitHub page), same run
+Always produce the online version together with the `.docx`; do not wait to be asked.
+1. Generate the page from the final `.docx` (for example `pandoc -t gfm --wrap=none`) so the two never drift apart. Drop the banner image, turn section titles into `##`, job titles into `###`, date lines into italics, and tighten bullet spacing. Add a blank line between an italic date line and the bullets that follow.
+2. Header: name, banner title, location, profile link. No phone number, no email address.
+3. Public-safe by default: omit phone, email and named clients; say they are available on request. Include them only if the user explicitly asks, and say so in the final message.
+4. Publish into the configured repository folder (`11-Scale/cv/<slug>.md`), update the index at `11-Scale/cv/README.md`, commit on a branch and push it to `main`. Use `git`, not the GitHub GraphQL API. Do not commit the `.docx`.
+5. Give the user the page link (`blob/main/...`) alongside the `.docx`.
+
 ## 5. Common mistakes
 - Rebuilding the CV from scratch and losing the banner and photo.
 - Editing only one copy of the banner title.
@@ -44,3 +52,5 @@ Keep every employer, date, client list, education entry, certification and membe
 - Dropping modules or client lists to fit space.
 - Adding invented metrics or certifications.
 - Ending on a third page or a nearly empty second page.
+- Publishing a phone number, email address or client names on a public page.
+- Creating the `.docx` but not the online version.

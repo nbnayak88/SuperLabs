@@ -30,7 +30,7 @@ Every future activity should define: challenge, target audience and level, prere
 
 | Activity | Description |
 |---|---|
-| [SLA CV Maker](./activities/sla-cv-maker/README.md) | Architecture-led, two-page tailored CV method with a reusable Claude skill ([`SKILL.md`](./templates/sla-cv-maker/SKILL.md)) |
+| [SLA CV Maker](./activities/sla-cv-maker/README.md) | Architecture-led, two-page tailored CV method with a reusable Claude skill ([`SKILL.md`](./templates/sla-cv-maker/SKILL.md)); one run produces the Word CV and an [online version](./cv/README.md) |
 
 ## Extension points
 

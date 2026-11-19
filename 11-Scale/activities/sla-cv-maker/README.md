@@ -43,13 +43,16 @@ Turn one master CV into a tailored, ATS-friendly, **exactly two-page** Word CV f
 6. **Build in place.** Edit the master CV's own XML so the banner, fonts and layout survive. Replace oversized picture bullets with small text bullets.
 7. **Fit two pages.** Page 2 should be at least about 80 percent full and must not spill to a third page. Shorten wording before removing content.
 8. **Validate and render.** Validate the `.docx`, render both pages and check the banner, bullet size and page breaks.
-9. **Review claims.** List bullets phrased from adjacent experience and any years-versus-dates gap for the candidate to verify before sending.
+9. **Publish the online version.** In the same run, generate a GitHub page from the final `.docx`, omit phone, email and named clients by default, add it to the online CV index and publish it.
+10. **Review claims.** List bullets phrased from adjacent experience and any years-versus-dates gap for the candidate to verify before sending.
 
 ## Output artifact
 
 `<Name>_<Role_Topic>_CV.docx` — two pages, same design as the master CV.
 
-Deliver as `.docx` only. Converting a designed banner to `.doc` drops the banner and contact text; if a portal requires `.doc`, use Save As → Word 97-2003 in Word.
+Also produced in the same run: an online version under [`cv/`](../../cv/README.md) (public-safe: no phone, email or named clients).
+
+Deliver the Word file as `.docx` only. Converting a designed banner to `.doc` drops the banner and contact text; if a portal requires `.doc`, use Save As → Word 97-2003 in Word.
 
 ## Assessment rubric
 
@@ -58,12 +61,14 @@ Deliver as `.docx` only. Converting a designed banner to `.doc` drops the banner
 | Role fit | JD keywords lead summary, competencies and every role | Keywords present but not leading | Generic CV |
 | Architecture lens | Architecture framing in every section, supported by real history | Architecture in summary only | Execution-only tone |
 | Fact integrity | No invented metrics, clients or certifications | Minor unverified phrasing flagged | Unverified claims present |
+| Online version | Page published in the same run, identical content, no personal contact data | Page published with minor drift | Missing or leaking private data |
 | Layout | Exactly two pages, page 2 mostly full, banner intact | Two pages, uneven fill | Spills to a third page or damaged banner |
 | Review hygiene | Verification list delivered with the file | Partial list | None |
 
 ## Measurable outcomes
 
 - Pages: exactly 2.
+- Online versions published per run: 1, with 0 phone numbers or email addresses on the page.
 - Common-content items retained: 100 percent (employers, dates, clients, education, certifications, memberships).
 - Invented figures or credentials: 0.
 - JD primary skills appearing in the first bullet of each role: all roles.
@@ -76,6 +81,7 @@ Deliver as `.docx` only. Converting a designed banner to `.doc` drops the banner
 
 ## Assets in this repository
 
+- [`cv/`](../../cv/README.md) — published online CVs.
 - [`templates/sla-cv-maker/SKILL.md`](../../templates/sla-cv-maker/SKILL.md) — the Claude skill definition, with personal details replaced by placeholders.
 
 ## Reuse notes
