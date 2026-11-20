@@ -79,3 +79,5 @@ Every category should eventually contain: market definition; verified analyst re
 - **C16 — [Learning Experience Platforms](C16-Learning-Experience-Platforms/README.md)** — SAP SuccessFactors Learning baseline, ten-platform landscape, 35 discovery questions, 100%-weighted RFI, 100-minute demo and 20-test POC; skills-based discovery, curation, learning evidence and AI governance.
 
 - **C17 — [Skills Intelligence](C17-Skills-Intelligence/README.md)** — SAP Talent Intelligence Hub reference, ten-platform landscape, 35 discovery questions, 100%-weighted RFI, 100-minute demo and 20-test POC; skills evidence, inference, fairness and interoperability.
+
+- **C18 — [Enterprise Payroll Platforms](C18-Enterprise-Payroll-Platforms/README.md)** — SAP Employee Central Payroll/SAP Payroll reference, ten-platform landscape, 35 discovery questions, 100%-weighted RFI, 100-minute demo and 20-test POC; country localization, gross-to-net, statutory controls, bank payments and finance reconciliation.
