@@ -1,0 +1,396 @@
+{
+  "schema_version": "1.0.0",
+  "academy_id": "SCM",
+  "source_repository": "nbnayak88/learning-township",
+  "source_folder": "05-SCM-Supply-Chain-Management-Capability-Academy-Supply-Chain-Friday",
+  "canonical_lab_registry": "registry/labs.json",
+  "status": "proposed-priorities-not-validated-activities",
+  "priority_semantics": {
+    "core": "First suggested labs for stream",
+    "available": "Every SL01-SL20 is available to all streams"
+  },
+  "shared_lab_ids": [
+    "SL01",
+    "SL02",
+    "SL03",
+    "SL04",
+    "SL05",
+    "SL06",
+    "SL07",
+    "SL08",
+    "SL09",
+    "SL10",
+    "SL11",
+    "SL12",
+    "SL13",
+    "SL14",
+    "SL15",
+    "SL16",
+    "SL17",
+    "SL18",
+    "SL19",
+    "SL20"
+  ],
+  "streams": [
+    {
+      "stream_id": "SCM01",
+      "township_folder": "SCM01-ASC1-Architecting-Autonomous-Supply-Chain-Strategy",
+      "core_lab_ids": [
+        "SL01",
+        "SL03",
+        "SL19",
+        "SL20"
+      ],
+      "other_lab_ids": [
+        "SL02",
+        "SL04",
+        "SL05",
+        "SL06",
+        "SL07",
+        "SL08",
+        "SL09",
+        "SL10",
+        "SL11",
+        "SL12",
+        "SL13",
+        "SL14",
+        "SL15",
+        "SL16",
+        "SL17",
+        "SL18"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "SCM02",
+      "township_folder": "SCM02-APS2-Architecting-Intelligent-Demand-Planning",
+      "core_lab_ids": [
+        "SL02",
+        "SL03",
+        "SL08",
+        "SL19"
+      ],
+      "other_lab_ids": [
+        "SL01",
+        "SL04",
+        "SL05",
+        "SL06",
+        "SL07",
+        "SL09",
+        "SL10",
+        "SL11",
+        "SL12",
+        "SL13",
+        "SL14",
+        "SL15",
+        "SL16",
+        "SL17",
+        "SL18",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "SCM03",
+      "township_folder": "SCM03-APN3-Architecting-Integrated-Supply-Planning",
+      "core_lab_ids": [
+        "SL02",
+        "SL03",
+        "SL07",
+        "SL08"
+      ],
+      "other_lab_ids": [
+        "SL01",
+        "SL04",
+        "SL05",
+        "SL06",
+        "SL09",
+        "SL10",
+        "SL11",
+        "SL12",
+        "SL13",
+        "SL14",
+        "SL15",
+        "SL16",
+        "SL17",
+        "SL18",
+        "SL19",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "SCM04",
+      "township_folder": "SCM04-AMP4-Architecting-Smart-Manufacturing",
+      "core_lab_ids": [
+        "SL04",
+        "SL05",
+        "SL07",
+        "SL08"
+      ],
+      "other_lab_ids": [
+        "SL01",
+        "SL02",
+        "SL03",
+        "SL06",
+        "SL09",
+        "SL10",
+        "SL11",
+        "SL12",
+        "SL13",
+        "SL14",
+        "SL15",
+        "SL16",
+        "SL17",
+        "SL18",
+        "SL19",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "SCM05",
+      "township_folder": "SCM05-ADL5-Architecting-Autonomous-Logistics-Transportation",
+      "core_lab_ids": [
+        "SL02",
+        "SL04",
+        "SL07",
+        "SL09"
+      ],
+      "other_lab_ids": [
+        "SL01",
+        "SL03",
+        "SL05",
+        "SL06",
+        "SL08",
+        "SL10",
+        "SL11",
+        "SL12",
+        "SL13",
+        "SL14",
+        "SL15",
+        "SL16",
+        "SL17",
+        "SL18",
+        "SL19",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "SCM06",
+      "township_folder": "SCM06-AIN6-Architecting-Resilient-Inventory-Management",
+      "core_lab_ids": [
+        "SL02",
+        "SL04",
+        "SL08",
+        "SL19"
+      ],
+      "other_lab_ids": [
+        "SL01",
+        "SL03",
+        "SL05",
+        "SL06",
+        "SL07",
+        "SL09",
+        "SL10",
+        "SL11",
+        "SL12",
+        "SL13",
+        "SL14",
+        "SL15",
+        "SL16",
+        "SL17",
+        "SL18",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "SCM07",
+      "township_folder": "SCM07-AQC7-Architecting-Quality-Compliance-Excellence",
+      "core_lab_ids": [
+        "SL04",
+        "SL08",
+        "SL17",
+        "SL19"
+      ],
+      "other_lab_ids": [
+        "SL01",
+        "SL02",
+        "SL03",
+        "SL05",
+        "SL06",
+        "SL07",
+        "SL09",
+        "SL10",
+        "SL11",
+        "SL12",
+        "SL13",
+        "SL14",
+        "SL15",
+        "SL16",
+        "SL18",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "SCM08",
+      "township_folder": "SCM08-ACM8-Architecting-Supplier-Collaboration-Excellence",
+      "core_lab_ids": [
+        "SL02",
+        "SL07",
+        "SL18",
+        "SL19"
+      ],
+      "other_lab_ids": [
+        "SL01",
+        "SL03",
+        "SL04",
+        "SL05",
+        "SL06",
+        "SL08",
+        "SL09",
+        "SL10",
+        "SL11",
+        "SL12",
+        "SL13",
+        "SL14",
+        "SL15",
+        "SL16",
+        "SL17",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "SCM09",
+      "township_folder": "SCM09-ASD9-Architecting-Sustainable-Supply-Chains",
+      "core_lab_ids": [
+        "SL03",
+        "SL08",
+        "SL19",
+        "SL20"
+      ],
+      "other_lab_ids": [
+        "SL01",
+        "SL02",
+        "SL04",
+        "SL05",
+        "SL06",
+        "SL07",
+        "SL09",
+        "SL10",
+        "SL11",
+        "SL12",
+        "SL13",
+        "SL14",
+        "SL15",
+        "SL16",
+        "SL17",
+        "SL18"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "SCM10",
+      "township_folder": "SCM10-AAN0-Architecting-Supply-Chain-Intelligence",
+      "core_lab_ids": [
+        "SL03",
+        "SL08",
+        "SL15",
+        "SL19"
+      ],
+      "other_lab_ids": [
+        "SL01",
+        "SL02",
+        "SL04",
+        "SL05",
+        "SL06",
+        "SL07",
+        "SL09",
+        "SL10",
+        "SL11",
+        "SL12",
+        "SL13",
+        "SL14",
+        "SL16",
+        "SL17",
+        "SL18",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "SCM11",
+      "township_folder": "SCM11-AAI1-Architecting-AI-Powered-Supply-Chain-Enterprises",
+      "core_lab_ids": [
+        "SL05",
+        "SL15",
+        "SL20",
+        "SL08"
+      ],
+      "other_lab_ids": [
+        "SL01",
+        "SL02",
+        "SL03",
+        "SL04",
+        "SL06",
+        "SL07",
+        "SL09",
+        "SL10",
+        "SL11",
+        "SL12",
+        "SL13",
+        "SL14",
+        "SL16",
+        "SL17",
+        "SL18",
+        "SL19"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "SCM12",
+      "township_folder": "SCM12-AIG2-Architecting-Connected-Supply-Chain-Ecosystems",
+      "core_lab_ids": [
+        "SL03",
+        "SL07",
+        "SL13",
+        "SL19"
+      ],
+      "other_lab_ids": [
+        "SL01",
+        "SL02",
+        "SL04",
+        "SL05",
+        "SL06",
+        "SL08",
+        "SL09",
+        "SL10",
+        "SL11",
+        "SL12",
+        "SL14",
+        "SL15",
+        "SL16",
+        "SL17",
+        "SL18",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    }
+  ]
+}
