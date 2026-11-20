@@ -1,0 +1,396 @@
+{
+  "schema_version": "1.0.0",
+  "academy_id": "CX",
+  "source_repository": "nbnayak88/learning-township",
+  "source_folder": "02-CRM-Customer-Experience-Capability-Academy-Revenue-Tuesday",
+  "canonical_lab_registry": "registry/labs.json",
+  "status": "proposed-priorities-not-validated-activities",
+  "priority_semantics": {
+    "core": "First suggested labs for stream",
+    "available": "Every SL01-SL20 is available to all streams"
+  },
+  "shared_lab_ids": [
+    "SL01",
+    "SL02",
+    "SL03",
+    "SL04",
+    "SL05",
+    "SL06",
+    "SL07",
+    "SL08",
+    "SL09",
+    "SL10",
+    "SL11",
+    "SL12",
+    "SL13",
+    "SL14",
+    "SL15",
+    "SL16",
+    "SL17",
+    "SL18",
+    "SL19",
+    "SL20"
+  ],
+  "streams": [
+    {
+      "stream_id": "CRM01",
+      "township_folder": "CRM01-ACM1-Architecting-Connected-Customer-Enterprises",
+      "core_lab_ids": [
+        "SL01",
+        "SL03",
+        "SL07",
+        "SL12"
+      ],
+      "other_lab_ids": [
+        "SL02",
+        "SL04",
+        "SL05",
+        "SL06",
+        "SL08",
+        "SL09",
+        "SL10",
+        "SL11",
+        "SL13",
+        "SL14",
+        "SL15",
+        "SL16",
+        "SL17",
+        "SL18",
+        "SL19",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "CRM02",
+      "township_folder": "CRM02-AMK2-Architecting-Autonomous-Customer-Engagement",
+      "core_lab_ids": [
+        "SL01",
+        "SL05",
+        "SL14",
+        "SL16"
+      ],
+      "other_lab_ids": [
+        "SL02",
+        "SL03",
+        "SL04",
+        "SL06",
+        "SL07",
+        "SL08",
+        "SL09",
+        "SL10",
+        "SL11",
+        "SL12",
+        "SL13",
+        "SL15",
+        "SL17",
+        "SL18",
+        "SL19",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "CRM03",
+      "township_folder": "CRM03-ASL3-Architecting-Intelligent-Revenue-Organizations",
+      "core_lab_ids": [
+        "SL02",
+        "SL03",
+        "SL12",
+        "SL19"
+      ],
+      "other_lab_ids": [
+        "SL01",
+        "SL04",
+        "SL05",
+        "SL06",
+        "SL07",
+        "SL08",
+        "SL09",
+        "SL10",
+        "SL11",
+        "SL13",
+        "SL14",
+        "SL15",
+        "SL16",
+        "SL17",
+        "SL18",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "CRM04",
+      "township_folder": "CRM04-ACO4-Architecting-Digital-Commerce-Enterprises",
+      "core_lab_ids": [
+        "SL01",
+        "SL05",
+        "SL07",
+        "SL14"
+      ],
+      "other_lab_ids": [
+        "SL02",
+        "SL03",
+        "SL04",
+        "SL06",
+        "SL08",
+        "SL09",
+        "SL10",
+        "SL11",
+        "SL12",
+        "SL13",
+        "SL15",
+        "SL16",
+        "SL17",
+        "SL18",
+        "SL19",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "CRM05",
+      "township_folder": "CRM05-ACS5-Architecting-Autonomous-Customer-Service",
+      "core_lab_ids": [
+        "SL02",
+        "SL04",
+        "SL09",
+        "SL18"
+      ],
+      "other_lab_ids": [
+        "SL01",
+        "SL03",
+        "SL05",
+        "SL06",
+        "SL07",
+        "SL08",
+        "SL10",
+        "SL11",
+        "SL12",
+        "SL13",
+        "SL14",
+        "SL15",
+        "SL16",
+        "SL17",
+        "SL19",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "CRM06",
+      "township_folder": "CRM06-ACX6-Architecting-Exceptional-Customer-Experiences",
+      "core_lab_ids": [
+        "SL01",
+        "SL02",
+        "SL08",
+        "SL18"
+      ],
+      "other_lab_ids": [
+        "SL03",
+        "SL04",
+        "SL05",
+        "SL06",
+        "SL07",
+        "SL09",
+        "SL10",
+        "SL11",
+        "SL12",
+        "SL13",
+        "SL14",
+        "SL15",
+        "SL16",
+        "SL17",
+        "SL19",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "CRM07",
+      "township_folder": "CRM07-APR7-Architecting-Recurring-Revenue-Enterprises",
+      "core_lab_ids": [
+        "SL03",
+        "SL04",
+        "SL12",
+        "SL19"
+      ],
+      "other_lab_ids": [
+        "SL01",
+        "SL02",
+        "SL05",
+        "SL06",
+        "SL07",
+        "SL08",
+        "SL09",
+        "SL10",
+        "SL11",
+        "SL13",
+        "SL14",
+        "SL15",
+        "SL16",
+        "SL17",
+        "SL18",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "CRM08",
+      "township_folder": "CRM08-AOF8-Architecting-Autonomous-Customer-Operations",
+      "core_lab_ids": [
+        "SL02",
+        "SL04",
+        "SL07",
+        "SL09"
+      ],
+      "other_lab_ids": [
+        "SL01",
+        "SL03",
+        "SL05",
+        "SL06",
+        "SL08",
+        "SL10",
+        "SL11",
+        "SL12",
+        "SL13",
+        "SL14",
+        "SL15",
+        "SL16",
+        "SL17",
+        "SL18",
+        "SL19",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "CRM09",
+      "township_folder": "CRM09-ADI9-Architecting-Customer-Intelligence",
+      "core_lab_ids": [
+        "SL03",
+        "SL08",
+        "SL15",
+        "SL19"
+      ],
+      "other_lab_ids": [
+        "SL01",
+        "SL02",
+        "SL04",
+        "SL05",
+        "SL06",
+        "SL07",
+        "SL09",
+        "SL10",
+        "SL11",
+        "SL12",
+        "SL13",
+        "SL14",
+        "SL16",
+        "SL17",
+        "SL18",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "CRM10",
+      "township_folder": "CRM10-AEX0-Architecting-Digital-Customer-Experiences",
+      "core_lab_ids": [
+        "SL05",
+        "SL14",
+        "SL16",
+        "SL18"
+      ],
+      "other_lab_ids": [
+        "SL01",
+        "SL02",
+        "SL03",
+        "SL04",
+        "SL06",
+        "SL07",
+        "SL08",
+        "SL09",
+        "SL10",
+        "SL11",
+        "SL12",
+        "SL13",
+        "SL15",
+        "SL17",
+        "SL19",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "CRM11",
+      "township_folder": "CRM11-AAI1-Architecting-AI-Powered-Customer-Enterprises",
+      "core_lab_ids": [
+        "SL05",
+        "SL15",
+        "SL20",
+        "SL08"
+      ],
+      "other_lab_ids": [
+        "SL01",
+        "SL02",
+        "SL03",
+        "SL04",
+        "SL06",
+        "SL07",
+        "SL09",
+        "SL10",
+        "SL11",
+        "SL12",
+        "SL13",
+        "SL14",
+        "SL16",
+        "SL17",
+        "SL18",
+        "SL19"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "CRM12",
+      "township_folder": "CRM12-AIG2-Architecting-Connected-Customer-Ecosystems",
+      "core_lab_ids": [
+        "SL03",
+        "SL07",
+        "SL13",
+        "SL19"
+      ],
+      "other_lab_ids": [
+        "SL01",
+        "SL02",
+        "SL04",
+        "SL05",
+        "SL06",
+        "SL08",
+        "SL09",
+        "SL10",
+        "SL11",
+        "SL12",
+        "SL14",
+        "SL15",
+        "SL16",
+        "SL17",
+        "SL18",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    }
+  ]
+}
