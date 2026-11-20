@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "registry_id": "successlabs-seven-enterprise-academies",
-  "status": "phase-1-registered",
+  "status": "phase-2-stream-mappings-published",
   "source_repository": "nbnayak88/learning-township",
   "superlabs_registry_ref": "registry/labs.json",
   "mapping_contract_ref": "schemas/context-mapping.schema.json",
@@ -36,13 +36,13 @@
         "HCM",
         "HR"
       ],
-      "stream_scope": "HR01-HR12",
+      "stream_scope": "12 verified streams",
       "canonical_lab_registry": "registry/labs.json",
       "content_pack_root": "content-packs/HR/",
       "mapping_registry_ref": "mappings/hr.json",
-      "integration_status": "registered-not-mapped",
+      "integration_status": "stream-priorities-proposed-not-integrated",
       "township_folder_candidate": "01-HR-Human-Capital-Capability-Academy-Workforce-Monday",
-      "township_folder_verified": false
+      "township_folder_verified": true
     },
     {
       "id": "CX",
@@ -52,13 +52,13 @@
         "CRM",
         "Revenue"
       ],
-      "stream_scope": "domain-defined",
+      "stream_scope": "12 verified streams",
       "canonical_lab_registry": "registry/labs.json",
       "content_pack_root": "content-packs/CX/",
       "mapping_registry_ref": "mappings/cx.json",
-      "integration_status": "registered-not-mapped",
-      "township_folder_candidate": "02-CRM-Customer-Relationship-Management-Academy-Revenue-Tuesday",
-      "township_folder_verified": false
+      "integration_status": "stream-priorities-proposed-not-integrated",
+      "township_folder_candidate": "02-CRM-Customer-Experience-Capability-Academy-Revenue-Tuesday",
+      "township_folder_verified": true
     },
     {
       "id": "FI",
@@ -67,13 +67,13 @@
       "aliases": [
         "Finance"
       ],
-      "stream_scope": "domain-defined",
+      "stream_scope": "12 verified streams",
       "canonical_lab_registry": "registry/labs.json",
       "content_pack_root": "content-packs/FI/",
       "mapping_registry_ref": "mappings/fi.json",
-      "integration_status": "registered-not-mapped",
-      "township_folder_candidate": "03-FI-Finance-Academy-Finance-Wednesday",
-      "township_folder_verified": false
+      "integration_status": "stream-priorities-proposed-not-integrated",
+      "township_folder_candidate": "03-FI-Finance-Capability-Academy-Finance-Wednesday",
+      "township_folder_verified": true
     },
     {
       "id": "PROC",
@@ -82,13 +82,13 @@
       "aliases": [
         "Procurement"
       ],
-      "stream_scope": "domain-defined",
+      "stream_scope": "12 verified streams",
       "canonical_lab_registry": "registry/labs.json",
       "content_pack_root": "content-packs/PROC/",
       "mapping_registry_ref": "mappings/proc.json",
-      "integration_status": "registered-not-mapped",
-      "township_folder_candidate": "04-Procurement-Academy-Procurement-Thursday",
-      "township_folder_verified": false
+      "integration_status": "stream-priorities-proposed-not-integrated",
+      "township_folder_candidate": "04-PROC-Procurement-Capability-Academy-Procurement-Thursday",
+      "township_folder_verified": true
     },
     {
       "id": "SCM",
@@ -97,13 +97,13 @@
       "aliases": [
         "SupplyChain"
       ],
-      "stream_scope": "domain-defined",
+      "stream_scope": "12 verified streams",
       "canonical_lab_registry": "registry/labs.json",
       "content_pack_root": "content-packs/SCM/",
       "mapping_registry_ref": "mappings/scm.json",
-      "integration_status": "registered-not-mapped",
-      "township_folder_candidate": "05-SCM-Supply-Chain-Management-Academy-Supply-Chain-Friday",
-      "township_folder_verified": false
+      "integration_status": "stream-priorities-proposed-not-integrated",
+      "township_folder_candidate": "05-SCM-Supply-Chain-Management-Capability-Academy-Supply-Chain-Friday",
+      "township_folder_verified": true
     },
     {
       "id": "BTM",
@@ -112,13 +112,13 @@
       "aliases": [
         "Strategy"
       ],
-      "stream_scope": "domain-defined",
+      "stream_scope": "12 verified streams",
       "canonical_lab_registry": "registry/labs.json",
       "content_pack_root": "content-packs/BTM/",
       "mapping_registry_ref": "mappings/btm.json",
-      "integration_status": "registered-not-mapped",
-      "township_folder_candidate": "06-BTM-Business-Transformation-Management-Academy-Strategy-Saturday",
-      "township_folder_verified": false
+      "integration_status": "stream-priorities-proposed-not-integrated",
+      "township_folder_candidate": "06-BTM-Business-Transformation-Capability-Academy-Transformation-Saturday",
+      "township_folder_verified": true
     },
     {
       "id": "LIT",
@@ -127,13 +127,13 @@
       "aliases": [
         "Leadership"
       ],
-      "stream_scope": "domain-defined",
+      "stream_scope": "12 verified streams",
       "canonical_lab_registry": "registry/labs.json",
       "content_pack_root": "content-packs/LIT/",
       "mapping_registry_ref": "mappings/lit.json",
-      "integration_status": "registered-not-mapped",
-      "township_folder_candidate": "07-LIT-Leadership-Academy-Source-Sunday",
-      "township_folder_verified": false
+      "integration_status": "stream-priorities-proposed-not-integrated",
+      "township_folder_candidate": "07-LIT-Leadership-and-Identity-Transformation-Capability-Academy-Source-Sunday",
+      "township_folder_verified": true
     }
   ]
 }
