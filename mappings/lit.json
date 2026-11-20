@@ -1,0 +1,396 @@
+{
+  "schema_version": "1.0.0",
+  "academy_id": "LIT",
+  "source_repository": "nbnayak88/learning-township",
+  "source_folder": "07-LIT-Leadership-and-Identity-Transformation-Capability-Academy-Source-Sunday",
+  "canonical_lab_registry": "registry/labs.json",
+  "status": "proposed-priorities-not-validated-activities",
+  "priority_semantics": {
+    "core": "First suggested labs for stream",
+    "available": "Every SL01-SL20 is available to all streams"
+  },
+  "shared_lab_ids": [
+    "SL01",
+    "SL02",
+    "SL03",
+    "SL04",
+    "SL05",
+    "SL06",
+    "SL07",
+    "SL08",
+    "SL09",
+    "SL10",
+    "SL11",
+    "SL12",
+    "SL13",
+    "SL14",
+    "SL15",
+    "SL16",
+    "SL17",
+    "SL18",
+    "SL19",
+    "SL20"
+  ],
+  "streams": [
+    {
+      "stream_id": "LIT01",
+      "township_folder": "LIT01-IDT1-Architecting-My-Purpose-Identity",
+      "core_lab_ids": [
+        "SL01",
+        "SL11",
+        "SL17",
+        "SL18"
+      ],
+      "other_lab_ids": [
+        "SL02",
+        "SL03",
+        "SL04",
+        "SL05",
+        "SL06",
+        "SL07",
+        "SL08",
+        "SL09",
+        "SL10",
+        "SL12",
+        "SL13",
+        "SL14",
+        "SL15",
+        "SL16",
+        "SL19",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "LIT02",
+      "township_folder": "LIT02-IDT2-Architecting-a-Growth-Mindset-Life",
+      "core_lab_ids": [
+        "SL11",
+        "SL16",
+        "SL18",
+        "SL20"
+      ],
+      "other_lab_ids": [
+        "SL01",
+        "SL02",
+        "SL03",
+        "SL04",
+        "SL05",
+        "SL06",
+        "SL07",
+        "SL08",
+        "SL09",
+        "SL10",
+        "SL12",
+        "SL13",
+        "SL14",
+        "SL15",
+        "SL17",
+        "SL19"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "LIT03",
+      "township_folder": "LIT03-IDT3-Architecting-Emotional-Freedom",
+      "core_lab_ids": [
+        "SL04",
+        "SL11",
+        "SL17",
+        "SL18"
+      ],
+      "other_lab_ids": [
+        "SL01",
+        "SL02",
+        "SL03",
+        "SL05",
+        "SL06",
+        "SL07",
+        "SL08",
+        "SL09",
+        "SL10",
+        "SL12",
+        "SL13",
+        "SL14",
+        "SL15",
+        "SL16",
+        "SL19",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "LIT04",
+      "township_folder": "LIT04-IDT4-Architecting-Authentic-Leadership",
+      "core_lab_ids": [
+        "SL11",
+        "SL13",
+        "SL16",
+        "SL18"
+      ],
+      "other_lab_ids": [
+        "SL01",
+        "SL02",
+        "SL03",
+        "SL04",
+        "SL05",
+        "SL06",
+        "SL07",
+        "SL08",
+        "SL09",
+        "SL10",
+        "SL12",
+        "SL14",
+        "SL15",
+        "SL17",
+        "SL19",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "LIT05",
+      "township_folder": "LIT05-IDT5-Architecting-an-Intentional-Life",
+      "core_lab_ids": [
+        "SL01",
+        "SL03",
+        "SL11",
+        "SL17"
+      ],
+      "other_lab_ids": [
+        "SL02",
+        "SL04",
+        "SL05",
+        "SL06",
+        "SL07",
+        "SL08",
+        "SL09",
+        "SL10",
+        "SL12",
+        "SL13",
+        "SL14",
+        "SL15",
+        "SL16",
+        "SL18",
+        "SL19",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "LIT06",
+      "township_folder": "LIT06-IDT6-Architecting-Continuous-Learning",
+      "core_lab_ids": [
+        "SL11",
+        "SL16",
+        "SL17",
+        "SL18"
+      ],
+      "other_lab_ids": [
+        "SL01",
+        "SL02",
+        "SL03",
+        "SL04",
+        "SL05",
+        "SL06",
+        "SL07",
+        "SL08",
+        "SL09",
+        "SL10",
+        "SL12",
+        "SL13",
+        "SL14",
+        "SL15",
+        "SL19",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "LIT07",
+      "township_folder": "LIT07-IDT7-Architecting-a-Balanced-Digital-Life",
+      "core_lab_ids": [
+        "SL04",
+        "SL08",
+        "SL11",
+        "SL17"
+      ],
+      "other_lab_ids": [
+        "SL01",
+        "SL02",
+        "SL03",
+        "SL05",
+        "SL06",
+        "SL07",
+        "SL09",
+        "SL10",
+        "SL12",
+        "SL13",
+        "SL14",
+        "SL15",
+        "SL16",
+        "SL18",
+        "SL19",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "LIT08",
+      "township_folder": "LIT08-IDT8-Architecting-Meaningful-Relationships",
+      "core_lab_ids": [
+        "SL11",
+        "SL16",
+        "SL18",
+        "SL17"
+      ],
+      "other_lab_ids": [
+        "SL01",
+        "SL02",
+        "SL03",
+        "SL04",
+        "SL05",
+        "SL06",
+        "SL07",
+        "SL08",
+        "SL09",
+        "SL10",
+        "SL12",
+        "SL13",
+        "SL14",
+        "SL15",
+        "SL19",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "LIT09",
+      "township_folder": "LIT09-IDT9-Architecting-Integrity-Values",
+      "core_lab_ids": [
+        "SL08",
+        "SL11",
+        "SL17",
+        "SL18"
+      ],
+      "other_lab_ids": [
+        "SL01",
+        "SL02",
+        "SL03",
+        "SL04",
+        "SL05",
+        "SL06",
+        "SL07",
+        "SL09",
+        "SL10",
+        "SL12",
+        "SL13",
+        "SL14",
+        "SL15",
+        "SL16",
+        "SL19",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "LIT10",
+      "township_folder": "LIT10-IDT10-Architecting-a-Fulfilling-Life",
+      "core_lab_ids": [
+        "SL01",
+        "SL11",
+        "SL17",
+        "SL20"
+      ],
+      "other_lab_ids": [
+        "SL02",
+        "SL03",
+        "SL04",
+        "SL05",
+        "SL06",
+        "SL07",
+        "SL08",
+        "SL09",
+        "SL10",
+        "SL12",
+        "SL13",
+        "SL14",
+        "SL15",
+        "SL16",
+        "SL18",
+        "SL19"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "LIT11",
+      "township_folder": "LIT11-IDT11-Architecting-Inner-Transformation",
+      "core_lab_ids": [
+        "SL11",
+        "SL17",
+        "SL18",
+        "SL20"
+      ],
+      "other_lab_ids": [
+        "SL01",
+        "SL02",
+        "SL03",
+        "SL04",
+        "SL05",
+        "SL06",
+        "SL07",
+        "SL08",
+        "SL09",
+        "SL10",
+        "SL12",
+        "SL13",
+        "SL14",
+        "SL15",
+        "SL16",
+        "SL19"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "LIT12",
+      "township_folder": "LIT12-IDT12-Architecting-a-Better-World",
+      "core_lab_ids": [
+        "SL01",
+        "SL11",
+        "SL16",
+        "SL20"
+      ],
+      "other_lab_ids": [
+        "SL02",
+        "SL03",
+        "SL04",
+        "SL05",
+        "SL06",
+        "SL07",
+        "SL08",
+        "SL09",
+        "SL10",
+        "SL12",
+        "SL13",
+        "SL14",
+        "SL15",
+        "SL17",
+        "SL18",
+        "SL19"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    }
+  ]
+}
