@@ -1,0 +1,396 @@
+{
+  "schema_version": "1.0.0",
+  "academy_id": "PROC",
+  "source_repository": "nbnayak88/learning-township",
+  "source_folder": "04-PROC-Procurement-Capability-Academy-Procurement-Thursday",
+  "canonical_lab_registry": "registry/labs.json",
+  "status": "proposed-priorities-not-validated-activities",
+  "priority_semantics": {
+    "core": "First suggested labs for stream",
+    "available": "Every SL01-SL20 is available to all streams"
+  },
+  "shared_lab_ids": [
+    "SL01",
+    "SL02",
+    "SL03",
+    "SL04",
+    "SL05",
+    "SL06",
+    "SL07",
+    "SL08",
+    "SL09",
+    "SL10",
+    "SL11",
+    "SL12",
+    "SL13",
+    "SL14",
+    "SL15",
+    "SL16",
+    "SL17",
+    "SL18",
+    "SL19",
+    "SL20"
+  ],
+  "streams": [
+    {
+      "stream_id": "PROC01",
+      "township_folder": "PROC01-APR1-Architecting-Autonomous-Procurement-Strategy",
+      "core_lab_ids": [
+        "SL01",
+        "SL03",
+        "SL12",
+        "SL19"
+      ],
+      "other_lab_ids": [
+        "SL02",
+        "SL04",
+        "SL05",
+        "SL06",
+        "SL07",
+        "SL08",
+        "SL09",
+        "SL10",
+        "SL11",
+        "SL13",
+        "SL14",
+        "SL15",
+        "SL16",
+        "SL17",
+        "SL18",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "PROC02",
+      "township_folder": "PROC02-ASR2-Architecting-Intelligent-Supplier-Sourcing",
+      "core_lab_ids": [
+        "SL01",
+        "SL12",
+        "SL18",
+        "SL19"
+      ],
+      "other_lab_ids": [
+        "SL02",
+        "SL03",
+        "SL04",
+        "SL05",
+        "SL06",
+        "SL07",
+        "SL08",
+        "SL09",
+        "SL10",
+        "SL11",
+        "SL13",
+        "SL14",
+        "SL15",
+        "SL16",
+        "SL17",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "PROC03",
+      "township_folder": "PROC03-ASN3-Architecting-Contract-Excellence",
+      "core_lab_ids": [
+        "SL03",
+        "SL05",
+        "SL08",
+        "SL17"
+      ],
+      "other_lab_ids": [
+        "SL01",
+        "SL02",
+        "SL04",
+        "SL06",
+        "SL07",
+        "SL09",
+        "SL10",
+        "SL11",
+        "SL12",
+        "SL13",
+        "SL14",
+        "SL15",
+        "SL16",
+        "SL18",
+        "SL19",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "PROC04",
+      "township_folder": "PROC04-ASU4-Architecting-Supplier-Relationship-Excellence",
+      "core_lab_ids": [
+        "SL02",
+        "SL04",
+        "SL18",
+        "SL19"
+      ],
+      "other_lab_ids": [
+        "SL01",
+        "SL03",
+        "SL05",
+        "SL06",
+        "SL07",
+        "SL08",
+        "SL09",
+        "SL10",
+        "SL11",
+        "SL12",
+        "SL13",
+        "SL14",
+        "SL15",
+        "SL16",
+        "SL17",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "PROC05",
+      "township_folder": "PROC05-APO5-Architecting-Autonomous-Procure-to-Pay",
+      "core_lab_ids": [
+        "SL02",
+        "SL05",
+        "SL07",
+        "SL08"
+      ],
+      "other_lab_ids": [
+        "SL01",
+        "SL03",
+        "SL04",
+        "SL06",
+        "SL09",
+        "SL10",
+        "SL11",
+        "SL12",
+        "SL13",
+        "SL14",
+        "SL15",
+        "SL16",
+        "SL17",
+        "SL18",
+        "SL19",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "PROC06",
+      "township_folder": "PROC06-ARI6-Architecting-Resilient-Supply-Operations",
+      "core_lab_ids": [
+        "SL03",
+        "SL04",
+        "SL07",
+        "SL19"
+      ],
+      "other_lab_ids": [
+        "SL01",
+        "SL02",
+        "SL05",
+        "SL06",
+        "SL08",
+        "SL09",
+        "SL10",
+        "SL11",
+        "SL12",
+        "SL13",
+        "SL14",
+        "SL15",
+        "SL16",
+        "SL17",
+        "SL18",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "PROC07",
+      "township_folder": "PROC07-AQC7-Architecting-Supplier-Quality-Performance-Excellence",
+      "core_lab_ids": [
+        "SL04",
+        "SL08",
+        "SL18",
+        "SL19"
+      ],
+      "other_lab_ids": [
+        "SL01",
+        "SL02",
+        "SL03",
+        "SL05",
+        "SL06",
+        "SL07",
+        "SL09",
+        "SL10",
+        "SL11",
+        "SL12",
+        "SL13",
+        "SL14",
+        "SL15",
+        "SL16",
+        "SL17",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "PROC08",
+      "township_folder": "PROC08-ASP8-Architecting-Spend-Optimization-Excellence",
+      "core_lab_ids": [
+        "SL02",
+        "SL03",
+        "SL08",
+        "SL19"
+      ],
+      "other_lab_ids": [
+        "SL01",
+        "SL04",
+        "SL05",
+        "SL06",
+        "SL07",
+        "SL09",
+        "SL10",
+        "SL11",
+        "SL12",
+        "SL13",
+        "SL14",
+        "SL15",
+        "SL16",
+        "SL17",
+        "SL18",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "PROC09",
+      "township_folder": "PROC09-ARG9-Architecting-Risk-Sustainable-Procurement",
+      "core_lab_ids": [
+        "SL03",
+        "SL08",
+        "SL17",
+        "SL19"
+      ],
+      "other_lab_ids": [
+        "SL01",
+        "SL02",
+        "SL04",
+        "SL05",
+        "SL06",
+        "SL07",
+        "SL09",
+        "SL10",
+        "SL11",
+        "SL12",
+        "SL13",
+        "SL14",
+        "SL15",
+        "SL16",
+        "SL18",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "PROC10",
+      "township_folder": "PROC10-AAN0-Architecting-Procurement-Intelligence",
+      "core_lab_ids": [
+        "SL03",
+        "SL08",
+        "SL15",
+        "SL19"
+      ],
+      "other_lab_ids": [
+        "SL01",
+        "SL02",
+        "SL04",
+        "SL05",
+        "SL06",
+        "SL07",
+        "SL09",
+        "SL10",
+        "SL11",
+        "SL12",
+        "SL13",
+        "SL14",
+        "SL16",
+        "SL17",
+        "SL18",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "PROC11",
+      "township_folder": "PROC11-AAI1-Architecting-AI-Powered-Procurement-Enterprises",
+      "core_lab_ids": [
+        "SL05",
+        "SL15",
+        "SL20",
+        "SL08"
+      ],
+      "other_lab_ids": [
+        "SL01",
+        "SL02",
+        "SL03",
+        "SL04",
+        "SL06",
+        "SL07",
+        "SL09",
+        "SL10",
+        "SL11",
+        "SL12",
+        "SL13",
+        "SL14",
+        "SL16",
+        "SL17",
+        "SL18",
+        "SL19"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "PROC12",
+      "township_folder": "PROC12-AIG2-Architecting-Connected-Procurement-Enterprises",
+      "core_lab_ids": [
+        "SL03",
+        "SL07",
+        "SL13",
+        "SL19"
+      ],
+      "other_lab_ids": [
+        "SL01",
+        "SL02",
+        "SL04",
+        "SL05",
+        "SL06",
+        "SL08",
+        "SL09",
+        "SL10",
+        "SL11",
+        "SL12",
+        "SL14",
+        "SL15",
+        "SL16",
+        "SL17",
+        "SL18",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    }
+  ]
+}
