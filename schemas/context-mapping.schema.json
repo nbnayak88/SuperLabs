@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SuperLabs Enterprise Academy Context Mapping",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "mapping_id",
+    "academy_id",
+    "lab_id",
+    "priority",
+    "status"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "mapping_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "academy_id": {
+      "enum": [
+        "HR",
+        "CX",
+        "FI",
+        "PROC",
+        "SCM",
+        "BTM",
+        "LIT"
+      ]
+    },
+    "lab_id": {
+      "type": "string",
+      "pattern": "^SL(0[1-9]|1[0-9]|20)$"
+    },
+    "stream_id": {
+      "type": "string"
+    },
+    "sector_id": {
+      "type": "string"
+    },
+    "learning_level": {
+      "enum": [
+        "Origin",
+        "Pre-Foundation",
+        "Foundation",
+        "Essentials",
+        "Advanced",
+        "Ultimate"
+      ]
+    },
+    "learning_format": {
+      "type": "string"
+    },
+    "platform": {
+      "type": "string"
+    },
+    "case_study_id": {
+      "type": "string"
+    },
+    "content_pack_ref": {
+      "type": "string"
+    },
+    "activity_id": {
+      "type": "string"
+    },
+    "priority": {
+      "enum": [
+        "core",
+        "recommended",
+        "optional"
+      ]
+    },
+    "status": {
+      "enum": [
+        "proposed",
+        "reviewed",
+        "validated",
+        "live"
+      ]
+    },
+    "evidence_required": {
+      "type": "boolean"
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}
