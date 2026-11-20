@@ -1,0 +1,161 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SuperLabs Reusable Activity Contract",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "activity_id",
+    "lab_id",
+    "title",
+    "challenge",
+    "audience",
+    "level",
+    "duration_minutes",
+    "prerequisites",
+    "inputs",
+    "steps",
+    "output_artifacts",
+    "assessment_rubric",
+    "measurable_outcomes",
+    "reflection_prompts"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "activity_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "lab_id": {
+      "type": "string",
+      "pattern": "^SL(0[1-9]|1[0-9]|20)$"
+    },
+    "title": {
+      "type": "string"
+    },
+    "challenge": {
+      "type": "string"
+    },
+    "audience": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "level": {
+      "type": "string",
+      "enum": [
+        "Origin",
+        "Pre-Foundation",
+        "Foundation",
+        "Essentials",
+        "Advanced",
+        "Ultimate"
+      ]
+    },
+    "duration_minutes": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "prerequisites": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "inputs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "steps": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "output_artifacts": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "assessment_rubric": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "criterion",
+          "weight"
+        ],
+        "properties": {
+          "criterion": {
+            "type": "string"
+          },
+          "weight": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100
+          }
+        }
+      }
+    },
+    "measurable_outcomes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "reflection_prompts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "context": {
+      "type": "object",
+      "properties": {
+        "academy": {
+          "type": "string"
+        },
+        "stream": {
+          "type": "string"
+        },
+        "sector": {
+          "type": "string"
+        },
+        "format": {
+          "type": "string"
+        },
+        "platform": {
+          "type": "string"
+        },
+        "case_study": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "content_pack_ref": {
+      "type": "string"
+    },
+    "engine_ref": {
+      "type": "string"
+    },
+    "deployment_status": {
+      "type": "string",
+      "enum": [
+        "scaffold",
+        "prototype",
+        "tested",
+        "live"
+      ]
+    }
+  }
+}
