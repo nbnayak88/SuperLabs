@@ -1,0 +1,139 @@
+{
+  "schema_version": "1.0.0",
+  "registry_id": "successlabs-seven-enterprise-academies",
+  "status": "phase-1-registered",
+  "source_repository": "nbnayak88/learning-township",
+  "superlabs_registry_ref": "registry/labs.json",
+  "mapping_contract_ref": "schemas/context-mapping.schema.json",
+  "shared_lab_ids": [
+    "SL01",
+    "SL02",
+    "SL03",
+    "SL04",
+    "SL05",
+    "SL06",
+    "SL07",
+    "SL08",
+    "SL09",
+    "SL10",
+    "SL11",
+    "SL12",
+    "SL13",
+    "SL14",
+    "SL15",
+    "SL16",
+    "SL17",
+    "SL18",
+    "SL19",
+    "SL20"
+  ],
+  "academies": [
+    {
+      "id": "HR",
+      "name": "Human Capital Capability Academy",
+      "weekly_theme": "Workforce Monday",
+      "aliases": [
+        "HCM",
+        "HR"
+      ],
+      "stream_scope": "HR01-HR12",
+      "canonical_lab_registry": "registry/labs.json",
+      "content_pack_root": "content-packs/HR/",
+      "mapping_registry_ref": "mappings/hr.json",
+      "integration_status": "registered-not-mapped",
+      "township_folder_candidate": "01-HR-Human-Capital-Capability-Academy-Workforce-Monday",
+      "township_folder_verified": false
+    },
+    {
+      "id": "CX",
+      "name": "Customer Experience Capability Academy",
+      "weekly_theme": "Revenue Tuesday",
+      "aliases": [
+        "CRM",
+        "Revenue"
+      ],
+      "stream_scope": "domain-defined",
+      "canonical_lab_registry": "registry/labs.json",
+      "content_pack_root": "content-packs/CX/",
+      "mapping_registry_ref": "mappings/cx.json",
+      "integration_status": "registered-not-mapped",
+      "township_folder_candidate": "02-CRM-Customer-Relationship-Management-Academy-Revenue-Tuesday",
+      "township_folder_verified": false
+    },
+    {
+      "id": "FI",
+      "name": "Finance Capability Academy",
+      "weekly_theme": "Finance Wednesday",
+      "aliases": [
+        "Finance"
+      ],
+      "stream_scope": "domain-defined",
+      "canonical_lab_registry": "registry/labs.json",
+      "content_pack_root": "content-packs/FI/",
+      "mapping_registry_ref": "mappings/fi.json",
+      "integration_status": "registered-not-mapped",
+      "township_folder_candidate": "03-FI-Finance-Academy-Finance-Wednesday",
+      "township_folder_verified": false
+    },
+    {
+      "id": "PROC",
+      "name": "Procurement Capability Academy",
+      "weekly_theme": "Procurement Thursday",
+      "aliases": [
+        "Procurement"
+      ],
+      "stream_scope": "domain-defined",
+      "canonical_lab_registry": "registry/labs.json",
+      "content_pack_root": "content-packs/PROC/",
+      "mapping_registry_ref": "mappings/proc.json",
+      "integration_status": "registered-not-mapped",
+      "township_folder_candidate": "04-Procurement-Academy-Procurement-Thursday",
+      "township_folder_verified": false
+    },
+    {
+      "id": "SCM",
+      "name": "Supply Chain Management Capability Academy",
+      "weekly_theme": "Supply Chain Friday",
+      "aliases": [
+        "SupplyChain"
+      ],
+      "stream_scope": "domain-defined",
+      "canonical_lab_registry": "registry/labs.json",
+      "content_pack_root": "content-packs/SCM/",
+      "mapping_registry_ref": "mappings/scm.json",
+      "integration_status": "registered-not-mapped",
+      "township_folder_candidate": "05-SCM-Supply-Chain-Management-Academy-Supply-Chain-Friday",
+      "township_folder_verified": false
+    },
+    {
+      "id": "BTM",
+      "name": "Business Transformation Management Capability Academy",
+      "weekly_theme": "Strategy Saturday",
+      "aliases": [
+        "Strategy"
+      ],
+      "stream_scope": "domain-defined",
+      "canonical_lab_registry": "registry/labs.json",
+      "content_pack_root": "content-packs/BTM/",
+      "mapping_registry_ref": "mappings/btm.json",
+      "integration_status": "registered-not-mapped",
+      "township_folder_candidate": "06-BTM-Business-Transformation-Management-Academy-Strategy-Saturday",
+      "township_folder_verified": false
+    },
+    {
+      "id": "LIT",
+      "name": "Leadership Capability Academy",
+      "weekly_theme": "Source Sunday",
+      "aliases": [
+        "Leadership"
+      ],
+      "stream_scope": "domain-defined",
+      "canonical_lab_registry": "registry/labs.json",
+      "content_pack_root": "content-packs/LIT/",
+      "mapping_registry_ref": "mappings/lit.json",
+      "integration_status": "registered-not-mapped",
+      "township_folder_candidate": "07-LIT-Leadership-Academy-Source-Sunday",
+      "township_folder_verified": false
+    }
+  ]
+}
