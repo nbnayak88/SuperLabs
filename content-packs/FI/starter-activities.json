@@ -1,0 +1,777 @@
+{
+  "schema_version": "1.0.0",
+  "academy_id": "FI",
+  "pack_id": "FI-STARTER-12",
+  "status": "draft-contextual-learning-design",
+  "purpose": "One starter challenge per verified stream; exercises use canonical shared lab methodology and do not duplicate lab engines",
+  "activities": [
+    {
+      "activity_id": "FI-01-STARTER-001",
+      "stream_id": "FI01",
+      "stream_folder": "FI01-AFR1-Architecting-Autonomous-Financial-Close",
+      "lab_id": "SL02",
+      "title": "Explore and architect: Autonomous Financial Close",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of FI01 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL02",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "FI",
+        "stream": "FI01"
+      },
+      "engine_ref": "registry/labs.json#SL02",
+      "deployment_status": "scaffold"
+    },
+    {
+      "activity_id": "FI-02-STARTER-001",
+      "stream_id": "FI02",
+      "stream_folder": "FI02-APT2-Architecting-Autonomous-Payables",
+      "lab_id": "SL02",
+      "title": "Explore and architect: Autonomous Payables",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of FI02 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL02",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "FI",
+        "stream": "FI02"
+      },
+      "engine_ref": "registry/labs.json#SL02",
+      "deployment_status": "scaffold"
+    },
+    {
+      "activity_id": "FI-03-STARTER-001",
+      "stream_id": "FI03",
+      "stream_folder": "FI03-AOT3-Architecting-Intelligent-Revenue-Operations",
+      "lab_id": "SL02",
+      "title": "Explore and architect: Intelligent Revenue Operations",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of FI03 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL02",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "FI",
+        "stream": "FI03"
+      },
+      "engine_ref": "registry/labs.json#SL02",
+      "deployment_status": "scaffold"
+    },
+    {
+      "activity_id": "FI-04-STARTER-001",
+      "stream_id": "FI04",
+      "stream_folder": "FI04-ATX4-Architecting-Digital-Tax-Enterprises",
+      "lab_id": "SL03",
+      "title": "Explore and architect: Digital Tax Enterprises",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of FI04 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL03",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "FI",
+        "stream": "FI04"
+      },
+      "engine_ref": "registry/labs.json#SL03",
+      "deployment_status": "scaffold"
+    },
+    {
+      "activity_id": "FI-05-STARTER-001",
+      "stream_id": "FI05",
+      "stream_folder": "FI05-ATR5-Architecting-Autonomous-Treasury-Operations",
+      "lab_id": "SL02",
+      "title": "Explore and architect: Autonomous Treasury Operations",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of FI05 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL02",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "FI",
+        "stream": "FI05"
+      },
+      "engine_ref": "registry/labs.json#SL02",
+      "deployment_status": "scaffold"
+    },
+    {
+      "activity_id": "FI-06-STARTER-001",
+      "stream_id": "FI06",
+      "stream_folder": "FI06-AFP6-Architecting-Enterprise-Financial-Planning",
+      "lab_id": "SL01",
+      "title": "Explore and architect: Enterprise Financial Planning",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of FI06 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL01",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "FI",
+        "stream": "FI06"
+      },
+      "engine_ref": "registry/labs.json#SL01",
+      "deployment_status": "scaffold"
+    },
+    {
+      "activity_id": "FI-07-STARTER-001",
+      "stream_id": "FI07",
+      "stream_folder": "FI07-ACC7-Architecting-Cost-Profitability-Excellence",
+      "lab_id": "SL02",
+      "title": "Explore and architect: Cost Profitability Excellence",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of FI07 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL02",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "FI",
+        "stream": "FI07"
+      },
+      "engine_ref": "registry/labs.json#SL02",
+      "deployment_status": "scaffold"
+    },
+    {
+      "activity_id": "FI-08-STARTER-001",
+      "stream_id": "FI08",
+      "stream_folder": "FI08-AFA8-Architecting-Enterprise-Asset-Accounting",
+      "lab_id": "SL04",
+      "title": "Explore and architect: Enterprise Asset Accounting",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of FI08 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL04",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "FI",
+        "stream": "FI08"
+      },
+      "engine_ref": "registry/labs.json#SL04",
+      "deployment_status": "scaffold"
+    },
+    {
+      "activity_id": "FI-09-STARTER-001",
+      "stream_id": "FI09",
+      "stream_folder": "FI09-AGR9-Architecting-Financial-Governance-Risk",
+      "lab_id": "SL03",
+      "title": "Explore and architect: Financial Governance Risk",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of FI09 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL03",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "FI",
+        "stream": "FI09"
+      },
+      "engine_ref": "registry/labs.json#SL03",
+      "deployment_status": "scaffold"
+    },
+    {
+      "activity_id": "FI-10-STARTER-001",
+      "stream_id": "FI10",
+      "stream_folder": "FI10-AFI0-Architecting-Financial-Intelligence",
+      "lab_id": "SL03",
+      "title": "Explore and architect: Financial Intelligence",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of FI10 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL03",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "FI",
+        "stream": "FI10"
+      },
+      "engine_ref": "registry/labs.json#SL03",
+      "deployment_status": "scaffold"
+    },
+    {
+      "activity_id": "FI-11-STARTER-001",
+      "stream_id": "FI11",
+      "stream_folder": "FI11-AAI1-Architecting-AI-Powered-Finance-Enterprises",
+      "lab_id": "SL05",
+      "title": "Explore and architect: AI Powered Finance Enterprises",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of FI11 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL05",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "FI",
+        "stream": "FI11"
+      },
+      "engine_ref": "registry/labs.json#SL05",
+      "deployment_status": "scaffold"
+    },
+    {
+      "activity_id": "FI-12-STARTER-001",
+      "stream_id": "FI12",
+      "stream_folder": "FI12-AIG2-Architecting-Connected-Financial-Enterprises",
+      "lab_id": "SL03",
+      "title": "Explore and architect: Connected Financial Enterprises",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of FI12 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL03",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "FI",
+        "stream": "FI12"
+      },
+      "engine_ref": "registry/labs.json#SL03",
+      "deployment_status": "scaffold"
+    }
+  ]
+}
