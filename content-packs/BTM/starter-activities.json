@@ -1,0 +1,777 @@
+{
+  "schema_version": "1.0.0",
+  "academy_id": "BTM",
+  "pack_id": "BTM-STARTER-12",
+  "status": "draft-contextual-learning-design",
+  "purpose": "One starter challenge per verified stream; exercises use canonical shared lab methodology and do not duplicate lab engines",
+  "activities": [
+    {
+      "activity_id": "BTM-01-STARTER-001",
+      "stream_id": "BTM01",
+      "stream_folder": "BTM01-ABT1-Architecting-Autonomous-Enterprise-Strategy",
+      "lab_id": "SL01",
+      "title": "Explore and architect: Autonomous Enterprise Strategy",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of BTM01 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL01",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "BTM",
+        "stream": "BTM01"
+      },
+      "engine_ref": "registry/labs.json#SL01",
+      "deployment_status": "scaffold"
+    },
+    {
+      "activity_id": "BTM-02-STARTER-001",
+      "stream_id": "BTM02",
+      "stream_folder": "BTM02-ARP2-Architecting-Future-Ready-Enterprise-Architecture",
+      "lab_id": "SL03",
+      "title": "Explore and architect: Future Ready Enterprise Architecture",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of BTM02 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL03",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "BTM",
+        "stream": "BTM02"
+      },
+      "engine_ref": "registry/labs.json#SL03",
+      "deployment_status": "scaffold"
+    },
+    {
+      "activity_id": "BTM-03-STARTER-001",
+      "stream_id": "BTM03",
+      "stream_folder": "BTM03-APM3-Architecting-Process-Driven-High-Performance-Enterprises",
+      "lab_id": "SL02",
+      "title": "Explore and architect: Process Driven High Performance Enterprises",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of BTM03 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL02",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "BTM",
+        "stream": "BTM03"
+      },
+      "engine_ref": "registry/labs.json#SL02",
+      "deployment_status": "scaffold"
+    },
+    {
+      "activity_id": "BTM-04-STARTER-001",
+      "stream_id": "BTM04",
+      "stream_folder": "BTM04-ACH4-Architecting-Change-Ready-Adaptive-Organizations",
+      "lab_id": "SL11",
+      "title": "Explore and architect: Change Ready Adaptive Organizations",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of BTM04 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL11",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "BTM",
+        "stream": "BTM04"
+      },
+      "engine_ref": "registry/labs.json#SL11",
+      "deployment_status": "scaffold"
+    },
+    {
+      "activity_id": "BTM-05-STARTER-001",
+      "stream_id": "BTM05",
+      "stream_folder": "BTM05-AVP5-Architecting-Value-Driven-Transformation",
+      "lab_id": "SL01",
+      "title": "Explore and architect: Value Driven Transformation",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of BTM05 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL01",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "BTM",
+        "stream": "BTM05"
+      },
+      "engine_ref": "registry/labs.json#SL01",
+      "deployment_status": "scaffold"
+    },
+    {
+      "activity_id": "BTM-06-STARTER-001",
+      "stream_id": "BTM06",
+      "stream_folder": "BTM06-ATD6-Architecting-Data-Driven-Enterprises",
+      "lab_id": "SL03",
+      "title": "Explore and architect: Data Driven Enterprises",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of BTM06 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL03",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "BTM",
+        "stream": "BTM06"
+      },
+      "engine_ref": "registry/labs.json#SL03",
+      "deployment_status": "scaffold"
+    },
+    {
+      "activity_id": "BTM-07-STARTER-001",
+      "stream_id": "BTM07",
+      "stream_folder": "BTM07-ATE7-Architecting-Digital-Cloud-Enabled-Enterprises",
+      "lab_id": "SL05",
+      "title": "Explore and architect: Digital Cloud Enabled Enterprises",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of BTM07 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL05",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "BTM",
+        "stream": "BTM07"
+      },
+      "engine_ref": "registry/labs.json#SL05",
+      "deployment_status": "scaffold"
+    },
+    {
+      "activity_id": "BTM-08-STARTER-001",
+      "stream_id": "BTM08",
+      "stream_folder": "BTM08-AIO8-Architecting-Connected-Enterprise-Ecosystems",
+      "lab_id": "SL03",
+      "title": "Explore and architect: Connected Enterprise Ecosystems",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of BTM08 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL03",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "BTM",
+        "stream": "BTM08"
+      },
+      "engine_ref": "registry/labs.json#SL03",
+      "deployment_status": "scaffold"
+    },
+    {
+      "activity_id": "BTM-09-STARTER-001",
+      "stream_id": "BTM09",
+      "stream_folder": "BTM09-ARG9-Architecting-Trust-Risk-Resilient-Enterprises",
+      "lab_id": "SL03",
+      "title": "Explore and architect: Trust Risk Resilient Enterprises",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of BTM09 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL03",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "BTM",
+        "stream": "BTM09"
+      },
+      "engine_ref": "registry/labs.json#SL03",
+      "deployment_status": "scaffold"
+    },
+    {
+      "activity_id": "BTM-10-STARTER-001",
+      "stream_id": "BTM10",
+      "stream_folder": "BTM10-AAN0-Architecting-Transformation-Intelligence",
+      "lab_id": "SL03",
+      "title": "Explore and architect: Transformation Intelligence",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of BTM10 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL03",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "BTM",
+        "stream": "BTM10"
+      },
+      "engine_ref": "registry/labs.json#SL03",
+      "deployment_status": "scaffold"
+    },
+    {
+      "activity_id": "BTM-11-STARTER-001",
+      "stream_id": "BTM11",
+      "stream_folder": "BTM11-AAI1-Architecting-AI-Powered-Enterprises",
+      "lab_id": "SL05",
+      "title": "Explore and architect: AI Powered Enterprises",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of BTM11 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL05",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "BTM",
+        "stream": "BTM11"
+      },
+      "engine_ref": "registry/labs.json#SL05",
+      "deployment_status": "scaffold"
+    },
+    {
+      "activity_id": "BTM-12-STARTER-001",
+      "stream_id": "BTM12",
+      "stream_folder": "BTM12-AEC2-Architecting-Sustainable-Future-Ready-Enterprises",
+      "lab_id": "SL03",
+      "title": "Explore and architect: Sustainable Future Ready Enterprises",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of BTM12 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL03",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "BTM",
+        "stream": "BTM12"
+      },
+      "engine_ref": "registry/labs.json#SL03",
+      "deployment_status": "scaffold"
+    }
+  ]
+}
