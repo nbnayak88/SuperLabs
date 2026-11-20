@@ -1,0 +1,396 @@
+{
+  "schema_version": "1.0.0",
+  "academy_id": "FI",
+  "source_repository": "nbnayak88/learning-township",
+  "source_folder": "03-FI-Finance-Capability-Academy-Finance-Wednesday",
+  "canonical_lab_registry": "registry/labs.json",
+  "status": "proposed-priorities-not-validated-activities",
+  "priority_semantics": {
+    "core": "First suggested labs for stream",
+    "available": "Every SL01-SL20 is available to all streams"
+  },
+  "shared_lab_ids": [
+    "SL01",
+    "SL02",
+    "SL03",
+    "SL04",
+    "SL05",
+    "SL06",
+    "SL07",
+    "SL08",
+    "SL09",
+    "SL10",
+    "SL11",
+    "SL12",
+    "SL13",
+    "SL14",
+    "SL15",
+    "SL16",
+    "SL17",
+    "SL18",
+    "SL19",
+    "SL20"
+  ],
+  "streams": [
+    {
+      "stream_id": "FI01",
+      "township_folder": "FI01-AFR1-Architecting-Autonomous-Financial-Close",
+      "core_lab_ids": [
+        "SL02",
+        "SL05",
+        "SL08",
+        "SL09"
+      ],
+      "other_lab_ids": [
+        "SL01",
+        "SL03",
+        "SL04",
+        "SL06",
+        "SL07",
+        "SL10",
+        "SL11",
+        "SL12",
+        "SL13",
+        "SL14",
+        "SL15",
+        "SL16",
+        "SL17",
+        "SL18",
+        "SL19",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "FI02",
+      "township_folder": "FI02-APT2-Architecting-Autonomous-Payables",
+      "core_lab_ids": [
+        "SL02",
+        "SL05",
+        "SL07",
+        "SL08"
+      ],
+      "other_lab_ids": [
+        "SL01",
+        "SL03",
+        "SL04",
+        "SL06",
+        "SL09",
+        "SL10",
+        "SL11",
+        "SL12",
+        "SL13",
+        "SL14",
+        "SL15",
+        "SL16",
+        "SL17",
+        "SL18",
+        "SL19",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "FI03",
+      "township_folder": "FI03-AOT3-Architecting-Intelligent-Revenue-Operations",
+      "core_lab_ids": [
+        "SL02",
+        "SL05",
+        "SL07",
+        "SL08"
+      ],
+      "other_lab_ids": [
+        "SL01",
+        "SL03",
+        "SL04",
+        "SL06",
+        "SL09",
+        "SL10",
+        "SL11",
+        "SL12",
+        "SL13",
+        "SL14",
+        "SL15",
+        "SL16",
+        "SL17",
+        "SL18",
+        "SL19",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "FI04",
+      "township_folder": "FI04-ATX4-Architecting-Digital-Tax-Enterprises",
+      "core_lab_ids": [
+        "SL03",
+        "SL05",
+        "SL08",
+        "SL19"
+      ],
+      "other_lab_ids": [
+        "SL01",
+        "SL02",
+        "SL04",
+        "SL06",
+        "SL07",
+        "SL09",
+        "SL10",
+        "SL11",
+        "SL12",
+        "SL13",
+        "SL14",
+        "SL15",
+        "SL16",
+        "SL17",
+        "SL18",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "FI05",
+      "township_folder": "FI05-ATR5-Architecting-Autonomous-Treasury-Operations",
+      "core_lab_ids": [
+        "SL02",
+        "SL04",
+        "SL07",
+        "SL08"
+      ],
+      "other_lab_ids": [
+        "SL01",
+        "SL03",
+        "SL05",
+        "SL06",
+        "SL09",
+        "SL10",
+        "SL11",
+        "SL12",
+        "SL13",
+        "SL14",
+        "SL15",
+        "SL16",
+        "SL17",
+        "SL18",
+        "SL19",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "FI06",
+      "township_folder": "FI06-AFP6-Architecting-Enterprise-Financial-Planning",
+      "core_lab_ids": [
+        "SL01",
+        "SL03",
+        "SL14",
+        "SL19"
+      ],
+      "other_lab_ids": [
+        "SL02",
+        "SL04",
+        "SL05",
+        "SL06",
+        "SL07",
+        "SL08",
+        "SL09",
+        "SL10",
+        "SL11",
+        "SL12",
+        "SL13",
+        "SL15",
+        "SL16",
+        "SL17",
+        "SL18",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "FI07",
+      "township_folder": "FI07-ACC7-Architecting-Cost-Profitability-Excellence",
+      "core_lab_ids": [
+        "SL02",
+        "SL03",
+        "SL08",
+        "SL19"
+      ],
+      "other_lab_ids": [
+        "SL01",
+        "SL04",
+        "SL05",
+        "SL06",
+        "SL07",
+        "SL09",
+        "SL10",
+        "SL11",
+        "SL12",
+        "SL13",
+        "SL14",
+        "SL15",
+        "SL16",
+        "SL17",
+        "SL18",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "FI08",
+      "township_folder": "FI08-AFA8-Architecting-Enterprise-Asset-Accounting",
+      "core_lab_ids": [
+        "SL04",
+        "SL05",
+        "SL08",
+        "SL17"
+      ],
+      "other_lab_ids": [
+        "SL01",
+        "SL02",
+        "SL03",
+        "SL06",
+        "SL07",
+        "SL09",
+        "SL10",
+        "SL11",
+        "SL12",
+        "SL13",
+        "SL14",
+        "SL15",
+        "SL16",
+        "SL18",
+        "SL19",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "FI09",
+      "township_folder": "FI09-AGR9-Architecting-Financial-Governance-Risk",
+      "core_lab_ids": [
+        "SL03",
+        "SL08",
+        "SL17",
+        "SL19"
+      ],
+      "other_lab_ids": [
+        "SL01",
+        "SL02",
+        "SL04",
+        "SL05",
+        "SL06",
+        "SL07",
+        "SL09",
+        "SL10",
+        "SL11",
+        "SL12",
+        "SL13",
+        "SL14",
+        "SL15",
+        "SL16",
+        "SL18",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "FI10",
+      "township_folder": "FI10-AFI0-Architecting-Financial-Intelligence",
+      "core_lab_ids": [
+        "SL03",
+        "SL08",
+        "SL15",
+        "SL19"
+      ],
+      "other_lab_ids": [
+        "SL01",
+        "SL02",
+        "SL04",
+        "SL05",
+        "SL06",
+        "SL07",
+        "SL09",
+        "SL10",
+        "SL11",
+        "SL12",
+        "SL13",
+        "SL14",
+        "SL16",
+        "SL17",
+        "SL18",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "FI11",
+      "township_folder": "FI11-AAI1-Architecting-AI-Powered-Finance-Enterprises",
+      "core_lab_ids": [
+        "SL05",
+        "SL08",
+        "SL15",
+        "SL20"
+      ],
+      "other_lab_ids": [
+        "SL01",
+        "SL02",
+        "SL03",
+        "SL04",
+        "SL06",
+        "SL07",
+        "SL09",
+        "SL10",
+        "SL11",
+        "SL12",
+        "SL13",
+        "SL14",
+        "SL16",
+        "SL17",
+        "SL18",
+        "SL19"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "FI12",
+      "township_folder": "FI12-AIG2-Architecting-Connected-Financial-Enterprises",
+      "core_lab_ids": [
+        "SL03",
+        "SL07",
+        "SL13",
+        "SL17"
+      ],
+      "other_lab_ids": [
+        "SL01",
+        "SL02",
+        "SL04",
+        "SL05",
+        "SL06",
+        "SL08",
+        "SL09",
+        "SL10",
+        "SL11",
+        "SL12",
+        "SL14",
+        "SL15",
+        "SL16",
+        "SL18",
+        "SL19",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    }
+  ]
+}
