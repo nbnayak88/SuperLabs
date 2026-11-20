@@ -1,0 +1,25 @@
+name: Validate SuperLabs seven-domain registry
+on:
+  push:
+    paths:
+      - 'registry/**'
+      - 'mappings/**'
+      - 'content-packs/**'
+      - 'scripts/validate_phase4.py'
+      - '.github/workflows/validate-superlabs.yml'
+  pull_request:
+    paths:
+      - 'registry/**'
+      - 'mappings/**'
+      - 'content-packs/**'
+      - 'scripts/validate_phase4.py'
+      - '.github/workflows/validate-superlabs.yml'
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/validate_phase4.py
