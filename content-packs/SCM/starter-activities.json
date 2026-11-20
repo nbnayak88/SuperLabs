@@ -1,0 +1,777 @@
+{
+  "schema_version": "1.0.0",
+  "academy_id": "SCM",
+  "pack_id": "SCM-STARTER-12",
+  "status": "draft-contextual-learning-design",
+  "purpose": "One starter challenge per verified stream; exercises use canonical shared lab methodology and do not duplicate lab engines",
+  "activities": [
+    {
+      "activity_id": "SCM-01-STARTER-001",
+      "stream_id": "SCM01",
+      "stream_folder": "SCM01-ASC1-Architecting-Autonomous-Supply-Chain-Strategy",
+      "lab_id": "SL01",
+      "title": "Explore and architect: Autonomous Supply Chain Strategy",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of SCM01 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL01",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "SCM",
+        "stream": "SCM01"
+      },
+      "engine_ref": "registry/labs.json#SL01",
+      "deployment_status": "scaffold"
+    },
+    {
+      "activity_id": "SCM-02-STARTER-001",
+      "stream_id": "SCM02",
+      "stream_folder": "SCM02-APS2-Architecting-Intelligent-Demand-Planning",
+      "lab_id": "SL02",
+      "title": "Explore and architect: Intelligent Demand Planning",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of SCM02 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL02",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "SCM",
+        "stream": "SCM02"
+      },
+      "engine_ref": "registry/labs.json#SL02",
+      "deployment_status": "scaffold"
+    },
+    {
+      "activity_id": "SCM-03-STARTER-001",
+      "stream_id": "SCM03",
+      "stream_folder": "SCM03-APN3-Architecting-Integrated-Supply-Planning",
+      "lab_id": "SL02",
+      "title": "Explore and architect: Integrated Supply Planning",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of SCM03 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL02",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "SCM",
+        "stream": "SCM03"
+      },
+      "engine_ref": "registry/labs.json#SL02",
+      "deployment_status": "scaffold"
+    },
+    {
+      "activity_id": "SCM-04-STARTER-001",
+      "stream_id": "SCM04",
+      "stream_folder": "SCM04-AMP4-Architecting-Smart-Manufacturing",
+      "lab_id": "SL04",
+      "title": "Explore and architect: Smart Manufacturing",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of SCM04 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL04",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "SCM",
+        "stream": "SCM04"
+      },
+      "engine_ref": "registry/labs.json#SL04",
+      "deployment_status": "scaffold"
+    },
+    {
+      "activity_id": "SCM-05-STARTER-001",
+      "stream_id": "SCM05",
+      "stream_folder": "SCM05-ADL5-Architecting-Autonomous-Logistics-Transportation",
+      "lab_id": "SL02",
+      "title": "Explore and architect: Autonomous Logistics Transportation",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of SCM05 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL02",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "SCM",
+        "stream": "SCM05"
+      },
+      "engine_ref": "registry/labs.json#SL02",
+      "deployment_status": "scaffold"
+    },
+    {
+      "activity_id": "SCM-06-STARTER-001",
+      "stream_id": "SCM06",
+      "stream_folder": "SCM06-AIN6-Architecting-Resilient-Inventory-Management",
+      "lab_id": "SL02",
+      "title": "Explore and architect: Resilient Inventory Management",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of SCM06 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL02",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "SCM",
+        "stream": "SCM06"
+      },
+      "engine_ref": "registry/labs.json#SL02",
+      "deployment_status": "scaffold"
+    },
+    {
+      "activity_id": "SCM-07-STARTER-001",
+      "stream_id": "SCM07",
+      "stream_folder": "SCM07-AQC7-Architecting-Quality-Compliance-Excellence",
+      "lab_id": "SL04",
+      "title": "Explore and architect: Quality Compliance Excellence",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of SCM07 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL04",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "SCM",
+        "stream": "SCM07"
+      },
+      "engine_ref": "registry/labs.json#SL04",
+      "deployment_status": "scaffold"
+    },
+    {
+      "activity_id": "SCM-08-STARTER-001",
+      "stream_id": "SCM08",
+      "stream_folder": "SCM08-ACM8-Architecting-Supplier-Collaboration-Excellence",
+      "lab_id": "SL02",
+      "title": "Explore and architect: Supplier Collaboration Excellence",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of SCM08 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL02",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "SCM",
+        "stream": "SCM08"
+      },
+      "engine_ref": "registry/labs.json#SL02",
+      "deployment_status": "scaffold"
+    },
+    {
+      "activity_id": "SCM-09-STARTER-001",
+      "stream_id": "SCM09",
+      "stream_folder": "SCM09-ASD9-Architecting-Sustainable-Supply-Chains",
+      "lab_id": "SL03",
+      "title": "Explore and architect: Sustainable Supply Chains",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of SCM09 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL03",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "SCM",
+        "stream": "SCM09"
+      },
+      "engine_ref": "registry/labs.json#SL03",
+      "deployment_status": "scaffold"
+    },
+    {
+      "activity_id": "SCM-10-STARTER-001",
+      "stream_id": "SCM10",
+      "stream_folder": "SCM10-AAN0-Architecting-Supply-Chain-Intelligence",
+      "lab_id": "SL03",
+      "title": "Explore and architect: Supply Chain Intelligence",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of SCM10 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL03",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "SCM",
+        "stream": "SCM10"
+      },
+      "engine_ref": "registry/labs.json#SL03",
+      "deployment_status": "scaffold"
+    },
+    {
+      "activity_id": "SCM-11-STARTER-001",
+      "stream_id": "SCM11",
+      "stream_folder": "SCM11-AAI1-Architecting-AI-Powered-Supply-Chain-Enterprises",
+      "lab_id": "SL05",
+      "title": "Explore and architect: AI Powered Supply Chain Enterprises",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of SCM11 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL05",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "SCM",
+        "stream": "SCM11"
+      },
+      "engine_ref": "registry/labs.json#SL05",
+      "deployment_status": "scaffold"
+    },
+    {
+      "activity_id": "SCM-12-STARTER-001",
+      "stream_id": "SCM12",
+      "stream_folder": "SCM12-AIG2-Architecting-Connected-Supply-Chain-Ecosystems",
+      "lab_id": "SL03",
+      "title": "Explore and architect: Connected Supply Chain Ecosystems",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of SCM12 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL03",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "SCM",
+        "stream": "SCM12"
+      },
+      "engine_ref": "registry/labs.json#SL03",
+      "deployment_status": "scaffold"
+    }
+  ]
+}
