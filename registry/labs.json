@@ -1,0 +1,396 @@
+{
+  "schema_version": "1.0.0",
+  "registry_id": "successlabs-superlabs-20",
+  "source_repository": "nbnayak88/SuperLabs",
+  "status": "documentation-scaffold",
+  "governance": {
+    "canonical_lab_ids": "SL01-SL20",
+    "identity_owner": "SuperLabs registry",
+    "context_owner": "domain content packs",
+    "consumer": "learning-township",
+    "reuse_policy": "Reference lab IDs and content packs; never duplicate lab engines",
+    "deployment_policy": "planned_subdomain is not proof of a live deployment"
+  },
+  "labs": [
+    {
+      "id": "SL01",
+      "number": 1,
+      "intent": "Discover",
+      "official_name": "Product Innovation Lab",
+      "acronym": "PIL",
+      "folder": "01-Discover",
+      "planned_subdomain": "https://discover.successlabsacademy.com",
+      "implementation_status": "scaffold",
+      "supported_context_dimensions": [
+        "academy",
+        "stream",
+        "sector",
+        "level",
+        "format",
+        "platform",
+        "case_study"
+      ]
+    },
+    {
+      "id": "SL02",
+      "number": 2,
+      "intent": "Flow",
+      "official_name": "Process Excellence Lab",
+      "acronym": "PEL",
+      "folder": "02-Flow",
+      "planned_subdomain": "https://flow.successlabsacademy.com",
+      "implementation_status": "scaffold",
+      "supported_context_dimensions": [
+        "academy",
+        "stream",
+        "sector",
+        "level",
+        "format",
+        "platform",
+        "case_study"
+      ]
+    },
+    {
+      "id": "SL03",
+      "number": 3,
+      "intent": "Design",
+      "official_name": "Strategy & Architecture Lab",
+      "acronym": "SAL",
+      "folder": "03-Design",
+      "planned_subdomain": "https://design.successlabsacademy.com",
+      "implementation_status": "scaffold",
+      "supported_context_dimensions": [
+        "academy",
+        "stream",
+        "sector",
+        "level",
+        "format",
+        "platform",
+        "case_study"
+      ]
+    },
+    {
+      "id": "SL04",
+      "number": 4,
+      "intent": "Run",
+      "official_name": "Operations Optimization Lab",
+      "acronym": "OOL",
+      "folder": "04-Run",
+      "planned_subdomain": "https://run.successlabsacademy.com",
+      "implementation_status": "scaffold",
+      "supported_context_dimensions": [
+        "academy",
+        "stream",
+        "sector",
+        "level",
+        "format",
+        "platform",
+        "case_study"
+      ]
+    },
+    {
+      "id": "SL05",
+      "number": 5,
+      "intent": "Build",
+      "official_name": "Implementation Intelligence Lab",
+      "acronym": "IIL",
+      "folder": "05-Build",
+      "planned_subdomain": "https://build.successlabsacademy.com",
+      "implementation_status": "scaffold",
+      "supported_context_dimensions": [
+        "academy",
+        "stream",
+        "sector",
+        "level",
+        "format",
+        "platform",
+        "case_study"
+      ]
+    },
+    {
+      "id": "SL06",
+      "number": 6,
+      "intent": "Move",
+      "official_name": "Migration Modernization Lab",
+      "acronym": "MEL",
+      "folder": "06-Move",
+      "planned_subdomain": "https://move.successlabsacademy.com",
+      "implementation_status": "scaffold",
+      "supported_context_dimensions": [
+        "academy",
+        "stream",
+        "sector",
+        "level",
+        "format",
+        "platform",
+        "case_study"
+      ]
+    },
+    {
+      "id": "SL07",
+      "number": 7,
+      "intent": "Connect",
+      "official_name": "Integration Intelligence Lab",
+      "acronym": "IEL",
+      "folder": "07-Connect",
+      "planned_subdomain": "https://connect.successlabsacademy.com",
+      "implementation_status": "scaffold",
+      "supported_context_dimensions": [
+        "academy",
+        "stream",
+        "sector",
+        "level",
+        "format",
+        "platform",
+        "case_study"
+      ]
+    },
+    {
+      "id": "SL08",
+      "number": 8,
+      "intent": "Validate",
+      "official_name": "Quality Assurance Lab",
+      "acronym": "QAL",
+      "folder": "08-Validate",
+      "planned_subdomain": "https://validate.successlabsacademy.com",
+      "implementation_status": "scaffold",
+      "supported_context_dimensions": [
+        "academy",
+        "stream",
+        "sector",
+        "level",
+        "format",
+        "platform",
+        "case_study"
+      ]
+    },
+    {
+      "id": "SL09",
+      "number": 9,
+      "intent": "Support",
+      "official_name": "Application Management Services Lab",
+      "acronym": "AMS",
+      "folder": "09-Support",
+      "planned_subdomain": "https://support.successlabsacademy.com",
+      "implementation_status": "scaffold",
+      "supported_context_dimensions": [
+        "academy",
+        "stream",
+        "sector",
+        "level",
+        "format",
+        "platform",
+        "case_study"
+      ]
+    },
+    {
+      "id": "SL10",
+      "number": 10,
+      "intent": "Prove",
+      "official_name": "Certification Command Lab",
+      "acronym": "CCL",
+      "folder": "10-Prove",
+      "planned_subdomain": "https://prove.successlabsacademy.com",
+      "implementation_status": "scaffold",
+      "supported_context_dimensions": [
+        "academy",
+        "stream",
+        "sector",
+        "level",
+        "format",
+        "platform",
+        "case_study"
+      ]
+    },
+    {
+      "id": "SL11",
+      "number": 11,
+      "intent": "Scale",
+      "official_name": "School of Career Acceleration Lab for Excellence",
+      "acronym": "SCALE",
+      "folder": "11-Scale",
+      "planned_subdomain": "https://scale.successlabsacademy.com",
+      "implementation_status": "scaffold",
+      "supported_context_dimensions": [
+        "academy",
+        "stream",
+        "sector",
+        "level",
+        "format",
+        "platform",
+        "case_study"
+      ]
+    },
+    {
+      "id": "SL12",
+      "number": 12,
+      "intent": "Influence",
+      "official_name": "Presales Precision Lab",
+      "acronym": "PSL",
+      "folder": "12-Influence",
+      "planned_subdomain": "https://influence.successlabsacademy.com",
+      "implementation_status": "scaffold",
+      "supported_context_dimensions": [
+        "academy",
+        "stream",
+        "sector",
+        "level",
+        "format",
+        "platform",
+        "case_study"
+      ]
+    },
+    {
+      "id": "SL13",
+      "number": 13,
+      "intent": "Lead",
+      "official_name": "Project Performance Lab",
+      "acronym": "PML",
+      "folder": "13-Lead",
+      "planned_subdomain": "https://lead.successlabsacademy.com",
+      "implementation_status": "scaffold",
+      "supported_context_dimensions": [
+        "academy",
+        "stream",
+        "sector",
+        "level",
+        "format",
+        "platform",
+        "case_study"
+      ]
+    },
+    {
+      "id": "SL14",
+      "number": 14,
+      "intent": "Prototype",
+      "official_name": "Product Prototyping Lab",
+      "acronym": "PDL",
+      "folder": "14-Prototype",
+      "planned_subdomain": "https://prototype.successlabsacademy.com",
+      "implementation_status": "scaffold",
+      "supported_context_dimensions": [
+        "academy",
+        "stream",
+        "sector",
+        "level",
+        "format",
+        "platform",
+        "case_study"
+      ]
+    },
+    {
+      "id": "SL15",
+      "number": 15,
+      "intent": "Evolve",
+      "official_name": "Emerging Technologies Lab",
+      "acronym": "ETL",
+      "folder": "15-Evolve",
+      "planned_subdomain": "https://evolve.successlabsacademy.com",
+      "implementation_status": "scaffold",
+      "supported_context_dimensions": [
+        "academy",
+        "stream",
+        "sector",
+        "level",
+        "format",
+        "platform",
+        "case_study"
+      ]
+    },
+    {
+      "id": "SL16",
+      "number": 16,
+      "intent": "Share",
+      "official_name": "Media & Content Lab",
+      "acronym": "MCL",
+      "folder": "16-Share",
+      "planned_subdomain": "https://share.successlabsacademy.com",
+      "implementation_status": "scaffold",
+      "supported_context_dimensions": [
+        "academy",
+        "stream",
+        "sector",
+        "level",
+        "format",
+        "platform",
+        "case_study"
+      ]
+    },
+    {
+      "id": "SL17",
+      "number": 17,
+      "intent": "Document",
+      "official_name": "Knowledge Keystone Lab",
+      "acronym": "KAL",
+      "folder": "17-Document",
+      "planned_subdomain": "https://document.successlabsacademy.com",
+      "implementation_status": "scaffold",
+      "supported_context_dimensions": [
+        "academy",
+        "stream",
+        "sector",
+        "level",
+        "format",
+        "platform",
+        "case_study"
+      ]
+    },
+    {
+      "id": "SL18",
+      "number": 18,
+      "intent": "Engage",
+      "official_name": "Experts Engagement Lab",
+      "acronym": "ECL",
+      "folder": "18-Engage",
+      "planned_subdomain": "https://engage.successlabsacademy.com",
+      "implementation_status": "scaffold",
+      "supported_context_dimensions": [
+        "academy",
+        "stream",
+        "sector",
+        "level",
+        "format",
+        "platform",
+        "case_study"
+      ]
+    },
+    {
+      "id": "SL19",
+      "number": 19,
+      "intent": "Scan",
+      "official_name": "Industry Intelligence Lab",
+      "acronym": "GIL",
+      "folder": "19-Scan",
+      "planned_subdomain": "https://scan.successlabsacademy.com",
+      "implementation_status": "scaffold",
+      "supported_context_dimensions": [
+        "academy",
+        "stream",
+        "sector",
+        "level",
+        "format",
+        "platform",
+        "case_study"
+      ]
+    },
+    {
+      "id": "SL20",
+      "number": 20,
+      "intent": "Innovate",
+      "official_name": "Research & Innovation Lab",
+      "acronym": "RIL",
+      "folder": "20-Innovate",
+      "planned_subdomain": "https://innovate.successlabsacademy.com",
+      "implementation_status": "scaffold",
+      "supported_context_dimensions": [
+        "academy",
+        "stream",
+        "sector",
+        "level",
+        "format",
+        "platform",
+        "case_study"
+      ]
+    }
+  ]
+}
