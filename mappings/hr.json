@@ -1,0 +1,396 @@
+{
+  "schema_version": "1.0.0",
+  "academy_id": "HR",
+  "source_repository": "nbnayak88/learning-township",
+  "source_folder": "01-HR-Human-Capital-Capability-Academy-Workforce-Monday",
+  "canonical_lab_registry": "registry/labs.json",
+  "status": "proposed-priorities-not-validated-activities",
+  "priority_semantics": {
+    "core": "First suggested labs for stream",
+    "available": "Every SL01-SL20 is available to all streams"
+  },
+  "shared_lab_ids": [
+    "SL01",
+    "SL02",
+    "SL03",
+    "SL04",
+    "SL05",
+    "SL06",
+    "SL07",
+    "SL08",
+    "SL09",
+    "SL10",
+    "SL11",
+    "SL12",
+    "SL13",
+    "SL14",
+    "SL15",
+    "SL16",
+    "SL17",
+    "SL18",
+    "SL19",
+    "SL20"
+  ],
+  "streams": [
+    {
+      "stream_id": "HR01",
+      "township_folder": "HR01-AWF1-Architecting-Autonomous-Workforce-Foundations",
+      "core_lab_ids": [
+        "SL01",
+        "SL03",
+        "SL05",
+        "SL07"
+      ],
+      "other_lab_ids": [
+        "SL02",
+        "SL04",
+        "SL06",
+        "SL08",
+        "SL09",
+        "SL10",
+        "SL11",
+        "SL12",
+        "SL13",
+        "SL14",
+        "SL15",
+        "SL16",
+        "SL17",
+        "SL18",
+        "SL19",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "HR02",
+      "township_folder": "HR02-ATA2-Architecting-Autonomous-Talent-Acquisition",
+      "core_lab_ids": [
+        "SL01",
+        "SL05",
+        "SL12",
+        "SL14"
+      ],
+      "other_lab_ids": [
+        "SL02",
+        "SL03",
+        "SL04",
+        "SL06",
+        "SL07",
+        "SL08",
+        "SL09",
+        "SL10",
+        "SL11",
+        "SL13",
+        "SL15",
+        "SL16",
+        "SL17",
+        "SL18",
+        "SL19",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "HR03",
+      "township_folder": "HR03-APH3-Architecting-High-Performance-Organizations",
+      "core_lab_ids": [
+        "SL02",
+        "SL03",
+        "SL04",
+        "SL09"
+      ],
+      "other_lab_ids": [
+        "SL01",
+        "SL05",
+        "SL06",
+        "SL07",
+        "SL08",
+        "SL10",
+        "SL11",
+        "SL12",
+        "SL13",
+        "SL14",
+        "SL15",
+        "SL16",
+        "SL17",
+        "SL18",
+        "SL19",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "HR04",
+      "township_folder": "HR04-AGL4-Architecting-Growth-Leadership",
+      "core_lab_ids": [
+        "SL03",
+        "SL13",
+        "SL18",
+        "SL11"
+      ],
+      "other_lab_ids": [
+        "SL01",
+        "SL02",
+        "SL04",
+        "SL05",
+        "SL06",
+        "SL07",
+        "SL08",
+        "SL09",
+        "SL10",
+        "SL12",
+        "SL14",
+        "SL15",
+        "SL16",
+        "SL17",
+        "SL19",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "HR05",
+      "township_folder": "HR05-ARP5-Architecting-Rewards-Performance-Excellence",
+      "core_lab_ids": [
+        "SL02",
+        "SL05",
+        "SL08",
+        "SL17"
+      ],
+      "other_lab_ids": [
+        "SL01",
+        "SL03",
+        "SL04",
+        "SL06",
+        "SL07",
+        "SL09",
+        "SL10",
+        "SL11",
+        "SL12",
+        "SL13",
+        "SL14",
+        "SL15",
+        "SL16",
+        "SL18",
+        "SL19",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "HR06",
+      "township_folder": "HR06-ALM6-Architecting-Continuous-Learning-Mobility",
+      "core_lab_ids": [
+        "SL01",
+        "SL11",
+        "SL16",
+        "SL18"
+      ],
+      "other_lab_ids": [
+        "SL02",
+        "SL03",
+        "SL04",
+        "SL05",
+        "SL06",
+        "SL07",
+        "SL08",
+        "SL09",
+        "SL10",
+        "SL12",
+        "SL13",
+        "SL14",
+        "SL15",
+        "SL17",
+        "SL19",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "HR07",
+      "township_folder": "HR07-APE7-Architecting-Autonomous-Payroll-Enterprises",
+      "core_lab_ids": [
+        "SL05",
+        "SL07",
+        "SL08",
+        "SL09"
+      ],
+      "other_lab_ids": [
+        "SL01",
+        "SL02",
+        "SL03",
+        "SL04",
+        "SL06",
+        "SL10",
+        "SL11",
+        "SL12",
+        "SL13",
+        "SL14",
+        "SL15",
+        "SL16",
+        "SL17",
+        "SL18",
+        "SL19",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "HR08",
+      "township_folder": "HR08-AWT8-Architecting-Workforce-Time-Operations",
+      "core_lab_ids": [
+        "SL02",
+        "SL04",
+        "SL05",
+        "SL08"
+      ],
+      "other_lab_ids": [
+        "SL01",
+        "SL03",
+        "SL06",
+        "SL07",
+        "SL09",
+        "SL10",
+        "SL11",
+        "SL12",
+        "SL13",
+        "SL14",
+        "SL15",
+        "SL16",
+        "SL17",
+        "SL18",
+        "SL19",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "HR09",
+      "township_folder": "HR09-AWI9-Architecting-Workforce-Intelligence",
+      "core_lab_ids": [
+        "SL03",
+        "SL08",
+        "SL15",
+        "SL19"
+      ],
+      "other_lab_ids": [
+        "SL01",
+        "SL02",
+        "SL04",
+        "SL05",
+        "SL06",
+        "SL07",
+        "SL09",
+        "SL10",
+        "SL11",
+        "SL12",
+        "SL13",
+        "SL14",
+        "SL16",
+        "SL17",
+        "SL18",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "HR10",
+      "township_folder": "HR10-ADX0-Architecting-Digital-Employee-Experience",
+      "core_lab_ids": [
+        "SL01",
+        "SL14",
+        "SL16",
+        "SL18"
+      ],
+      "other_lab_ids": [
+        "SL02",
+        "SL03",
+        "SL04",
+        "SL05",
+        "SL06",
+        "SL07",
+        "SL08",
+        "SL09",
+        "SL10",
+        "SL11",
+        "SL12",
+        "SL13",
+        "SL15",
+        "SL17",
+        "SL19",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "HR11",
+      "township_folder": "HR11-AAI1-Architecting-AI-Powered-HR-Enterprises",
+      "core_lab_ids": [
+        "SL03",
+        "SL05",
+        "SL15",
+        "SL20"
+      ],
+      "other_lab_ids": [
+        "SL01",
+        "SL02",
+        "SL04",
+        "SL06",
+        "SL07",
+        "SL08",
+        "SL09",
+        "SL10",
+        "SL11",
+        "SL12",
+        "SL13",
+        "SL14",
+        "SL16",
+        "SL17",
+        "SL18",
+        "SL19"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    },
+    {
+      "stream_id": "HR12",
+      "township_folder": "HR12-AIG2-Architecting-Connected-HR-Enterprises",
+      "core_lab_ids": [
+        "SL07",
+        "SL13",
+        "SL15",
+        "SL19"
+      ],
+      "other_lab_ids": [
+        "SL01",
+        "SL02",
+        "SL03",
+        "SL04",
+        "SL05",
+        "SL06",
+        "SL08",
+        "SL09",
+        "SL10",
+        "SL11",
+        "SL12",
+        "SL14",
+        "SL16",
+        "SL17",
+        "SL18",
+        "SL20"
+      ],
+      "mapping_status": "proposed",
+      "content_pack_status": "not-created"
+    }
+  ]
+}
