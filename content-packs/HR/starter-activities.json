@@ -1,0 +1,777 @@
+{
+  "schema_version": "1.0.0",
+  "academy_id": "HR",
+  "pack_id": "HR-STARTER-12",
+  "status": "draft-contextual-learning-design",
+  "purpose": "One starter challenge per verified stream; exercises use canonical shared lab methodology and do not duplicate lab engines",
+  "activities": [
+    {
+      "activity_id": "HR-01-STARTER-001",
+      "stream_id": "HR01",
+      "stream_folder": "HR01-AWF1-Architecting-Autonomous-Workforce-Foundations",
+      "lab_id": "SL01",
+      "title": "Explore and architect: Autonomous Workforce Foundations",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of HR01 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL01",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "HR",
+        "stream": "HR01"
+      },
+      "engine_ref": "registry/labs.json#SL01",
+      "deployment_status": "scaffold"
+    },
+    {
+      "activity_id": "HR-02-STARTER-001",
+      "stream_id": "HR02",
+      "stream_folder": "HR02-ATA2-Architecting-Autonomous-Talent-Acquisition",
+      "lab_id": "SL01",
+      "title": "Explore and architect: Autonomous Talent Acquisition",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of HR02 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL01",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "HR",
+        "stream": "HR02"
+      },
+      "engine_ref": "registry/labs.json#SL01",
+      "deployment_status": "scaffold"
+    },
+    {
+      "activity_id": "HR-03-STARTER-001",
+      "stream_id": "HR03",
+      "stream_folder": "HR03-APH3-Architecting-High-Performance-Organizations",
+      "lab_id": "SL02",
+      "title": "Explore and architect: High Performance Organizations",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of HR03 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL02",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "HR",
+        "stream": "HR03"
+      },
+      "engine_ref": "registry/labs.json#SL02",
+      "deployment_status": "scaffold"
+    },
+    {
+      "activity_id": "HR-04-STARTER-001",
+      "stream_id": "HR04",
+      "stream_folder": "HR04-AGL4-Architecting-Growth-Leadership",
+      "lab_id": "SL03",
+      "title": "Explore and architect: Growth Leadership",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of HR04 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL03",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "HR",
+        "stream": "HR04"
+      },
+      "engine_ref": "registry/labs.json#SL03",
+      "deployment_status": "scaffold"
+    },
+    {
+      "activity_id": "HR-05-STARTER-001",
+      "stream_id": "HR05",
+      "stream_folder": "HR05-ARP5-Architecting-Rewards-Performance-Excellence",
+      "lab_id": "SL02",
+      "title": "Explore and architect: Rewards Performance Excellence",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of HR05 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL02",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "HR",
+        "stream": "HR05"
+      },
+      "engine_ref": "registry/labs.json#SL02",
+      "deployment_status": "scaffold"
+    },
+    {
+      "activity_id": "HR-06-STARTER-001",
+      "stream_id": "HR06",
+      "stream_folder": "HR06-ALM6-Architecting-Continuous-Learning-Mobility",
+      "lab_id": "SL01",
+      "title": "Explore and architect: Continuous Learning Mobility",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of HR06 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL01",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "HR",
+        "stream": "HR06"
+      },
+      "engine_ref": "registry/labs.json#SL01",
+      "deployment_status": "scaffold"
+    },
+    {
+      "activity_id": "HR-07-STARTER-001",
+      "stream_id": "HR07",
+      "stream_folder": "HR07-APE7-Architecting-Autonomous-Payroll-Enterprises",
+      "lab_id": "SL05",
+      "title": "Explore and architect: Autonomous Payroll Enterprises",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of HR07 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL05",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "HR",
+        "stream": "HR07"
+      },
+      "engine_ref": "registry/labs.json#SL05",
+      "deployment_status": "scaffold"
+    },
+    {
+      "activity_id": "HR-08-STARTER-001",
+      "stream_id": "HR08",
+      "stream_folder": "HR08-AWT8-Architecting-Workforce-Time-Operations",
+      "lab_id": "SL02",
+      "title": "Explore and architect: Workforce Time Operations",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of HR08 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL02",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "HR",
+        "stream": "HR08"
+      },
+      "engine_ref": "registry/labs.json#SL02",
+      "deployment_status": "scaffold"
+    },
+    {
+      "activity_id": "HR-09-STARTER-001",
+      "stream_id": "HR09",
+      "stream_folder": "HR09-AWI9-Architecting-Workforce-Intelligence",
+      "lab_id": "SL03",
+      "title": "Explore and architect: Workforce Intelligence",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of HR09 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL03",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "HR",
+        "stream": "HR09"
+      },
+      "engine_ref": "registry/labs.json#SL03",
+      "deployment_status": "scaffold"
+    },
+    {
+      "activity_id": "HR-10-STARTER-001",
+      "stream_id": "HR10",
+      "stream_folder": "HR10-ADX0-Architecting-Digital-Employee-Experience",
+      "lab_id": "SL01",
+      "title": "Explore and architect: Digital Employee Experience",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of HR10 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL01",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "HR",
+        "stream": "HR10"
+      },
+      "engine_ref": "registry/labs.json#SL01",
+      "deployment_status": "scaffold"
+    },
+    {
+      "activity_id": "HR-11-STARTER-001",
+      "stream_id": "HR11",
+      "stream_folder": "HR11-AAI1-Architecting-AI-Powered-HR-Enterprises",
+      "lab_id": "SL03",
+      "title": "Explore and architect: AI Powered HR Enterprises",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of HR11 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL03",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "HR",
+        "stream": "HR11"
+      },
+      "engine_ref": "registry/labs.json#SL03",
+      "deployment_status": "scaffold"
+    },
+    {
+      "activity_id": "HR-12-STARTER-001",
+      "stream_id": "HR12",
+      "stream_folder": "HR12-AIG2-Architecting-Connected-HR-Enterprises",
+      "lab_id": "SL07",
+      "title": "Explore and architect: Connected HR Enterprises",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of HR12 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL07",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "HR",
+        "stream": "HR12"
+      },
+      "engine_ref": "registry/labs.json#SL07",
+      "deployment_status": "scaffold"
+    }
+  ]
+}
