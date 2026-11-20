@@ -83,3 +83,5 @@ Every category should eventually contain: market definition; verified analyst re
 - **C18 — [Enterprise Payroll Platforms](C18-Enterprise-Payroll-Platforms/README.md)** — SAP Employee Central Payroll/SAP Payroll reference, ten-platform landscape, 35 discovery questions, 100%-weighted RFI, 100-minute demo and 20-test POC; country localization, gross-to-net, statutory controls, bank payments and finance reconciliation.
 
 - **C19 — [Global Payroll Orchestration](C19-Global-Payroll-Orchestration/README.md)** — SAP Employee Central/SAP Payroll/Integration Suite baseline, ten-platform landscape, 35 discovery questions, 100%-weighted RFI, 100-minute demo and 20-test POC; provider coordination, cutoffs, approvals, payments and reconciliation.
+
+- **C20 — [Payroll Compliance & Statutory Reporting](C20-Payroll-Compliance-Statutory-Reporting/README.md)** — SAP Payroll statutory localization, ten-provider landscape, 35 discovery questions, 100%-weighted RFI, 100-minute demo and 20-test POC; country tax, social contributions, filings and audit evidence.
