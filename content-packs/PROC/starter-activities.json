@@ -1,0 +1,777 @@
+{
+  "schema_version": "1.0.0",
+  "academy_id": "PROC",
+  "pack_id": "PROC-STARTER-12",
+  "status": "draft-contextual-learning-design",
+  "purpose": "One starter challenge per verified stream; exercises use canonical shared lab methodology and do not duplicate lab engines",
+  "activities": [
+    {
+      "activity_id": "PROC-01-STARTER-001",
+      "stream_id": "PROC01",
+      "stream_folder": "PROC01-APR1-Architecting-Autonomous-Procurement-Strategy",
+      "lab_id": "SL01",
+      "title": "Explore and architect: Autonomous Procurement Strategy",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of PROC01 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL01",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "PROC",
+        "stream": "PROC01"
+      },
+      "engine_ref": "registry/labs.json#SL01",
+      "deployment_status": "scaffold"
+    },
+    {
+      "activity_id": "PROC-02-STARTER-001",
+      "stream_id": "PROC02",
+      "stream_folder": "PROC02-ASR2-Architecting-Intelligent-Supplier-Sourcing",
+      "lab_id": "SL01",
+      "title": "Explore and architect: Intelligent Supplier Sourcing",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of PROC02 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL01",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "PROC",
+        "stream": "PROC02"
+      },
+      "engine_ref": "registry/labs.json#SL01",
+      "deployment_status": "scaffold"
+    },
+    {
+      "activity_id": "PROC-03-STARTER-001",
+      "stream_id": "PROC03",
+      "stream_folder": "PROC03-ASN3-Architecting-Contract-Excellence",
+      "lab_id": "SL03",
+      "title": "Explore and architect: Contract Excellence",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of PROC03 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL03",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "PROC",
+        "stream": "PROC03"
+      },
+      "engine_ref": "registry/labs.json#SL03",
+      "deployment_status": "scaffold"
+    },
+    {
+      "activity_id": "PROC-04-STARTER-001",
+      "stream_id": "PROC04",
+      "stream_folder": "PROC04-ASU4-Architecting-Supplier-Relationship-Excellence",
+      "lab_id": "SL02",
+      "title": "Explore and architect: Supplier Relationship Excellence",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of PROC04 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL02",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "PROC",
+        "stream": "PROC04"
+      },
+      "engine_ref": "registry/labs.json#SL02",
+      "deployment_status": "scaffold"
+    },
+    {
+      "activity_id": "PROC-05-STARTER-001",
+      "stream_id": "PROC05",
+      "stream_folder": "PROC05-APO5-Architecting-Autonomous-Procure-to-Pay",
+      "lab_id": "SL02",
+      "title": "Explore and architect: Autonomous Procure to Pay",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of PROC05 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL02",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "PROC",
+        "stream": "PROC05"
+      },
+      "engine_ref": "registry/labs.json#SL02",
+      "deployment_status": "scaffold"
+    },
+    {
+      "activity_id": "PROC-06-STARTER-001",
+      "stream_id": "PROC06",
+      "stream_folder": "PROC06-ARI6-Architecting-Resilient-Supply-Operations",
+      "lab_id": "SL03",
+      "title": "Explore and architect: Resilient Supply Operations",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of PROC06 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL03",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "PROC",
+        "stream": "PROC06"
+      },
+      "engine_ref": "registry/labs.json#SL03",
+      "deployment_status": "scaffold"
+    },
+    {
+      "activity_id": "PROC-07-STARTER-001",
+      "stream_id": "PROC07",
+      "stream_folder": "PROC07-AQC7-Architecting-Supplier-Quality-Performance-Excellence",
+      "lab_id": "SL04",
+      "title": "Explore and architect: Supplier Quality Performance Excellence",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of PROC07 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL04",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "PROC",
+        "stream": "PROC07"
+      },
+      "engine_ref": "registry/labs.json#SL04",
+      "deployment_status": "scaffold"
+    },
+    {
+      "activity_id": "PROC-08-STARTER-001",
+      "stream_id": "PROC08",
+      "stream_folder": "PROC08-ASP8-Architecting-Spend-Optimization-Excellence",
+      "lab_id": "SL02",
+      "title": "Explore and architect: Spend Optimization Excellence",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of PROC08 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL02",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "PROC",
+        "stream": "PROC08"
+      },
+      "engine_ref": "registry/labs.json#SL02",
+      "deployment_status": "scaffold"
+    },
+    {
+      "activity_id": "PROC-09-STARTER-001",
+      "stream_id": "PROC09",
+      "stream_folder": "PROC09-ARG9-Architecting-Risk-Sustainable-Procurement",
+      "lab_id": "SL03",
+      "title": "Explore and architect: Risk Sustainable Procurement",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of PROC09 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL03",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "PROC",
+        "stream": "PROC09"
+      },
+      "engine_ref": "registry/labs.json#SL03",
+      "deployment_status": "scaffold"
+    },
+    {
+      "activity_id": "PROC-10-STARTER-001",
+      "stream_id": "PROC10",
+      "stream_folder": "PROC10-AAN0-Architecting-Procurement-Intelligence",
+      "lab_id": "SL03",
+      "title": "Explore and architect: Procurement Intelligence",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of PROC10 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL03",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "PROC",
+        "stream": "PROC10"
+      },
+      "engine_ref": "registry/labs.json#SL03",
+      "deployment_status": "scaffold"
+    },
+    {
+      "activity_id": "PROC-11-STARTER-001",
+      "stream_id": "PROC11",
+      "stream_folder": "PROC11-AAI1-Architecting-AI-Powered-Procurement-Enterprises",
+      "lab_id": "SL05",
+      "title": "Explore and architect: AI Powered Procurement Enterprises",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of PROC11 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL05",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "PROC",
+        "stream": "PROC11"
+      },
+      "engine_ref": "registry/labs.json#SL05",
+      "deployment_status": "scaffold"
+    },
+    {
+      "activity_id": "PROC-12-STARTER-001",
+      "stream_id": "PROC12",
+      "stream_folder": "PROC12-AIG2-Architecting-Connected-Procurement-Enterprises",
+      "lab_id": "SL03",
+      "title": "Explore and architect: Connected Procurement Enterprises",
+      "challenge": "Identify one realistic enterprise problem in this stream, document stakeholders and constraints, and propose a measurable improvement using the shared SuperLabs method.",
+      "audience": [
+        "Foundation learners",
+        "Practitioners"
+      ],
+      "level": "Foundation",
+      "duration_minutes": 45,
+      "prerequisites": [
+        "Basic understanding of PROC12 scope"
+      ],
+      "inputs": [
+        "Fictional enterprise scenario",
+        "Stakeholder goals",
+        "Current-state assumptions"
+      ],
+      "steps": [
+        "Frame the problem and identify stakeholder outcomes",
+        "Document a current-state workflow and risks",
+        "Propose a future-state experiment using SL03",
+        "Define evidence, success criteria, and review questions"
+      ],
+      "output_artifacts": [
+        "One-page challenge canvas",
+        "Current-to-future-state hypothesis",
+        "Evidence checklist"
+      ],
+      "assessment_rubric": [
+        {
+          "criterion": "Problem framing and stakeholder relevance",
+          "weight": 25
+        },
+        {
+          "criterion": "Quality of proposed intervention",
+          "weight": 30
+        },
+        {
+          "criterion": "Evidence and measurement",
+          "weight": 25
+        },
+        {
+          "criterion": "Reflection and improvement",
+          "weight": 20
+        }
+      ],
+      "measurable_outcomes": [
+        "One testable hypothesis with measurable success criteria"
+      ],
+      "reflection_prompts": [
+        "What assumption would you test first?",
+        "What would change your recommendation?"
+      ],
+      "context": {
+        "academy": "PROC",
+        "stream": "PROC12"
+      },
+      "engine_ref": "registry/labs.json#SL03",
+      "deployment_status": "scaffold"
+    }
+  ]
+}
