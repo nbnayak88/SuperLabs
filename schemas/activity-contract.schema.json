@@ -156,6 +156,14 @@
         "tested",
         "live"
       ]
+    },
+    "stream_id": {
+      "type": "string",
+      "description": "Optional workstream lookup key for academy starter packs"
+    },
+    "stream_folder": {
+      "type": "string",
+      "description": "Verified Learning Township workstream directory"
     }
   }
 }
