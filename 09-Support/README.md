@@ -22,6 +22,26 @@ The GitHub link above opens the article directly without requiring a separate we
 
 The **Application Management Services Lab** operationalizes the intent **Support** through applied, evidence-based learning, experimentation, and reusable enterprise delivery practices.
 
+## Future enterprise service catalog
+
+The AMS Lab will evolve into **one shared enterprise service catalog with seven domain-specific service portfolios**, using reusable service definitions and governance rather than disconnected catalogs.
+
+| Code | Domain | Illustrative service coverage |
+|---|---|---|
+| D01 | Human Capital Management (HCM) | Employee lifecycle, payroll, talent, learning, HR integrations |
+| D02 | Customer Experience (CX) | Sales, service, marketing, commerce, customer data |
+| D03 | Finance (FI) | Record-to-report, close, controlling, treasury |
+| D04 | Procurement | Source-to-contract, procure-to-pay, supplier management |
+| D05 | Supply Chain Management (SCM) | Planning, manufacturing, logistics, inventory, warehousing |
+| D06 | Business Transformation Management (BTM) | Enterprise architecture, process transformation, governance, adoption |
+| D07 | Leadership & Identity Transformation (LIT) | Leadership, professional identity, capability transformation |
+
+**Common capabilities:** Incident, request, problem, change, knowledge and service-level management; continuous improvement and AI-assisted support.
+
+**Service definition contract:** Service ID, domain, owner, business outcome, eligibility, request workflow, SLA, priority model, escalation, knowledge links and KPIs.
+
+**Roadmap status:** Planned architecture; no claim that service catalog functionality has been implemented or deployed. The 7 domains may be extended through 12 architecture streams each, using common templates.
+
 ## Learning and delivery loop
 
 1. Frame the challenge, intended outcomes and stakeholders.
