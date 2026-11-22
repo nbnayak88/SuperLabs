@@ -6,9 +6,17 @@
 **Official lab name:** Application Management Services Lab  
 **Acronym:** AMS  
 **Notion reference:** https://app.notion.com/p/b2fce6de6089821c9aab814b67169123  
-**Planned subdomain:** https://support.successlabsacademy.com
+**Lab web address:** https://support.successlabsacademy.com/ (web deployment status is separate from this GitHub repository)
 
 **SuccessLabs Academy** — *Architecting Experiences for a Better World*
+
+## Access the AMS Lab
+
+- **Official web address:** [support.successlabsacademy.com](https://support.successlabsacademy.com/)
+- **GitHub source and knowledge directory:** [09-Support](https://github.com/nbnayak88/SuperLabs/tree/main/09-Support)
+- **Published knowledge standard:** [AMS-PR-001 — Business-Impact-Driven SAP Incident Management](standards/AMS-PR-001-Business-Impact-Driven-SAP-Incident-Management.md)
+
+The GitHub link above opens the article directly without requiring a separate website deployment. The custom subdomain requires its own DNS and hosting configuration.
 
 ## Purpose
 
