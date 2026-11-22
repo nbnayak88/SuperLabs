@@ -82,3 +82,10 @@ Reading position, tour position and learning completion remain separate. No live
 ## Editable implementation
 
 Repository route: supply-chain-product-tour/ in nbnayak88/SuperLabs. index.html, app.js, tour.js and styles.css are the editable source and deployed static implementation. Assets are local; the Comfortaa license is included. No build dependencies. See design-qa.md for browser validation and deployment status.
+
+## Published links
+
+- [Live tour](https://nbnayak88.github.io/SuperLabs/supply-chain-product-tour/)
+- [Editable GitHub source](https://github.com/nbnayak88/SuperLabs/tree/main/supply-chain-product-tour)
+- [Notion walkthrough](https://app.notion.com/p/420ce6de6089818b8036d523da8f3a76)
+- [Google Docs walkthrough](https://docs.google.com/document/d/1-phI8zFwOX_zjuVhj6QYayYzzOovXi6L2vCX_ZEeYWc)
