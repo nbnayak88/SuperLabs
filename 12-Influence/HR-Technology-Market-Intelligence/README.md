@@ -89,3 +89,5 @@ Every category should eventually contain: market definition; verified analyst re
 - **C21 — [Workforce Management](C21-Workforce-Management/README.md)** — SAP SuccessFactors Time Tracking and Employee Central Time Off baseline, ten-platform landscape, 35 discovery questions, 100%-weighted RFI, 100-minute demo and 20-test POC; labor rules, staffing, time-to-pay and workforce compliance.
 
 - **C22 — [Time & Attendance](C22-Time-Attendance/README.md)** — SAP SuccessFactors Time Tracking and EC Time Off reference, ten-platform landscape, 35 discovery questions, 100%-weighted RFI, 100-minute demo and 20-test POC; clock events, overtime, time valuation, absence and payroll reconciliation.
+
+- **C23 — [Workforce Scheduling](C23-Workforce-Scheduling/README.md)** — SAP SuccessFactors and specialist scheduling ecosystem, ten-platform landscape, 35 discovery questions, 100%-weighted RFI, 100-minute demo and 20-test POC; demand forecasting, shift optimization, skills-based staffing, fairness and schedule-to-pay integration.
