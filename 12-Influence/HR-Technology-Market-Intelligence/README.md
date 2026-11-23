@@ -85,3 +85,5 @@ Every category should eventually contain: market definition; verified analyst re
 - **C19 — [Global Payroll Orchestration](C19-Global-Payroll-Orchestration/README.md)** — SAP Employee Central/SAP Payroll/Integration Suite baseline, ten-platform landscape, 35 discovery questions, 100%-weighted RFI, 100-minute demo and 20-test POC; provider coordination, cutoffs, approvals, payments and reconciliation.
 
 - **C20 — [Payroll Compliance & Statutory Reporting](C20-Payroll-Compliance-Statutory-Reporting/README.md)** — SAP Payroll statutory localization, ten-provider landscape, 35 discovery questions, 100%-weighted RFI, 100-minute demo and 20-test POC; country tax, social contributions, filings and audit evidence.
+
+- **C21 — [Workforce Management](C21-Workforce-Management/README.md)** — SAP SuccessFactors Time Tracking and Employee Central Time Off baseline, ten-platform landscape, 35 discovery questions, 100%-weighted RFI, 100-minute demo and 20-test POC; labor rules, staffing, time-to-pay and workforce compliance.
