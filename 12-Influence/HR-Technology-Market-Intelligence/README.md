@@ -99,3 +99,5 @@ Every category should eventually contain: market definition; verified analyst re
 - **C26 — [Organizational Design & Modeling](C26-Organizational-Design-Modeling/README.md)** — SAP EC 2H 2026 Organizational Modeling, ten evaluation candidates, 35 discovery questions, 20 weighted RFI criteria, 100-minute demo and 20 POC tests.
 
 - **C28 — [AI HR Assistants & Agents](C28-AI-HR-Assistants-Agents/README.md)** — Joule and Joule Studio, ten candidates, 35 discovery questions, 20 weighted RFI criteria, 100-minute demo and 20 POC tests.
+
+- **C29 — [HR Automation & Orchestration](C29-HR-Automation-Orchestration/README.md)** — SAP Build Process Automation and Integration Suite, ten candidates, 35 discovery questions, 20 weighted RFI criteria, 100-minute demo and 20 POC tests.
