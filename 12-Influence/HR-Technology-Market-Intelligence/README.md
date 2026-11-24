@@ -97,3 +97,5 @@ Every category should eventually contain: market definition; verified analyst re
 - **C25 — [Strategic Workforce Planning](C25-Strategic-Workforce-Planning/README.md)** — SAP Analytics Cloud planning, SAP Best Practices 58Q, ten candidates, 35 discovery questions, 20 weighted RFI criteria, 100-minute demo, 20 POC tests.
 
 - **C26 — [Organizational Design & Modeling](C26-Organizational-Design-Modeling/README.md)** — SAP EC 2H 2026 Organizational Modeling, ten evaluation candidates, 35 discovery questions, 20 weighted RFI criteria, 100-minute demo and 20 POC tests.
+
+- **C28 — [AI HR Assistants & Agents](C28-AI-HR-Assistants-Agents/README.md)** — Joule and Joule Studio, ten candidates, 35 discovery questions, 20 weighted RFI criteria, 100-minute demo and 20 POC tests.
