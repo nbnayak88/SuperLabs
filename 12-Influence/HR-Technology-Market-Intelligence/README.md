@@ -91,3 +91,5 @@ Every category should eventually contain: market definition; verified analyst re
 - **C22 — [Time & Attendance](C22-Time-Attendance/README.md)** — SAP SuccessFactors Time Tracking and EC Time Off reference, ten-platform landscape, 35 discovery questions, 100%-weighted RFI, 100-minute demo and 20-test POC; clock events, overtime, time valuation, absence and payroll reconciliation.
 
 - **C23 — [Workforce Scheduling](C23-Workforce-Scheduling/README.md)** — SAP SuccessFactors and specialist scheduling ecosystem, ten-platform landscape, 35 discovery questions, 100%-weighted RFI, 100-minute demo and 20-test POC; demand forecasting, shift optimization, skills-based staffing, fairness and schedule-to-pay integration.
+
+- **C24 — [People Analytics](C24-People-Analytics/README.md)** — SAP People Analytics and SAP Analytics Cloud; ten candidates, 35 discovery questions, 20 weighted RFI criteria, 100-minute demo and 20 POC tests.
