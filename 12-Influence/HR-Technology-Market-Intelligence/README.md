@@ -93,3 +93,5 @@ Every category should eventually contain: market definition; verified analyst re
 - **C23 — [Workforce Scheduling](C23-Workforce-Scheduling/README.md)** — SAP SuccessFactors and specialist scheduling ecosystem, ten-platform landscape, 35 discovery questions, 100%-weighted RFI, 100-minute demo and 20-test POC; demand forecasting, shift optimization, skills-based staffing, fairness and schedule-to-pay integration.
 
 - **C24 — [People Analytics](C24-People-Analytics/README.md)** — SAP People Analytics and SAP Analytics Cloud; ten candidates, 35 discovery questions, 20 weighted RFI criteria, 100-minute demo and 20 POC tests.
+
+- **C25 — [Strategic Workforce Planning](C25-Strategic-Workforce-Planning/README.md)** — SAP Analytics Cloud planning, SAP Best Practices 58Q, ten candidates, 35 discovery questions, 20 weighted RFI criteria, 100-minute demo, 20 POC tests.
