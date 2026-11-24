@@ -101,3 +101,7 @@ Every category should eventually contain: market definition; verified analyst re
 - **C28 — [AI HR Assistants & Agents](C28-AI-HR-Assistants-Agents/README.md)** — Joule and Joule Studio, ten candidates, 35 discovery questions, 20 weighted RFI criteria, 100-minute demo and 20 POC tests.
 
 - **C29 — [HR Automation & Orchestration](C29-HR-Automation-Orchestration/README.md)** — SAP Build Process Automation and Integration Suite, ten candidates, 35 discovery questions, 20 weighted RFI criteria, 100-minute demo and 20 POC tests.
+
+- **C30 — [HR Integration & Connectivity Platforms](C30-HR-Integration-Connectivity/README.md)** — SAP Integration Suite, ten candidates, 35 discovery questions, 20 weighted RFI criteria, 100-minute demo and 20 POC tests.
+
+The planned 28 new category packs have been published; C03 and C27 were previously published separately. Full cross-category evidence and link QA remains a separate validation activity.
