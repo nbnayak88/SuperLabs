@@ -42,4 +42,6 @@ This README is a **foundation scaffold**, not a claim that a functioning applica
 
 - [Digital Workplace Platforms (DWP) — SAP SuccessFactors Work Zone focused 2026 presales pack](content-packs/digital-workplace-platforms-2026/README.md): ten-platform landscape, analyst taxonomy, weighted RFI, discovery and POC scenarios.
 
+- [AI Sales Autopilot — Gojiberry-style prospecting skills pack (2026)](content-packs/ai-sales-autopilot-2026/README.md): 18 reference capabilities mapped to existing skills, 12 new skill specs (ICP, signals, enrichment, scoring, sequences, reply copilot, learning loop, orchestrator) and compliance notes.
+
 - [HR Technology Market Intelligence — 30 categories × 12 HR streams (v1.0)](HR-Technology-Market-Intelligence/README.md): SAP-first master registry, competitor mapping, analyst evidence and governance.
